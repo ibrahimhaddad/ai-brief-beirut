@@ -1,5 +1,5 @@
 # Author profile. Edit this one file to update the bio everywhere on the site.
-# Planned update: 1 January 2027, to reflect the AVP of AI role at LAU.
+# Planned update: 1 January 2027.
 name: "Ibrahim Haddad"
 credentials: "Ph.D."
 headshot: "/assets/img/2026-10-29-ibrahim-haddad.jpg"
@@ -7,12 +7,14 @@ headshot_alt: "Ibrahim Haddad"
 # One sentence shown at the end of every issue.
 byline: "Written by Ibrahim Haddad, who previously served as founding executive director of the PyTorch Foundation and executive director of LF AI & Data Foundation."
 bio:
-  - "Ibrahim Haddad writes The AI Brief - Beirut Edition. He has spent more than 25 years leading engineering organizations and open source ecosystems."
+  - "Ibrahim Haddad writes The AI Brief - Beirut Edition. He has spent more than 25 years leading engineering organizations and open source ecosystems. He currently leads the In-Car eXperience Engineering organization at Volvo Cars, overseeing the software teams delivering the next-generation Android-based in-vehicle infotainment platform across multiple vehicle programs."
   - "He previously served as VP of Strategic Programs (AI) at the Linux Foundation, executive director of LF AI & Data Foundation, and founding executive director of the PyTorch Foundation. During his time at LF AI & Data, membership grew from 9 companies to 77 and the project portfolio from 3 to 70. He co-created the Model Openness Framework, which assesses how open an AI model is, and founded the Generative AI Commons, which brought more than 80 organizations under one neutral governance model."
-  - "Before the Linux Foundation he built Samsung's global open source engineering group from nothing to more than 100 engineers on three continents. He now leads Infotainment Engineering at Volvo Cars, where the next-generation in-vehicle platform ships with Google Gemini built in."
+  - "Before the Linux Foundation he built Samsung's global open source engineering group from nothing to more than 100 engineers on three continents."
   - "He has advised the World Bank Group and presented on AI regulation to the European and UK Parliaments. He has written or co-written 7 books and more than 150 technical reports, holds a Ph.D. with honors in Computer Science from Concordia University, and works in English, French and Arabic."
 links:
   - label: "Full profile at IbrahimatLinux.com"
     url: "https://www.ibrahimatlinux.com/about/"
   - label: "LinkedIn"
     url: "https://www.linkedin.com/in/ibrahimhaddad/"
+  - label: "ORCID"
+    url: "https://orcid.org/0009-0002-5528-9318"
