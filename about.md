@@ -5,7 +5,7 @@ permalink: /about/
 description: "What The AI Brief - Beirut Edition is, who it is for, and how each issue is made."
 ---
 
-The AI Brief - Beirut Edition is a weekly newsletter by Ibrahim Haddad on what AI developments mean for university staff, faculty, students and founders in Lebanon and the Middle East.
+The AI Brief - Beirut Edition is a weekly newsletter by [Ibrahim Haddad]({{ '/author/' | relative_url }}) on what AI developments mean for university staff, faculty, students and founders in Lebanon and the Middle East.
 
 Each issue picks the week's most important developments and answers four questions for each one: what happened, why it matters, how it could affect you, and what you could do.
 

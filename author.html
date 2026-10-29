@@ -1,0 +1,22 @@
+---
+layout: default
+title: About the author
+permalink: /author/
+description: "Ibrahim Haddad, author of The AI Brief - Beirut Edition."
+---
+{% assign a = site.data.author %}
+<article class="wrap page author">
+  <h1>About the author</h1>
+  <div class="author-head">
+    <img class="author-photo" src="{{ a.headshot | relative_url }}" width="600" height="600" alt="{{ a.headshot_alt }}">
+    <div>
+      <p class="author-name">{{ a.name }}, {{ a.credentials }}</p>
+      <p class="author-role">Author, {{ site.title }}</p>
+    </div>
+  </div>
+  <div class="prose">
+    {% for p in a.bio %}<p>{{ p }}</p>
+    {% endfor %}
+    <p class="author-links">{% for l in a.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
+  </div>
+</article>

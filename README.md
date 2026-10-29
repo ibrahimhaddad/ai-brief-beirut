@@ -50,3 +50,7 @@ Audience pages use `type: audience`, `layout: audience`, `issue`, `audience` (st
 ## Fonts
 
 Raleway, self-hosted from the Google Fonts repository under the SIL Open Font License (`assets/fonts/OFL.txt`).
+
+## Author page
+
+The author page lives at `/author/` and reads everything from `_data/author.yml`: name, headshot, the one-line byline shown at the end of every issue, the bio paragraphs and the profile links. To update the bio (planned for 1 January 2027), edit that one file. To change the headshot, add the new image under `assets/img/` and point `headshot` at it.

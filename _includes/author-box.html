@@ -1,0 +1,5 @@
+{% assign a = site.data.author %}
+<aside class="author-box" aria-label="About the author">
+  <img src="{{ a.headshot | relative_url }}" width="64" height="64" alt="" loading="lazy">
+  <p>{{ a.byline }} <a href="{{ '/author/' | relative_url }}">About the author</a></p>
+</aside>
