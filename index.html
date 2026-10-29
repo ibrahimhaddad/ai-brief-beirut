@@ -10,7 +10,7 @@ description: "A weekly briefing by Ibrahim Haddad on what AI developments mean f
 
 <section class="hero">
   <div class="wrap">
-    <p class="kicker">Latest · Issue {{ latest.issue }}{% if latest.pilot %} (pilot){% endif %} · Week of {{ latest.week }}</p>
+    <p class="kicker">Latest · Issue {{ latest.issue }}{% if latest.pilot %} (pilot){% endif %} · Week {{ latest.week_number }}, {{ latest.week }}</p>
     <h1>{{ latest.title }}</h1>
     <p class="lead">{{ site.tagline }}</p>
   </div>
@@ -18,7 +18,7 @@ description: "A weekly briefing by Ibrahim Haddad on what AI developments mean f
 
 <div class="wrap home">
   <section class="sixty" aria-labelledby="home-sixty">
-    <h2 id="home-sixty">This week in 60 seconds</h2>
+    <h2 id="home-sixty">Week {{ latest.week_number }} in 60 seconds</h2>
     <ul>
       {% for item in latest.summary %}<li>{{ item }}</li>{% endfor %}
     </ul>
@@ -73,7 +73,7 @@ description: "A weekly briefing by Ibrahim Haddad on what AI developments mean f
     <h2 id="home-archive">Recent issues</h2>
     <ul class="archive-list">
       {% for i in issues limit: 6 %}
-      <li><a href="{{ i.url | relative_url }}">Issue {{ i.issue }}: {{ i.title }}</a> <span class="muted">Week of {{ i.week }}</span></li>
+      <li><a href="{{ i.url | relative_url }}">Issue {{ i.issue }}: {{ i.title }}</a> <span class="muted">Week {{ i.week_number }}, {{ i.week }}</span></li>
       {% endfor %}
     </ul>
     <p><a href="{{ '/archive/' | relative_url }}">All issues</a></p>

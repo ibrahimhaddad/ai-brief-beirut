@@ -4,9 +4,10 @@ layout: audience
 issue: 0
 audience: faculty
 audience_label: "For faculty"
-title: "For faculty: The AI Brief - Beirut Edition, 19 to 25 Oct"
+title: "For faculty: The AI Brief - Beirut Edition, Week 43"
 teaser: "A one-question test for AI in your course, and what journal AI rules now require."
-week: "19 to 25 October 2026"
+week_number: 43
+week: "Oct 19 to 25, 2026"
 date: 2026-10-29
 permalink: /issues/issue-00/faculty/
 description: "A one-question test for AI in your course, what employers reward, and what journal AI rules now require."

@@ -4,9 +4,10 @@ layout: audience
 issue: 0
 audience: students
 audience_label: "For students"
-title: "For students: The AI Brief - Beirut Edition, 19 to 25 Oct"
+title: "For students: The AI Brief - Beirut Edition, Week 43"
 teaser: "Why employers still value degrees, how to use AI to learn more, and two open opportunities."
-week: "19 to 25 October 2026"
+week_number: 43
+week: "Oct 19 to 25, 2026"
 date: 2026-10-29
 permalink: /issues/issue-00/students/
 description: "Why employers still value degrees, how to use AI to learn more, and two open opportunities."

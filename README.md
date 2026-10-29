@@ -25,7 +25,8 @@ type: issue
 issue: 1
 pilot: true
 title: "Headline for the issue"
-week: "26 October to 1 November 2026"
+week_number: 44            # ISO 8601 week (Monday to Sunday) of the period covered
+week: "Oct 26 to Nov 1, 2026"
 date: 2026-11-02
 permalink: /issues/issue-01/
 description: "140 to 160 characters"
@@ -38,7 +39,7 @@ summary:
   - "Takeaway three"
 ```
 
-Audience pages use `type: audience`, `layout: audience`, `issue`, `audience` (staff, faculty, students or entrepreneurs), `audience_label`, `teaser`, `title`, `week`, `date`, `permalink` and `description`.
+Audience pages use `type: audience`, `layout: audience`, `issue`, `audience` (staff, faculty, students or entrepreneurs), `audience_label`, `teaser`, `title`, `week_number`, `week`, `date`, `permalink` and `description`.
 
 ## Going live
 
@@ -54,3 +55,11 @@ Raleway, self-hosted from the Google Fonts repository under the SIL Open Font Li
 ## Author page
 
 The author page lives at `/author/` and reads everything from `_data/author.yml`: name, headshot, the one-line byline shown at the end of every issue, the bio paragraphs and the profile links. To update the bio (planned for 1 January 2027), edit that one file. To change the headshot, add the new image under `assets/img/` and point `headshot` at it.
+
+## Week labels
+
+Every issue is labelled by the ISO 8601 week it covers (Monday to Sunday), not the week it is published. The site shows `Week {week_number}, {week}`. Write `week` as:
+
+- Same month: `Oct 19 to 25, 2026`
+- Two months: `Oct 26 to Nov 1, 2026`
+- Two years: `Dec 28, 2026 to Jan 3, 2027` (ISO week 53 of 2026)

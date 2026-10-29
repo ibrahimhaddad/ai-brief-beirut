@@ -4,9 +4,10 @@ layout: audience
 issue: 0
 audience: entrepreneurs
 audience_label: "For entrepreneurs"
-title: "For founders: The AI Brief - Beirut Edition, 19 to 25 Oct"
+title: "For founders: The AI Brief - Beirut Edition, Week 43"
 teaser: "Where regional startup money went, a hosting check, and two open deadlines."
-week: "19 to 25 October 2026"
+week_number: 43
+week: "Oct 19 to 25, 2026"
 date: 2026-10-29
 permalink: /issues/issue-00/entrepreneurs/
 description: "Where regional startup money went, a hosting check, and two open deadlines."

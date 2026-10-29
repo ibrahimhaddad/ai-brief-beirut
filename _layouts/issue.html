@@ -2,14 +2,14 @@
 layout: default
 ---
 <article class="wrap issue">
-  <p class="kicker">Issue {{ page.issue }}{% if page.pilot %} (pilot){% endif %} · Week of {{ page.week }}</p>
+  <p class="kicker">Issue {{ page.issue }}{% if page.pilot %} (pilot){% endif %} · Week {{ page.week_number }}, {{ page.week }}</p>
   <h1>{{ page.title }}</h1>
   <p class="meta">Full issue: about {{ page.reading_time }} minutes. Your audience page: about {{ page.audience_minutes }} minutes.</p>
   {% include audience-nav.html issue_number=page.issue %}
 
   {% if page.summary %}
   <section class="sixty" aria-labelledby="sixty-title">
-    <h2 id="sixty-title">This week in 60 seconds</h2>
+    <h2 id="sixty-title">Week {{ page.week_number }} in 60 seconds</h2>
     <ul>
       {% for item in page.summary %}<li>{{ item }}</li>{% endfor %}
     </ul>
