@@ -95,4 +95,4 @@ Every issue is labelled by the ISO 8601 week it covers (Monday to Sunday), not t
 
 ## Feedback form
 
-`/feedback/` posts to FormSubmit, which emails each submission to `feedback_email` in `_config.yml`. The first submission triggers a confirmation email to that address; click the link once to activate the form. After activation, FormSubmit can issue a random alias for the form's action URL so the address does not appear in the page source.
+`/feedback/` posts to Web3Forms, which emails each submission to the address the access key in `_config.yml` (`web3forms_key`) was created for. The key is public by design. The free plan allows 250 submissions a month. To change the receiving address, create a new key at web3forms.com and replace the value.

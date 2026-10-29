@@ -37,6 +37,6 @@ exclude:
   - Gemfile.lock
   - vendor
 
-# Feedback form. FormSubmit forwards each submission to this address. After the first
-# submission, FormSubmit emails a confirmation link to activate the form.
-feedback_email: "ibrahim@linux.com"
+# Feedback form. Web3Forms emails each submission to the address this access key was
+# created for. The key is public by design: it routes submissions but cannot sign in.
+web3forms_key: "1273e6ec-e4f9-4a1a-8155-3fc5792155e2"

@@ -6,11 +6,12 @@ description: "Tell the author what works, what is missing and what to cover next
 ---
 <p>Tell me what works, what is missing and what you would like covered. Every message comes straight to me. Name and email are optional; leave them if you would like a reply.</p>
 
-<form class="feedback-form" action="https://formsubmit.co/{{ site.feedback_email }}" method="POST">
-  <input type="hidden" name="_subject" value="Feedback: {{ site.title }}">
-  <input type="hidden" name="_template" value="table">
-  <input type="hidden" name="_next" value="{{ '/feedback/thanks/' | absolute_url }}">
-  <input type="text" name="_honey" class="visually-hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
+<form class="feedback-form" action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="{{ site.web3forms_key }}">
+  <input type="hidden" name="subject" value="Feedback: {{ site.title }}">
+  <input type="hidden" name="from_name" value="{{ site.title }}">
+  <input type="hidden" name="redirect" value="{{ '/feedback/thanks/' | absolute_url }}">
+  <input type="checkbox" name="botcheck" class="visually-hidden" style="display: none;" tabindex="-1" autocomplete="off" aria-hidden="true">
 
   <fieldset class="form-row">
     <legend>Was the latest issue useful to you?</legend>
@@ -49,5 +50,5 @@ description: "Tell the author what works, what is missing and what to cover next
   </div>
 
   <p><button class="button" type="submit">Send feedback</button></p>
-  <p class="muted">The form is delivered by FormSubmit, a third-party service that forwards your message by email. Your details are used only to read and reply to your feedback.</p>
+  <p class="muted">The form is delivered by Web3Forms, a third-party service that forwards your message by email. Your details are used only to read and reply to your feedback.</p>
 </form>
