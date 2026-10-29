@@ -4,7 +4,7 @@ layout: audience
 issue: 0
 audience: entrepreneurs
 audience_label: "For entrepreneurs"
-title: "For founders: The AI Brief - Beirut Edition, Week 43"
+title: "For founders: The AI Brief - LB Edition, Week 43"
 teaser: "Where regional startup money went, a hosting check, and two open deadlines."
 week_number: 43
 week: "Oct 19 to 25, 2026"
@@ -29,7 +29,7 @@ Email your hosting provider and ask, in writing, which PHP version your site run
 
 ## Opportunities
 
-Changemakers for Youth closes 9 November, and Techstars, including New York City, on 18 November. [All opportunities]({{ full }}#opportunities)
+Changemakers for Youth closes 9 November, and the Techstars Spring 2027 accelerators, including London, on 18 November. [All opportunities]({{ full }}#opportunities)
 
 ## Also in Lebanon
 

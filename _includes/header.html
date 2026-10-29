@@ -1,16 +1,13 @@
-{% if site.pilot %}
-<div class="pilot-banner">Pilot. Not for distribution. This site is a test and is not indexed by search engines.</div>
-{% endif %}
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="wordmark" href="{{ '/' | relative_url }}">
+    <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}, home">
       <span class="wordmark-title">{{ site.short_title }}</span>
       <span class="wordmark-edition">{{ site.edition }}</span>
     </a>
     <nav class="site-nav" aria-label="Main">
-      <a href="{{ '/' | relative_url }}">Latest</a>
-      <a href="{{ '/archive/' | relative_url }}">Archive</a>
-      <a href="{{ '/about/' | relative_url }}">About</a>
+      <a href="{{ '/archive/' | relative_url }}"{% if page.url == "/archive/" %} aria-current="page"{% endif %}>Archive</a>
+      <a href="{{ '/about/' | relative_url }}"{% if page.url == "/about/" %} aria-current="page"{% endif %}>About</a>
+      <a href="{{ '/feedback/' | relative_url }}"{% if page.url == "/feedback/" %} aria-current="page"{% endif %}>Feedback</a>
     </nav>
   </div>
 </header>

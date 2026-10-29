@@ -1,0 +1,2 @@
+{% comment %} Week-first kicker. Pass doc (the issue or audience page) and optional extra text. {% endcomment %}
+<p class="kicker"><span>Week {{ include.doc.week_number }} · {{ include.doc.week }}{% if include.extra %} · {{ include.extra }}{% endif %}</span>{% if site.pilot %}<span class="tag-pilot">Pilot</span>{% endif %}</p>

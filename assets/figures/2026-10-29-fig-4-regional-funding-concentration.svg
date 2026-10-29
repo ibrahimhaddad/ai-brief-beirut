@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-29T20:47:35.784538</dc:date>
+    <dc:date>2026-10-29T21:53:45.915892</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -35,7 +35,7 @@ L 735.264 239.112
 L 735.264 169.128 
 L 43.2 169.128 
 z
-" clip-path="url(#p3bfb758116)" style="fill: #00664f"/>
+" clip-path="url(#p046d25d151)" style="fill: #00664f"/>
    </g>
    <g id="patch_3">
     <path d="M 735.264 239.112 
@@ -43,7 +43,7 @@ L 820.8 239.112
 L 820.8 169.128 
 L 735.264 169.128 
 z
-" clip-path="url(#p3bfb758116)" style="fill: #a7adb1"/>
+" clip-path="url(#p046d25d151)" style="fill: #a7adb1"/>
    </g>
    <g id="text_1">
     <!-- UAE and Saudi Arabia: 89% -->
@@ -2110,8 +2110,8 @@ z
    </g>
   </g>
   <g id="text_6">
-   <!-- The AI Brief - Beirut Edition -->
-   <g style="fill: #6e767c" transform="translate(684.291719 468.99) scale(0.11 -0.11)">
+   <!-- The AI Brief - LB Edition -->
+   <g style="fill: #6e767c" transform="translate(700.814062 468.99) scale(0.11 -0.11)">
     <defs>
      <path id="Raleway-Regular-4e" d="M 570 0 
 L 570 4544 
@@ -2165,6 +2165,15 @@ L 2285 1542
 L 416 1542 
 z
 " transform="scale(0.015625)"/>
+     <path id="Raleway-Regular-61" d="M 570 0 
+L 570 4544 
+L 1018 4544 
+L 1018 397 
+L 3642 397 
+L 3642 0 
+L 570 0 
+z
+" transform="scale(0.015625)"/>
     </defs>
     <use xlink:href="#Raleway-Regular-af"/>
     <use xlink:href="#Raleway-Regular-12e" transform="translate(61 0)"/>
@@ -2181,20 +2190,16 @@ z
     <use xlink:href="#Raleway-Regular-385" transform="translate(530.6875 0)"/>
     <use xlink:href="#Raleway-Regular-373" transform="translate(556.1875 0)"/>
     <use xlink:href="#Raleway-Regular-385" transform="translate(598.390625 0)"/>
-    <use xlink:href="#Raleway-Regular-1c" transform="translate(623.890625 0)"/>
-    <use xlink:href="#Raleway-Regular-10e" transform="translate(690.484375 0)"/>
-    <use xlink:href="#Raleway-Regular-133" transform="translate(749.1875 0)"/>
-    <use xlink:href="#Raleway-Regular-182" transform="translate(770.984375 0)"/>
-    <use xlink:href="#Raleway-Regular-19e" transform="translate(806.078125 0)"/>
-    <use xlink:href="#Raleway-Regular-196" transform="translate(865.484375 0)"/>
-    <use xlink:href="#Raleway-Regular-385" transform="translate(898.984375 0)"/>
-    <use xlink:href="#Raleway-Regular-2a" transform="translate(924.484375 0)"/>
-    <use xlink:href="#Raleway-Regular-108" transform="translate(983.890625 0)"/>
-    <use xlink:href="#Raleway-Regular-133" transform="translate(1046.09375 0)"/>
-    <use xlink:href="#Raleway-Regular-196" transform="translate(1067.890625 0)"/>
-    <use xlink:href="#Raleway-Regular-133" transform="translate(1101.390625 0)"/>
-    <use xlink:href="#Raleway-Regular-15c" transform="translate(1123.1875 0)"/>
-    <use xlink:href="#Raleway-Regular-153" transform="translate(1182.6875 0)"/>
+    <use xlink:href="#Raleway-Regular-61" transform="translate(623.890625 0)"/>
+    <use xlink:href="#Raleway-Regular-1c" transform="translate(682.1875 0)"/>
+    <use xlink:href="#Raleway-Regular-385" transform="translate(748.78125 0)"/>
+    <use xlink:href="#Raleway-Regular-2a" transform="translate(774.28125 0)"/>
+    <use xlink:href="#Raleway-Regular-108" transform="translate(833.6875 0)"/>
+    <use xlink:href="#Raleway-Regular-133" transform="translate(895.890625 0)"/>
+    <use xlink:href="#Raleway-Regular-196" transform="translate(917.6875 0)"/>
+    <use xlink:href="#Raleway-Regular-133" transform="translate(951.1875 0)"/>
+    <use xlink:href="#Raleway-Regular-15c" transform="translate(972.984375 0)"/>
+    <use xlink:href="#Raleway-Regular-153" transform="translate(1032.484375 0)"/>
    </g>
   </g>
   <g id="text_7">
@@ -2785,7 +2790,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p3bfb758116">
+  <clipPath id="p046d25d151">
    <rect x="43.2" y="165.24" width="777.6" height="77.76"/>
   </clipPath>
  </defs>

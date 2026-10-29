@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-29T20:47:35.694966</dc:date>
+    <dc:date>2026-10-29T21:53:45.847093</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -40,7 +40,7 @@ Q 38.1024 118.703631 38.1024 126.778708
 L 38.1024 182.765908 
 Q 38.1024 190.840985 48.2544 190.840985 
 z
-" clip-path="url(#p78d5bff375)" style="fill: #ffffff; stroke: #6e767c; stroke-width: 1.6; stroke-linejoin: miter"/>
+" clip-path="url(#p8e7bf433f8)" style="fill: #ffffff; stroke: #6e767c; stroke-width: 1.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 318.9744 190.840985 
@@ -53,7 +53,7 @@ Q 308.8224 118.703631 308.8224 126.778708
 L 308.8224 182.765908 
 Q 308.8224 190.840985 318.9744 190.840985 
 z
-" clip-path="url(#p78d5bff375)" style="fill: #ffffff; stroke: #6e767c; stroke-width: 1.6; stroke-linejoin: miter"/>
+" clip-path="url(#p8e7bf433f8)" style="fill: #ffffff; stroke: #6e767c; stroke-width: 1.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 432 227.448 
@@ -61,7 +61,7 @@ L 560.592 278.590154
 L 432 329.732308 
 L 303.408 278.590154 
 z
-" clip-path="url(#p78d5bff375)" style="fill: #ffffff; stroke: #00664f; stroke-width: 2; stroke-linejoin: miter"/>
+" clip-path="url(#p8e7bf433f8)" style="fill: #ffffff; stroke: #00664f; stroke-width: 2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 616.7664 250.058215 
@@ -74,7 +74,7 @@ Q 606.6144 161.770708 606.6144 169.845785
 L 606.6144 241.983138 
 Q 606.6144 250.058215 616.7664 250.058215 
 z
-" clip-path="url(#p78d5bff375)" style="fill: #ffffff; stroke: #00664f; stroke-width: 1.6; stroke-linejoin: miter"/>
+" clip-path="url(#p8e7bf433f8)" style="fill: #ffffff; stroke: #00664f; stroke-width: 1.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 616.7664 406.176369 
@@ -87,7 +87,7 @@ Q 606.6144 317.888862 606.6144 325.963938
 L 606.6144 398.101292 
 Q 606.6144 406.176369 616.7664 406.176369 
 z
-" clip-path="url(#p78d5bff375)" style="fill: #ffffff; stroke: #00664f; stroke-width: 1.6; stroke-linejoin: miter"/>
+" clip-path="url(#p8e7bf433f8)" style="fill: #ffffff; stroke: #00664f; stroke-width: 1.6; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
     <!-- What is the learning goal -->
@@ -2294,8 +2294,8 @@ z
    </g>
   </g>
   <g id="text_10">
-   <!-- The AI Brief - Beirut Edition -->
-   <g style="fill: #6e767c" transform="translate(684.291719 468.99) scale(0.11 -0.11)">
+   <!-- The AI Brief - LB Edition -->
+   <g style="fill: #6e767c" transform="translate(700.814062 468.99) scale(0.11 -0.11)">
     <defs>
      <path id="Raleway-Regular-af" d="M 3795 4147 
 L 2176 4147 
@@ -2315,6 +2315,15 @@ L 2285 1542
 L 416 1542 
 z
 " transform="scale(0.015625)"/>
+     <path id="Raleway-Regular-61" d="M 570 0 
+L 570 4544 
+L 1018 4544 
+L 1018 397 
+L 3642 397 
+L 3642 0 
+L 570 0 
+z
+" transform="scale(0.015625)"/>
     </defs>
     <use xlink:href="#Raleway-Regular-af"/>
     <use xlink:href="#Raleway-Regular-12e" transform="translate(61 0)"/>
@@ -2331,25 +2340,21 @@ z
     <use xlink:href="#Raleway-Regular-385" transform="translate(530.6875 0)"/>
     <use xlink:href="#Raleway-Regular-373" transform="translate(556.1875 0)"/>
     <use xlink:href="#Raleway-Regular-385" transform="translate(598.390625 0)"/>
-    <use xlink:href="#Raleway-Regular-1c" transform="translate(623.890625 0)"/>
-    <use xlink:href="#Raleway-Regular-10e" transform="translate(690.484375 0)"/>
-    <use xlink:href="#Raleway-Regular-133" transform="translate(749.1875 0)"/>
-    <use xlink:href="#Raleway-Regular-182" transform="translate(770.984375 0)"/>
-    <use xlink:href="#Raleway-Regular-19e" transform="translate(806.078125 0)"/>
-    <use xlink:href="#Raleway-Regular-196" transform="translate(865.484375 0)"/>
-    <use xlink:href="#Raleway-Regular-385" transform="translate(898.984375 0)"/>
-    <use xlink:href="#Raleway-Regular-2a" transform="translate(924.484375 0)"/>
-    <use xlink:href="#Raleway-Regular-108" transform="translate(983.890625 0)"/>
-    <use xlink:href="#Raleway-Regular-133" transform="translate(1046.09375 0)"/>
-    <use xlink:href="#Raleway-Regular-196" transform="translate(1067.890625 0)"/>
-    <use xlink:href="#Raleway-Regular-133" transform="translate(1101.390625 0)"/>
-    <use xlink:href="#Raleway-Regular-15c" transform="translate(1123.1875 0)"/>
-    <use xlink:href="#Raleway-Regular-153" transform="translate(1182.6875 0)"/>
+    <use xlink:href="#Raleway-Regular-61" transform="translate(623.890625 0)"/>
+    <use xlink:href="#Raleway-Regular-1c" transform="translate(682.1875 0)"/>
+    <use xlink:href="#Raleway-Regular-385" transform="translate(748.78125 0)"/>
+    <use xlink:href="#Raleway-Regular-2a" transform="translate(774.28125 0)"/>
+    <use xlink:href="#Raleway-Regular-108" transform="translate(833.6875 0)"/>
+    <use xlink:href="#Raleway-Regular-133" transform="translate(895.890625 0)"/>
+    <use xlink:href="#Raleway-Regular-196" transform="translate(917.6875 0)"/>
+    <use xlink:href="#Raleway-Regular-133" transform="translate(951.1875 0)"/>
+    <use xlink:href="#Raleway-Regular-15c" transform="translate(972.984375 0)"/>
+    <use xlink:href="#Raleway-Regular-153" transform="translate(1032.484375 0)"/>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="p78d5bff375">
+  <clipPath id="p8e7bf433f8">
    <rect x="25.92" y="87.48" width="812.16" height="349.92"/>
   </clipPath>
  </defs>

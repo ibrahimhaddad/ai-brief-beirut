@@ -1,11 +1,13 @@
-{% comment %} Links to the full issue and its four audience pages. Pass issue_number. {% endcomment %}
+{% comment %} Links to the full issue and its four audience pages. Pass issue_number; label is optional. {% endcomment %}
 {% assign family = site.issues | where: "issue", include.issue_number %}
 {% assign full = family | where: "type", "issue" | first %}
 {% assign order = "staff,faculty,students,entrepreneurs" | split: "," %}
 <nav class="audience-nav" aria-label="Audience pages">
-  <a href="{{ full.url | relative_url }}"{% if page.type == "issue" %} class="active" aria-current="page"{% endif %}>Full issue</a>
+  {% if include.label %}<span class="audience-nav-label">{{ include.label }}</span>{% endif %}
   {% for key in order %}
     {% assign ap = family | where: "audience", key | first %}
-    {% if ap %}<a href="{{ ap.url | relative_url }}"{% if page.audience == key %} class="active" aria-current="page"{% endif %}>{{ ap.audience_label }}</a>{% endif %}
+    {% if ap %}<a href="{{ ap.url | relative_url }}"{% if page.audience == key %} class="active" aria-current="page"{% endif %}>{{ ap.audience_label | remove: "For " | capitalize }}</a>{% endif %}
   {% endfor %}
+  <a href="{{ full.url | relative_url }}"{% if page.type == "issue" %} class="active" aria-current="page"{% endif %}>Full issue</a>
+  {% if page.type == "issue" %}<a href="#contents">Contents</a>{% endif %}
 </nav>

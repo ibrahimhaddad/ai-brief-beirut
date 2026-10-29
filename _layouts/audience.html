@@ -4,14 +4,16 @@ layout: default
 {% assign family = site.issues | where: "issue", page.issue %}
 {% assign full = family | where: "type", "issue" | first %}
 <article class="wrap issue audience">
-  <p class="kicker">Issue {{ page.issue }}{% if full.pilot %} (pilot){% endif %} · Week {{ page.week_number }}, {{ page.week }} · About 2 minutes</p>
+  {% include kicker.html doc=page extra="About 2 minutes" %}
   <h1>{{ page.audience_label }}</h1>
+  <p class="lead">{{ page.teaser }}</p>
   <p class="meta">Your two-minute version of <a href="{{ full.url | relative_url }}">{{ full.title }}</a>.</p>
-  {% include audience-nav.html issue_number=page.issue %}
+
+  <div class="issue-bar">{% include audience-nav.html issue_number=page.issue label="Read as" %}</div>
 
   <div class="prose">
     {{ content }}
   </div>
 
-  {% include poll.html %}
+  {% include feedback-cta.html %}
 </article>

@@ -2,14 +2,14 @@
 layout: page
 title: Archive
 permalink: /archive/
-description: "Every issue of The AI Brief - Beirut Edition, newest first."
+description: "Every issue of The AI Brief - LB Edition, newest first."
 ---
 {% assign issues = site.issues | where: "type", "issue" | sort: "date" | reverse %}
 <ul class="archive-list archive-full">
   {% for i in issues %}
   <li>
-    <a href="{{ i.url | relative_url }}">Issue {{ i.issue }}: {{ i.title }}</a>
-    <span class="muted">Week {{ i.week_number }}, {{ i.week }}{% if i.pilot %} · Pilot{% endif %}</span>
+    <a href="{{ i.url | relative_url }}">{{ i.title }}</a>
+    <span class="muted">Week {{ i.week_number }}, {{ i.week }}{% if i.pilot %} · Pilot{% endif %} · Issue {{ i.issue }}</span>
     {% if i.summary %}<ul>{% for s in i.summary %}<li>{{ s }}</li>{% endfor %}</ul>{% endif %}
   </li>
   {% endfor %}

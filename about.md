@@ -2,12 +2,14 @@
 layout: page
 title: About
 permalink: /about/
-description: "What The AI Brief - Beirut Edition is, who it is for, and how each issue is made."
+description: "What The AI Brief - LB Edition is, who it is for, and how each issue is made."
 ---
 
-The AI Brief - Beirut Edition is a weekly newsletter by [Ibrahim Haddad]({{ '/author/' | relative_url }}) on what AI developments mean for university staff, faculty, students and founders in Lebanon and the Middle East.
+The AI Brief - LB Edition is a weekly newsletter by [Ibrahim Haddad]({{ '/author/' | relative_url }}). LB is the country code for Lebanon.
 
-Each issue picks the week's most important developments and answers four questions for each one: what happened, why it matters, how it could affect you, and what you could do.
+## What it is for
+
+Each week it explains what the most important AI developments mean for readers in Lebanon and the region: what happened, why it matters, how it could affect you, and what you could do. It informs. It does not set rules or give instructions for any institution.
 
 ## Who it is for
 
@@ -26,4 +28,8 @@ Suggestions in the newsletter are for readers to consider.
 
 ## Independence
 
-This is an independent publication. Views are the author's own.
+This is an independent, personal publication. Views are the author's own.
+
+## Corrections
+
+Errors are fixed in the issue and noted at its end with the date.

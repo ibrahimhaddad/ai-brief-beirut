@@ -1,0 +1,2 @@
+{% comment %} Figure with SVG image and caption. Pass file (name without extension), alt and caption. {% endcomment %}
+<figure><img src="{{ '/assets/figures/' | append: include.file | append: '.svg' | relative_url }}" alt="{{ include.alt }}" width="1200" height="675" loading="lazy"><figcaption>{{ include.caption }}</figcaption></figure>

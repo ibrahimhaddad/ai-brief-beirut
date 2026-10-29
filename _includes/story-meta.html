@@ -1,0 +1,3 @@
+{% comment %} Story audiences as tags, then evidence and type. Pass for (audiences separated by |), evidence and type. {% endcomment %}
+{% assign audiences = include.for | split: "|" %}
+<div class="story-meta"><div class="tags">{% for a in audiences %}<span class="tag">{{ a | strip }}</span>{% endfor %}</div>Evidence: {{ include.evidence }} · {{ include.type }}</div>

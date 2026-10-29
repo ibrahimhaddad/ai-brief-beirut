@@ -2,10 +2,11 @@
 layout: default
 ---
 <article class="wrap issue">
-  <p class="kicker">Issue {{ page.issue }}{% if page.pilot %} (pilot){% endif %} · Week {{ page.week_number }}, {{ page.week }}</p>
+  {% include kicker.html doc=page %}
   <h1>{{ page.title }}</h1>
-  <p class="meta">Full issue: about {{ page.reading_time }} minutes. Your audience page: about {{ page.audience_minutes }} minutes.</p>
-  {% include audience-nav.html issue_number=page.issue %}
+  <p class="meta">About {{ page.reading_time }} minutes to read in full, or {{ page.audience_minutes }} minutes for your audience page.</p>
+
+  <div class="issue-bar">{% include audience-nav.html issue_number=page.issue label="Read as" %}</div>
 
   {% if page.summary %}
   <section class="sixty" aria-labelledby="sixty-title">
@@ -16,11 +17,23 @@ layout: default
   </section>
   {% endif %}
 
+  {% if page.contents %}
+  <nav class="contents" id="contents" aria-labelledby="contents-title">
+    <h2 id="contents-title">In this issue</h2>
+    <ol>
+      {% for c in page.contents %}
+      <li><a href="#{{ c.id }}"><span class="num">{{ forloop.index }}</span>{{ c.title }}</a>
+        {% assign audiences = c.audiences | split: "|" %}<div class="tags">{% for a in audiences %}<span class="tag">{{ a | strip }}</span>{% endfor %}</div></li>
+      {% endfor %}
+    </ol>
+    {% if page.contents_more %}<p class="contents-more">Also: {% for c in page.contents_more %}<a href="#{{ c.id }}">{{ c.title }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</p>{% endif %}
+  </nav>
+  {% endif %}
+
   <div class="prose">
     {{ content }}
   </div>
 
   {% include author-box.html %}
-
-  {% include poll.html %}
+  {% include feedback-cta.html %}
 </article>
