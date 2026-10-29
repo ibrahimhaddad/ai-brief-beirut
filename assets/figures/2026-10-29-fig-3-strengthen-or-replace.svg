@@ -1,0 +1,2356 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="486pt" viewBox="0 0 864 486" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-29T20:47:35.694966</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 486 
+L 864 486 
+L 864 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 48.2544 190.840985 
+L 247.2336 190.840985 
+Q 257.3856 190.840985 257.3856 182.765908 
+L 257.3856 126.778708 
+Q 257.3856 118.703631 247.2336 118.703631 
+L 48.2544 118.703631 
+Q 38.1024 118.703631 38.1024 126.778708 
+L 38.1024 182.765908 
+Q 38.1024 190.840985 48.2544 190.840985 
+z
+" clip-path="url(#p78d5bff375)" style="fill: #ffffff; stroke: #6e767c; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 318.9744 190.840985 
+L 545.0256 190.840985 
+Q 555.1776 190.840985 555.1776 182.765908 
+L 555.1776 126.778708 
+Q 555.1776 118.703631 545.0256 118.703631 
+L 318.9744 118.703631 
+Q 308.8224 118.703631 308.8224 126.778708 
+L 308.8224 182.765908 
+Q 308.8224 190.840985 318.9744 190.840985 
+z
+" clip-path="url(#p78d5bff375)" style="fill: #ffffff; stroke: #6e767c; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 432 227.448 
+L 560.592 278.590154 
+L 432 329.732308 
+L 303.408 278.590154 
+z
+" clip-path="url(#p78d5bff375)" style="fill: #ffffff; stroke: #00664f; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 616.7664 250.058215 
+L 815.7456 250.058215 
+Q 825.8976 250.058215 825.8976 241.983138 
+L 825.8976 169.845785 
+Q 825.8976 161.770708 815.7456 161.770708 
+L 616.7664 161.770708 
+Q 606.6144 161.770708 606.6144 169.845785 
+L 606.6144 241.983138 
+Q 606.6144 250.058215 616.7664 250.058215 
+z
+" clip-path="url(#p78d5bff375)" style="fill: #ffffff; stroke: #00664f; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 616.7664 406.176369 
+L 815.7456 406.176369 
+Q 825.8976 406.176369 825.8976 398.101292 
+L 825.8976 325.963938 
+Q 825.8976 317.888862 815.7456 317.888862 
+L 616.7664 317.888862 
+Q 606.6144 317.888862 606.6144 325.963938 
+L 606.6144 398.101292 
+Q 606.6144 406.176369 616.7664 406.176369 
+z
+" clip-path="url(#p78d5bff375)" style="fill: #ffffff; stroke: #00664f; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <!-- What is the learning goal -->
+    <g style="fill: #333f48" transform="translate(72.879234 148.147711) scale(0.13 -0.13)">
+     <defs>
+      <path id="Raleway-Regular-ce" d="M 2278 4512 
+L 2701 4512 
+L 3341 2899 
+L 3987 4512 
+L 4416 4512 
+L 3622 2573 
+L 4493 518 
+L 6138 4544 
+L 6624 4544 
+L 4698 0 
+L 4301 0 
+L 3347 2246 
+L 2387 0 
+L 1997 0 
+L 77 4544 
+L 557 4544 
+L 2208 518 
+L 3072 2573 
+L 2278 4512 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-12e" d="M 3283 0 
+L 2848 0 
+L 2848 1862 
+Q 2848 2426 2649 2710 
+Q 2451 2995 2080 2995 
+Q 1837 2995 1597 2870 
+Q 1357 2746 1174 2531 
+Q 992 2317 915 2042 
+L 915 0 
+L 480 0 
+L 480 4672 
+L 915 4672 
+L 915 2579 
+Q 1114 2950 1469 3171 
+Q 1824 3392 2227 3392 
+Q 2515 3392 2716 3289 
+Q 2918 3187 3043 2992 
+Q 3168 2797 3225 2537 
+Q 3283 2278 3283 1952 
+L 3283 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-e5" d="M 211 960 
+Q 211 1274 390 1501 
+Q 570 1728 886 1853 
+Q 1203 1978 1619 1978 
+Q 1862 1978 2124 1939 
+Q 2387 1901 2592 1824 
+L 2592 2106 
+Q 2592 2528 2342 2777 
+Q 2093 3027 1651 3027 
+Q 1382 3027 1123 2928 
+Q 864 2829 582 2637 
+L 416 2944 
+Q 742 3168 1056 3280 
+Q 1370 3392 1696 3392 
+Q 2310 3392 2668 3040 
+Q 3027 2688 3027 2067 
+L 3027 525 
+Q 3027 435 3065 393 
+Q 3104 352 3187 346 
+L 3187 0 
+Q 3117 -6 3065 -12 
+Q 3014 -19 2989 -13 
+Q 2829 -6 2745 90 
+Q 2662 186 2656 294 
+L 2650 538 
+Q 2426 250 2067 93 
+Q 1709 -64 1338 -64 
+Q 1018 -64 758 73 
+Q 499 211 355 444 
+Q 211 678 211 960 
+z
+M 2445 704 
+Q 2515 794 2553 877 
+Q 2592 960 2592 1024 
+L 2592 1510 
+Q 2374 1594 2140 1638 
+Q 1907 1683 1670 1683 
+Q 1203 1683 915 1497 
+Q 627 1312 627 992 
+Q 627 806 723 643 
+Q 819 480 1004 374 
+Q 1190 269 1440 269 
+Q 1754 269 2026 390 
+Q 2298 512 2445 704 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-196" d="M 2080 160 
+Q 2029 141 1920 89 
+Q 1811 38 1657 0 
+Q 1504 -38 1325 -38 
+Q 1139 -38 976 32 
+Q 813 102 717 246 
+Q 621 390 621 602 
+L 621 2989 
+L 160 2989 
+L 160 3334 
+L 621 3334 
+L 621 4461 
+L 1056 4461 
+L 1056 3334 
+L 1824 3334 
+L 1824 2989 
+L 1056 2989 
+L 1056 723 
+Q 1069 544 1187 454 
+Q 1306 365 1459 365 
+Q 1638 365 1785 425 
+Q 1933 486 1965 512 
+L 2080 160 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-385" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-133" d="M 480 0 
+L 480 3334 
+L 915 3334 
+L 915 0 
+L 480 0 
+z
+M 480 4032 
+L 480 4672 
+L 915 4672 
+L 915 4032 
+L 480 4032 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-18a" d="M 1574 -64 
+Q 1165 -64 813 70 
+Q 461 205 205 480 
+L 384 787 
+Q 666 525 950 406 
+Q 1235 288 1555 288 
+Q 1946 288 2189 445 
+Q 2432 602 2432 896 
+Q 2432 1094 2313 1200 
+Q 2195 1306 1974 1373 
+Q 1754 1440 1446 1517 
+Q 1101 1613 867 1718 
+Q 634 1824 515 1987 
+Q 397 2150 397 2413 
+Q 397 2739 560 2953 
+Q 723 3168 1008 3280 
+Q 1293 3392 1645 3392 
+Q 2029 3392 2323 3270 
+Q 2618 3149 2803 2931 
+L 2592 2637 
+Q 2413 2842 2166 2941 
+Q 1920 3040 1619 3040 
+Q 1414 3040 1228 2985 
+Q 1043 2931 924 2806 
+Q 806 2682 806 2464 
+Q 806 2285 896 2185 
+Q 986 2086 1165 2019 
+Q 1344 1952 1606 1875 
+Q 1984 1773 2265 1667 
+Q 2547 1562 2700 1395 
+Q 2854 1229 2854 928 
+Q 2854 461 2502 198 
+Q 2150 -64 1574 -64 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-10e" d="M 1920 -64 
+Q 1562 -64 1254 73 
+Q 947 211 723 451 
+Q 499 691 374 1004 
+Q 250 1318 250 1677 
+Q 250 2144 464 2534 
+Q 678 2925 1056 3158 
+Q 1434 3392 1914 3392 
+Q 2406 3392 2774 3155 
+Q 3142 2918 3353 2531 
+Q 3565 2144 3565 1683 
+Q 3565 1632 3565 1584 
+Q 3565 1536 3558 1510 
+L 704 1510 
+Q 736 1152 905 873 
+Q 1075 595 1347 432 
+Q 1619 269 1939 269 
+Q 2266 269 2557 435 
+Q 2848 602 2963 870 
+L 3341 768 
+Q 3238 531 3027 339 
+Q 2816 147 2531 41 
+Q 2246 -64 1920 -64 
+z
+M 691 1824 
+L 3155 1824 
+Q 3130 2189 2960 2464 
+Q 2790 2739 2518 2896 
+Q 2246 3053 1920 3053 
+Q 1594 3053 1325 2896 
+Q 1056 2739 886 2460 
+Q 717 2182 691 1824 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-149" d="M 499 4672 
+L 934 4672 
+L 934 755 
+Q 934 506 1024 429 
+Q 1114 352 1242 352 
+Q 1357 352 1472 377 
+Q 1587 403 1670 429 
+L 1747 77 
+Q 1626 26 1450 -6 
+Q 1274 -38 1146 -38 
+Q 851 -38 675 134 
+Q 499 307 499 608 
+L 499 4672 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-182" d="M 2144 2950 
+Q 1709 2938 1379 2707 
+Q 1050 2477 915 2074 
+L 915 0 
+L 480 0 
+L 480 3334 
+L 890 3334 
+L 890 2534 
+Q 1062 2886 1347 3104 
+Q 1632 3322 1952 3347 
+Q 2016 3354 2064 3354 
+Q 2112 3354 2144 3347 
+L 2144 2950 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-153" d="M 3283 0 
+L 2848 0 
+L 2848 1862 
+Q 2848 2451 2675 2723 
+Q 2502 2995 2131 2995 
+Q 1875 2995 1625 2870 
+Q 1376 2746 1187 2531 
+Q 998 2317 915 2042 
+L 915 0 
+L 480 0 
+L 480 3334 
+L 877 3334 
+L 877 2579 
+Q 1011 2822 1228 3004 
+Q 1446 3187 1721 3289 
+Q 1997 3392 2291 3392 
+Q 2566 3392 2758 3289 
+Q 2950 3187 3065 2998 
+Q 3181 2810 3232 2544 
+Q 3283 2278 3283 1952 
+L 3283 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-127" d="M 1818 -45 
+Q 1478 -45 1190 96 
+Q 902 237 694 477 
+Q 486 717 371 1024 
+Q 256 1331 256 1658 
+Q 256 2010 368 2320 
+Q 480 2630 688 2873 
+Q 896 3117 1177 3254 
+Q 1459 3392 1805 3392 
+Q 2234 3392 2550 3174 
+Q 2867 2957 3085 2637 
+L 3085 3334 
+L 3475 3334 
+L 3475 -13 
+Q 3475 -474 3254 -790 
+Q 3034 -1107 2659 -1267 
+Q 2285 -1427 1843 -1427 
+Q 1274 -1427 922 -1222 
+Q 570 -1018 346 -672 
+L 614 -461 
+Q 813 -774 1142 -928 
+Q 1472 -1082 1843 -1082 
+Q 2170 -1082 2442 -963 
+Q 2714 -845 2877 -608 
+Q 3040 -371 3040 -13 
+L 3040 646 
+Q 2848 333 2515 144 
+Q 2182 -45 1818 -45 
+z
+M 1939 320 
+Q 2138 320 2320 390 
+Q 2502 461 2656 579 
+Q 2810 698 2912 845 
+Q 3014 992 3040 1146 
+L 3040 2176 
+Q 2944 2419 2765 2608 
+Q 2586 2797 2358 2902 
+Q 2131 3008 1888 3008 
+Q 1606 3008 1385 2889 
+Q 1165 2771 1014 2576 
+Q 864 2381 781 2137 
+Q 698 1894 698 1651 
+Q 698 1382 794 1142 
+Q 890 902 1059 713 
+Q 1229 525 1456 422 
+Q 1683 320 1939 320 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-15c" d="M 1901 -64 
+Q 1542 -64 1238 73 
+Q 934 211 713 451 
+Q 493 691 371 1001 
+Q 250 1312 250 1658 
+Q 250 2016 371 2326 
+Q 493 2637 717 2877 
+Q 941 3117 1245 3254 
+Q 1549 3392 1907 3392 
+Q 2266 3392 2566 3254 
+Q 2867 3117 3091 2877 
+Q 3315 2637 3436 2326 
+Q 3558 2016 3558 1658 
+Q 3558 1312 3436 1001 
+Q 3315 691 3094 451 
+Q 2874 211 2570 73 
+Q 2266 -64 1901 -64 
+z
+M 691 1651 
+Q 691 1280 854 976 
+Q 1018 672 1293 496 
+Q 1568 320 1901 320 
+Q 2234 320 2509 499 
+Q 2784 678 2950 988 
+Q 3117 1299 3117 1664 
+Q 3117 2035 2950 2342 
+Q 2784 2650 2509 2829 
+Q 2234 3008 1901 3008 
+Q 1568 3008 1296 2822 
+Q 1024 2637 857 2333 
+Q 691 2029 691 1651 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Raleway-Regular-ce"/>
+     <use xlink:href="#Raleway-Regular-12e" transform="translate(104.59375 0)"/>
+     <use xlink:href="#Raleway-Regular-e5" transform="translate(162.890625 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(216.984375 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(250.484375 0)"/>
+     <use xlink:href="#Raleway-Regular-133" transform="translate(275.984375 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(297.78125 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(346.078125 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(371.578125 0)"/>
+     <use xlink:href="#Raleway-Regular-12e" transform="translate(405.078125 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(463.375 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(522.078125 0)"/>
+     <use xlink:href="#Raleway-Regular-149" transform="translate(547.578125 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(574.78125 0)"/>
+     <use xlink:href="#Raleway-Regular-e5" transform="translate(633.484375 0)"/>
+     <use xlink:href="#Raleway-Regular-182" transform="translate(687.984375 0)"/>
+     <use xlink:href="#Raleway-Regular-153" transform="translate(723.078125 0)"/>
+     <use xlink:href="#Raleway-Regular-133" transform="translate(781.375 0)"/>
+     <use xlink:href="#Raleway-Regular-153" transform="translate(803.171875 0)"/>
+     <use xlink:href="#Raleway-Regular-127" transform="translate(861.46875 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(923.265625 0)"/>
+     <use xlink:href="#Raleway-Regular-127" transform="translate(948.765625 0)"/>
+     <use xlink:href="#Raleway-Regular-15c" transform="translate(1010.5625 0)"/>
+     <use xlink:href="#Raleway-Regular-e5" transform="translate(1070.0625 0)"/>
+     <use xlink:href="#Raleway-Regular-149" transform="translate(1124.5625 0)"/>
+    </g>
+    <!-- of this assignment? -->
+    <g style="fill: #333f48" transform="translate(90.234234 168.053311) scale(0.13 -0.13)">
+     <defs>
+      <path id="Raleway-Regular-126" d="M 640 0 
+L 640 2989 
+L 179 2989 
+L 179 3334 
+L 640 3334 
+L 640 3424 
+Q 640 3834 758 4128 
+Q 877 4422 1097 4579 
+Q 1318 4736 1619 4736 
+Q 1818 4736 2003 4678 
+Q 2189 4621 2323 4525 
+L 2189 4211 
+Q 2106 4282 1971 4320 
+Q 1837 4358 1702 4358 
+Q 1402 4358 1238 4121 
+Q 1075 3885 1075 3437 
+L 1075 3334 
+L 1997 3334 
+L 1997 2989 
+L 1075 2989 
+L 1075 0 
+L 640 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-151" d="M 5440 0 
+L 5005 0 
+L 5005 1862 
+Q 5005 2445 4819 2720 
+Q 4634 2995 4269 2995 
+Q 3891 2995 3593 2726 
+Q 3296 2458 3174 2035 
+L 3174 0 
+L 2739 0 
+L 2739 1862 
+Q 2739 2451 2560 2723 
+Q 2381 2995 2010 2995 
+Q 1638 2995 1337 2732 
+Q 1037 2470 915 2042 
+L 915 0 
+L 480 0 
+L 480 3334 
+L 877 3334 
+L 877 2579 
+Q 1088 2970 1417 3181 
+Q 1747 3392 2150 3392 
+Q 2566 3392 2822 3155 
+Q 3078 2918 3136 2534 
+Q 3366 2957 3689 3174 
+Q 4013 3392 4422 3392 
+Q 4704 3392 4899 3289 
+Q 5094 3187 5212 2998 
+Q 5331 2810 5385 2544 
+Q 5440 2278 5440 1952 
+L 5440 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-361" d="M 986 1293 
+Q 986 1574 1046 1776 
+Q 1107 1978 1225 2125 
+Q 1344 2272 1530 2381 
+Q 1651 2458 1808 2541 
+Q 1965 2624 2102 2736 
+Q 2240 2848 2329 3011 
+Q 2419 3174 2419 3405 
+Q 2419 3686 2294 3868 
+Q 2170 4051 1971 4144 
+Q 1773 4237 1549 4237 
+Q 1325 4237 1123 4150 
+Q 922 4064 768 3917 
+Q 614 3770 518 3584 
+L 218 3776 
+Q 339 4038 547 4224 
+Q 755 4410 1017 4506 
+Q 1280 4602 1555 4602 
+Q 1792 4602 2016 4528 
+Q 2240 4454 2416 4300 
+Q 2592 4147 2697 3920 
+Q 2803 3693 2803 3379 
+Q 2803 3123 2732 2947 
+Q 2662 2771 2537 2646 
+Q 2413 2522 2259 2426 
+Q 2106 2330 1939 2240 
+Q 1792 2157 1657 2054 
+Q 1523 1952 1440 1776 
+Q 1357 1600 1357 1293 
+L 986 1293 
+z
+M 992 0 
+L 992 685 
+L 1370 685 
+L 1370 0 
+L 992 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Raleway-Regular-15c"/>
+     <use xlink:href="#Raleway-Regular-126" transform="translate(58.59375 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(89.390625 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(114.890625 0)"/>
+     <use xlink:href="#Raleway-Regular-12e" transform="translate(148.390625 0)"/>
+     <use xlink:href="#Raleway-Regular-133" transform="translate(206.6875 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(228.484375 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(276.78125 0)"/>
+     <use xlink:href="#Raleway-Regular-e5" transform="translate(302.28125 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(356.78125 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(405.078125 0)"/>
+     <use xlink:href="#Raleway-Regular-133" transform="translate(453.375 0)"/>
+     <use xlink:href="#Raleway-Regular-127" transform="translate(475.171875 0)"/>
+     <use xlink:href="#Raleway-Regular-153" transform="translate(536.96875 0)"/>
+     <use xlink:href="#Raleway-Regular-151" transform="translate(595.265625 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(687.171875 0)"/>
+     <use xlink:href="#Raleway-Regular-153" transform="translate(745.875 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(803.671875 0)"/>
+     <use xlink:href="#Raleway-Regular-361" transform="translate(837.171875 0)"/>
+    </g>
+   </g>
+   <g id="text_2">
+    <!-- What thinking must students -->
+    <g style="fill: #333f48" transform="translate(345.642422 138.227411) scale(0.13 -0.13)">
+     <defs>
+      <path id="Raleway-Regular-146" d="M 2861 0 
+L 1626 1709 
+L 915 1043 
+L 915 0 
+L 480 0 
+L 480 4672 
+L 915 4672 
+L 915 1510 
+L 2803 3328 
+L 3283 3328 
+L 1920 1965 
+L 3334 0 
+L 2861 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-19e" d="M 448 1376 
+L 448 3334 
+L 883 3334 
+L 883 1453 
+Q 883 883 1078 601 
+Q 1274 320 1658 320 
+Q 1914 320 2154 432 
+Q 2394 544 2579 752 
+Q 2765 960 2861 1235 
+L 2861 3334 
+L 3296 3334 
+L 3296 525 
+Q 3296 435 3334 393 
+Q 3373 352 3450 346 
+L 3450 0 
+Q 3373 -6 3328 -9 
+Q 3283 -13 3245 -13 
+Q 3117 0 3024 89 
+Q 2931 179 2925 307 
+L 2912 755 
+Q 2694 371 2320 153 
+Q 1946 -64 1510 -64 
+Q 986 -64 717 301 
+Q 448 666 448 1376 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-108" d="M 256 1658 
+Q 256 2131 451 2524 
+Q 646 2918 992 3155 
+Q 1338 3392 1779 3392 
+Q 2195 3392 2524 3171 
+Q 2854 2950 3040 2637 
+L 3040 4672 
+L 3475 4672 
+L 3475 525 
+Q 3475 435 3513 393 
+Q 3552 352 3629 346 
+L 3629 0 
+Q 3501 -19 3430 -13 
+Q 3296 -6 3193 96 
+Q 3091 198 3091 320 
+L 3091 646 
+Q 2893 320 2553 128 
+Q 2214 -64 1850 -64 
+Q 1504 -64 1213 77 
+Q 922 218 707 461 
+Q 493 704 374 1014 
+Q 256 1325 256 1658 
+z
+M 3040 1146 
+L 3040 2176 
+Q 2957 2406 2771 2595 
+Q 2586 2784 2352 2896 
+Q 2118 3008 1888 3008 
+Q 1619 3008 1401 2896 
+Q 1184 2784 1027 2592 
+Q 870 2400 787 2157 
+Q 704 1914 704 1658 
+Q 704 1389 797 1145 
+Q 890 902 1062 713 
+Q 1235 525 1459 422 
+Q 1683 320 1946 320 
+Q 2112 320 2291 384 
+Q 2470 448 2633 560 
+Q 2797 672 2905 825 
+Q 3014 979 3040 1146 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Raleway-Regular-ce"/>
+     <use xlink:href="#Raleway-Regular-12e" transform="translate(104.59375 0)"/>
+     <use xlink:href="#Raleway-Regular-e5" transform="translate(162.890625 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(216.984375 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(250.484375 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(275.984375 0)"/>
+     <use xlink:href="#Raleway-Regular-12e" transform="translate(309.484375 0)"/>
+     <use xlink:href="#Raleway-Regular-133" transform="translate(367.78125 0)"/>
+     <use xlink:href="#Raleway-Regular-153" transform="translate(389.578125 0)"/>
+     <use xlink:href="#Raleway-Regular-146" transform="translate(447.875 0)"/>
+     <use xlink:href="#Raleway-Regular-133" transform="translate(500.875 0)"/>
+     <use xlink:href="#Raleway-Regular-153" transform="translate(522.671875 0)"/>
+     <use xlink:href="#Raleway-Regular-127" transform="translate(580.96875 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(642.765625 0)"/>
+     <use xlink:href="#Raleway-Regular-151" transform="translate(668.265625 0)"/>
+     <use xlink:href="#Raleway-Regular-19e" transform="translate(760.171875 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(819.578125 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(867.875 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(901.375 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(926.875 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(975.171875 0)"/>
+     <use xlink:href="#Raleway-Regular-19e" transform="translate(1008.671875 0)"/>
+     <use xlink:href="#Raleway-Regular-108" transform="translate(1068.078125 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(1130.28125 0)"/>
+     <use xlink:href="#Raleway-Regular-153" transform="translate(1188.984375 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(1246.78125 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(1280.28125 0)"/>
+    </g>
+    <!-- do themselves? (recall, organize, -->
+    <g style="fill: #333f48" transform="translate(334.271484 158.126917) scale(0.13 -0.13)">
+     <defs>
+      <path id="Raleway-Regular-1b5" d="M 1472 0 
+L 122 3334 
+L 576 3334 
+L 1715 435 
+L 2861 3334 
+L 3290 3334 
+L 1939 0 
+L 1472 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-36d" d="M 282 2214 
+Q 282 2867 544 3484 
+Q 806 4102 1178 4730 
+L 1510 4570 
+Q 1382 4378 1238 4096 
+Q 1094 3814 969 3491 
+Q 845 3168 768 2835 
+Q 691 2502 691 2195 
+Q 691 1696 908 1107 
+Q 1126 518 1504 -64 
+L 1178 -237 
+Q 909 166 707 576 
+Q 506 986 394 1398 
+Q 282 1811 282 2214 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-101" d="M 1926 -64 
+Q 1562 -64 1258 73 
+Q 954 211 726 454 
+Q 499 698 374 1011 
+Q 250 1325 250 1677 
+Q 250 2150 461 2540 
+Q 672 2931 1049 3161 
+Q 1427 3392 1920 3392 
+Q 2387 3392 2745 3177 
+Q 3104 2963 3277 2598 
+L 2854 2464 
+Q 2714 2720 2461 2864 
+Q 2208 3008 1901 3008 
+Q 1568 3008 1293 2835 
+Q 1018 2662 854 2361 
+Q 691 2061 691 1677 
+Q 691 1299 857 992 
+Q 1024 685 1299 502 
+Q 1574 320 1907 320 
+Q 2125 320 2326 397 
+Q 2528 474 2678 605 
+Q 2829 736 2880 890 
+L 3309 762 
+Q 3219 525 3011 336 
+Q 2803 147 2524 41 
+Q 2246 -64 1926 -64 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-35b" d="M 550 -518 
+L 659 19 
+L 512 19 
+L 512 627 
+L 934 627 
+L 934 19 
+L 774 -518 
+L 550 -518 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-1c6" d="M 198 294 
+L 2432 3008 
+L 250 3008 
+L 250 3334 
+L 2925 3334 
+L 2925 3040 
+L 704 326 
+L 2918 326 
+L 2918 0 
+L 198 0 
+L 198 294 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Raleway-Regular-108"/>
+     <use xlink:href="#Raleway-Regular-15c" transform="translate(62.203125 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(121.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(147.203125 0)"/>
+     <use xlink:href="#Raleway-Regular-12e" transform="translate(180.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(239 0)"/>
+     <use xlink:href="#Raleway-Regular-151" transform="translate(297.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(389.609375 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(437.90625 0)"/>
+     <use xlink:href="#Raleway-Regular-149" transform="translate(496.609375 0)"/>
+     <use xlink:href="#Raleway-Regular-1b5" transform="translate(522.109375 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(573.609375 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(632.3125 0)"/>
+     <use xlink:href="#Raleway-Regular-361" transform="translate(680.609375 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(728.203125 0)"/>
+     <use xlink:href="#Raleway-Regular-36d" transform="translate(753.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-182" transform="translate(780.609375 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(814.109375 0)"/>
+     <use xlink:href="#Raleway-Regular-101" transform="translate(872.8125 0)"/>
+     <use xlink:href="#Raleway-Regular-e5" transform="translate(927.71875 0)"/>
+     <use xlink:href="#Raleway-Regular-149" transform="translate(982.21875 0)"/>
+     <use xlink:href="#Raleway-Regular-149" transform="translate(1009.421875 0)"/>
+     <use xlink:href="#Raleway-Regular-35b" transform="translate(1036.625 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(1059.125 0)"/>
+     <use xlink:href="#Raleway-Regular-15c" transform="translate(1084.625 0)"/>
+     <use xlink:href="#Raleway-Regular-182" transform="translate(1144.125 0)"/>
+     <use xlink:href="#Raleway-Regular-127" transform="translate(1177.8125 0)"/>
+     <use xlink:href="#Raleway-Regular-e5" transform="translate(1239.609375 0)"/>
+     <use xlink:href="#Raleway-Regular-153" transform="translate(1294.109375 0)"/>
+     <use xlink:href="#Raleway-Regular-133" transform="translate(1352.40625 0)"/>
+     <use xlink:href="#Raleway-Regular-1c6" transform="translate(1374.203125 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(1422.3125 0)"/>
+     <use xlink:href="#Raleway-Regular-35b" transform="translate(1481.015625 0)"/>
+    </g>
+    <!-- explain, correct, apply) -->
+    <g style="fill: #333f48" transform="translate(364.462969 177.960408) scale(0.13 -0.13)">
+     <defs>
+      <path id="Raleway-Regular-1bb" d="M 582 3334 
+L 1562 2029 
+L 1613 1933 
+L 1664 2029 
+L 2637 3334 
+L 3130 3334 
+L 1862 1658 
+L 3130 0 
+L 2637 0 
+L 1664 1299 
+L 1613 1389 
+L 1562 1299 
+L 589 0 
+L 96 0 
+L 1357 1658 
+L 96 3334 
+L 582 3334 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-17f" d="M 2182 -64 
+Q 1766 -64 1436 153 
+Q 1107 371 915 691 
+L 915 -1363 
+L 480 -1363 
+L 480 3334 
+L 870 3334 
+L 870 2688 
+Q 1069 3002 1401 3197 
+Q 1734 3392 2112 3392 
+Q 2458 3392 2746 3248 
+Q 3034 3104 3245 2861 
+Q 3456 2618 3574 2307 
+Q 3693 1997 3693 1664 
+Q 3693 1197 3504 803 
+Q 3315 410 2976 173 
+Q 2637 -64 2182 -64 
+z
+M 2061 320 
+Q 2336 320 2553 432 
+Q 2771 544 2928 736 
+Q 3085 928 3168 1168 
+Q 3251 1408 3251 1664 
+Q 3251 1933 3158 2176 
+Q 3066 2419 2893 2604 
+Q 2720 2790 2496 2899 
+Q 2272 3008 2010 3008 
+Q 1843 3008 1664 2944 
+Q 1485 2880 1321 2761 
+Q 1158 2643 1049 2496 
+Q 941 2349 915 2182 
+L 915 1158 
+Q 1018 922 1190 733 
+Q 1363 544 1590 432 
+Q 1818 320 2061 320 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-1bc" d="M 672 -1024 
+Q 762 -1030 845 -1033 
+Q 928 -1037 966 -1024 
+Q 1043 -1011 1113 -934 
+Q 1184 -858 1280 -640 
+Q 1376 -422 1549 0 
+L 96 3334 
+L 557 3334 
+L 1779 448 
+L 2906 3334 
+L 3341 3334 
+L 1613 -966 
+Q 1568 -1088 1478 -1193 
+Q 1389 -1299 1257 -1360 
+Q 1126 -1421 934 -1427 
+Q 877 -1434 816 -1430 
+Q 755 -1427 672 -1414 
+L 672 -1024 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-36e" d="M 1434 2214 
+Q 1434 1811 1325 1398 
+Q 1216 986 1011 576 
+Q 806 166 538 -237 
+L 218 -64 
+Q 595 518 812 1107 
+Q 1030 1696 1030 2195 
+Q 1030 2502 953 2835 
+Q 877 3168 749 3491 
+Q 621 3814 480 4096 
+Q 339 4378 205 4570 
+L 544 4730 
+Q 915 4102 1174 3484 
+Q 1434 2867 1434 2214 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Raleway-Regular-10e"/>
+     <use xlink:href="#Raleway-Regular-1bb" transform="translate(56.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-17f" transform="translate(107.109375 0)"/>
+     <use xlink:href="#Raleway-Regular-149" transform="translate(168.8125 0)"/>
+     <use xlink:href="#Raleway-Regular-e5" transform="translate(196.015625 0)"/>
+     <use xlink:href="#Raleway-Regular-133" transform="translate(250.515625 0)"/>
+     <use xlink:href="#Raleway-Regular-153" transform="translate(272.3125 0)"/>
+     <use xlink:href="#Raleway-Regular-35b" transform="translate(330.609375 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(353.109375 0)"/>
+     <use xlink:href="#Raleway-Regular-101" transform="translate(378.609375 0)"/>
+     <use xlink:href="#Raleway-Regular-15c" transform="translate(433.015625 0)"/>
+     <use xlink:href="#Raleway-Regular-182" transform="translate(492.515625 0)"/>
+     <use xlink:href="#Raleway-Regular-182" transform="translate(527.609375 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(561.109375 0)"/>
+     <use xlink:href="#Raleway-Regular-101" transform="translate(619.8125 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(674.71875 0)"/>
+     <use xlink:href="#Raleway-Regular-35b" transform="translate(708.21875 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(730.71875 0)"/>
+     <use xlink:href="#Raleway-Regular-e5" transform="translate(756.21875 0)"/>
+     <use xlink:href="#Raleway-Regular-17f" transform="translate(810.71875 0)"/>
+     <use xlink:href="#Raleway-Regular-17f" transform="translate(872.421875 0)"/>
+     <use xlink:href="#Raleway-Regular-149" transform="translate(934.125 0)"/>
+     <use xlink:href="#Raleway-Regular-1bc" transform="translate(959.625 0)"/>
+     <use xlink:href="#Raleway-Regular-36e" transform="translate(1012.234375 0)"/>
+    </g>
+   </g>
+   <g id="patch_7">
+    <path d="M 258.031336 154.772308 
+Q 283.102722 154.772308 306.385254 154.772308 
+" style="fill: none; stroke: #6e767c; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 302.385254 152.772308 
+L 306.385254 154.772308 
+L 302.385254 156.772308 
+z
+" style="fill: #6e767c; stroke: #6e767c; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <!-- Would this AI use -->
+    <g style="fill: #333f48" transform="translate(381.981445 264.746404) scale(0.125 -0.125)">
+     <defs>
+      <path id="Raleway-Regular-1" d="M 1978 4544 
+L 2355 4544 
+L 4243 0 
+L 3770 0 
+L 3181 1421 
+L 1139 1421 
+L 557 0 
+L 77 0 
+L 1978 4544 
+z
+M 3078 1773 
+L 2163 4019 
+L 1235 1773 
+L 3078 1773 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-4e" d="M 570 0 
+L 570 4544 
+L 1018 4544 
+L 1018 0 
+L 570 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Raleway-Regular-ce"/>
+     <use xlink:href="#Raleway-Regular-15c" transform="translate(97.890625 0)"/>
+     <use xlink:href="#Raleway-Regular-19e" transform="translate(157.390625 0)"/>
+     <use xlink:href="#Raleway-Regular-149" transform="translate(216.796875 0)"/>
+     <use xlink:href="#Raleway-Regular-108" transform="translate(244 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(306.203125 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(331.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-12e" transform="translate(365.203125 0)"/>
+     <use xlink:href="#Raleway-Regular-133" transform="translate(423.5 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(445.296875 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(493.59375 0)"/>
+     <use xlink:href="#Raleway-Regular-1" transform="translate(516 0)"/>
+     <use xlink:href="#Raleway-Regular-4e" transform="translate(583.59375 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(608.390625 0)"/>
+     <use xlink:href="#Raleway-Regular-19e" transform="translate(633.890625 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(693.296875 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(741.59375 0)"/>
+    </g>
+    <!-- do that thinking -->
+    <g style="fill: #333f48" transform="translate(387.070312 281.759099) scale(0.125 -0.125)">
+     <use xlink:href="#Raleway-Regular-108"/>
+     <use xlink:href="#Raleway-Regular-15c" transform="translate(62.203125 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(121.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(147.203125 0)"/>
+     <use xlink:href="#Raleway-Regular-12e" transform="translate(180.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-e5" transform="translate(239 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(293.09375 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(326.59375 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(352.09375 0)"/>
+     <use xlink:href="#Raleway-Regular-12e" transform="translate(385.59375 0)"/>
+     <use xlink:href="#Raleway-Regular-133" transform="translate(443.890625 0)"/>
+     <use xlink:href="#Raleway-Regular-153" transform="translate(465.6875 0)"/>
+     <use xlink:href="#Raleway-Regular-146" transform="translate(523.984375 0)"/>
+     <use xlink:href="#Raleway-Regular-133" transform="translate(576.984375 0)"/>
+     <use xlink:href="#Raleway-Regular-153" transform="translate(598.78125 0)"/>
+     <use xlink:href="#Raleway-Regular-127" transform="translate(657.078125 0)"/>
+    </g>
+    <!-- for them? -->
+    <g style="fill: #333f48" transform="translate(404.649414 301.496404) scale(0.125 -0.125)">
+     <use xlink:href="#Raleway-Regular-126"/>
+     <use xlink:href="#Raleway-Regular-15c" transform="translate(31.40625 0)"/>
+     <use xlink:href="#Raleway-Regular-182" transform="translate(90.90625 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(123.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(149.203125 0)"/>
+     <use xlink:href="#Raleway-Regular-12e" transform="translate(182.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(241 0)"/>
+     <use xlink:href="#Raleway-Regular-151" transform="translate(299.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-361" transform="translate(390.015625 0)"/>
+    </g>
+   </g>
+   <g id="patch_8">
+    <path d="M 432 191.765334 
+Q 432 208.607012 432 223.659836 
+" style="fill: none; stroke: #6e767c; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 434 219.659836 
+L 432 223.659836 
+L 430 219.659836 
+z
+" style="fill: #6e767c; stroke: #6e767c; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <!-- Redesign. Students attempt -->
+    <g style="fill: #333f48" transform="translate(632.938187 189.369565) scale(0.13 -0.13)">
+     <defs>
+      <path id="Raleway-Regular-9a" d="M 570 0 
+L 570 4544 
+L 2490 4544 
+Q 2784 4544 3027 4422 
+Q 3270 4301 3452 4093 
+Q 3635 3885 3734 3632 
+Q 3834 3379 3834 3117 
+Q 3834 2790 3709 2502 
+Q 3584 2214 3357 2016 
+Q 3130 1818 2822 1754 
+L 3936 0 
+L 3430 0 
+L 2362 1677 
+L 1018 1677 
+L 1018 0 
+L 570 0 
+z
+M 1018 2074 
+L 2502 2074 
+Q 2771 2074 2969 2221 
+Q 3168 2368 3277 2608 
+Q 3386 2848 3386 3117 
+Q 3386 3392 3261 3625 
+Q 3136 3859 2928 4003 
+Q 2720 4147 2464 4147 
+L 1018 4147 
+L 1018 2074 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-360" d="M 416 0 
+L 416 627 
+L 794 627 
+L 794 0 
+L 416 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Regular-a2" d="M 3226 3693 
+Q 3130 3802 3002 3888 
+Q 2874 3974 2714 4038 
+Q 2554 4102 2371 4140 
+Q 2189 4179 1984 4179 
+Q 1389 4179 1110 3952 
+Q 832 3725 832 3334 
+Q 832 3066 963 2912 
+Q 1094 2758 1376 2662 
+Q 1658 2566 2093 2464 
+Q 2579 2362 2931 2221 
+Q 3283 2080 3475 1840 
+Q 3667 1600 3667 1190 
+Q 3667 877 3545 646 
+Q 3424 416 3206 262 
+Q 2989 109 2688 35 
+Q 2387 -38 2029 -38 
+Q 1677 -38 1353 35 
+Q 1030 109 742 253 
+Q 454 397 205 621 
+L 429 986 
+Q 550 858 720 746 
+Q 890 634 1098 544 
+Q 1306 454 1546 406 
+Q 1786 358 2042 358 
+Q 2586 358 2890 556 
+Q 3194 755 3194 1146 
+Q 3194 1427 3040 1596 
+Q 2886 1766 2579 1875 
+Q 2272 1984 1824 2086 
+Q 1350 2195 1024 2329 
+Q 698 2464 534 2685 
+Q 371 2906 371 3270 
+Q 371 3693 579 3984 
+Q 787 4275 1152 4425 
+Q 1517 4576 1990 4576 
+Q 2291 4576 2550 4515 
+Q 2810 4454 3030 4339 
+Q 3251 4224 3443 4051 
+L 3226 3693 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Raleway-Regular-9a"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(63.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-108" transform="translate(122.40625 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(184.609375 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(243.3125 0)"/>
+     <use xlink:href="#Raleway-Regular-133" transform="translate(291.609375 0)"/>
+     <use xlink:href="#Raleway-Regular-127" transform="translate(313.40625 0)"/>
+     <use xlink:href="#Raleway-Regular-153" transform="translate(375.203125 0)"/>
+     <use xlink:href="#Raleway-Regular-360" transform="translate(433.5 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(452.40625 0)"/>
+     <use xlink:href="#Raleway-Regular-a2" transform="translate(477.90625 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(537.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-19e" transform="translate(571.203125 0)"/>
+     <use xlink:href="#Raleway-Regular-108" transform="translate(630.609375 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(692.8125 0)"/>
+     <use xlink:href="#Raleway-Regular-153" transform="translate(751.515625 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(809.3125 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(842.8125 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(891.109375 0)"/>
+     <use xlink:href="#Raleway-Regular-e5" transform="translate(916.609375 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(970.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(1004.203125 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(1036.796875 0)"/>
+     <use xlink:href="#Raleway-Regular-151" transform="translate(1095.5 0)"/>
+     <use xlink:href="#Raleway-Regular-17f" transform="translate(1187.40625 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(1248.3125 0)"/>
+    </g>
+    <!-- first, then use AI for harder -->
+    <g style="fill: #333f48" transform="translate(637.737016 210.198368) scale(0.13 -0.13)">
+     <defs>
+      <path id="Raleway-Regular-1d9" d="M 640 2989 
+L 179 2989 
+L 179 3334 
+L 640 3334 
+L 640 3424 
+Q 640 3661 710 3891 
+Q 781 4122 925 4314 
+Q 1069 4506 1289 4621 
+Q 1510 4736 1818 4736 
+Q 2054 4736 2243 4685 
+Q 2432 4634 2573 4563 
+Q 2714 4493 2784 4435 
+L 2586 4122 
+Q 2483 4218 2281 4285 
+Q 2080 4352 1843 4352 
+Q 1574 4352 1404 4214 
+Q 1235 4077 1155 3865 
+Q 1075 3654 1075 3437 
+L 1075 3334 
+L 2746 3334 
+L 2746 0 
+L 2310 0 
+L 2310 2989 
+L 1075 2989 
+L 1075 0 
+L 640 0 
+L 640 2989 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Raleway-Regular-1d9"/>
+     <use xlink:href="#Raleway-Regular-182" transform="translate(50.40625 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(85.5 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(133.796875 0)"/>
+     <use xlink:href="#Raleway-Regular-35b" transform="translate(167.296875 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(189.796875 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(215.296875 0)"/>
+     <use xlink:href="#Raleway-Regular-12e" transform="translate(248.796875 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(307.09375 0)"/>
+     <use xlink:href="#Raleway-Regular-153" transform="translate(365.796875 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(424.09375 0)"/>
+     <use xlink:href="#Raleway-Regular-19e" transform="translate(449.59375 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(509 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(557.296875 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(616 0)"/>
+     <use xlink:href="#Raleway-Regular-1" transform="translate(638.40625 0)"/>
+     <use xlink:href="#Raleway-Regular-4e" transform="translate(706 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(730.796875 0)"/>
+     <use xlink:href="#Raleway-Regular-126" transform="translate(756.296875 0)"/>
+     <use xlink:href="#Raleway-Regular-15c" transform="translate(787.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-182" transform="translate(847.203125 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(880 0)"/>
+     <use xlink:href="#Raleway-Regular-12e" transform="translate(905.5 0)"/>
+     <use xlink:href="#Raleway-Regular-e5" transform="translate(963.796875 0)"/>
+     <use xlink:href="#Raleway-Regular-182" transform="translate(1018.296875 0)"/>
+     <use xlink:href="#Raleway-Regular-108" transform="translate(1051.984375 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(1114.1875 0)"/>
+     <use xlink:href="#Raleway-Regular-182" transform="translate(1172.890625 0)"/>
+    </g>
+    <!-- questions or critique. -->
+    <g style="fill: #333f48" transform="translate(653.946391 229.115765) scale(0.13 -0.13)">
+     <defs>
+      <path id="Raleway-Regular-181" d="M 1766 -64 
+Q 1427 -64 1148 77 
+Q 870 218 672 461 
+Q 474 704 365 1014 
+Q 256 1325 256 1664 
+Q 256 2016 377 2326 
+Q 499 2637 713 2877 
+Q 928 3117 1219 3254 
+Q 1510 3392 1843 3392 
+Q 2234 3392 2563 3190 
+Q 2893 2989 3078 2682 
+L 3078 3334 
+L 3469 3334 
+L 3469 -1363 
+L 3034 -1363 
+L 3034 691 
+Q 2541 -64 1766 -64 
+z
+M 1901 320 
+Q 2163 320 2377 425 
+Q 2592 531 2755 710 
+Q 2918 890 3034 1107 
+L 3034 2138 
+Q 3014 2310 2905 2467 
+Q 2797 2624 2637 2749 
+Q 2477 2874 2291 2941 
+Q 2106 3008 1926 3008 
+Q 1651 3008 1430 2893 
+Q 1210 2778 1043 2586 
+Q 877 2394 787 2150 
+Q 698 1907 698 1658 
+Q 698 1299 854 992 
+Q 1011 685 1280 502 
+Q 1549 320 1901 320 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Raleway-Regular-181"/>
+     <use xlink:href="#Raleway-Regular-19e" transform="translate(61.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(121.109375 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(179.8125 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(228.109375 0)"/>
+     <use xlink:href="#Raleway-Regular-133" transform="translate(261.609375 0)"/>
+     <use xlink:href="#Raleway-Regular-15c" transform="translate(283.40625 0)"/>
+     <use xlink:href="#Raleway-Regular-153" transform="translate(342.90625 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(401.203125 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(449.5 0)"/>
+     <use xlink:href="#Raleway-Regular-15c" transform="translate(475 0)"/>
+     <use xlink:href="#Raleway-Regular-182" transform="translate(534.5 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(567.296875 0)"/>
+     <use xlink:href="#Raleway-Regular-101" transform="translate(592.796875 0)"/>
+     <use xlink:href="#Raleway-Regular-182" transform="translate(647.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-133" transform="translate(682.796875 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(704.59375 0)"/>
+     <use xlink:href="#Raleway-Regular-133" transform="translate(738.09375 0)"/>
+     <use xlink:href="#Raleway-Regular-181" transform="translate(759.890625 0)"/>
+     <use xlink:href="#Raleway-Regular-19e" transform="translate(821.59375 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(881 0)"/>
+     <use xlink:href="#Raleway-Regular-360" transform="translate(939.703125 0)"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <!-- Allow it. Ask students which -->
+    <g style="fill: #333f48" transform="translate(633.511 346.872015) scale(0.13 -0.13)">
+     <defs>
+      <path id="Raleway-Regular-1b6" d="M 4678 3334 
+L 5107 3334 
+L 3674 0 
+L 3296 0 
+L 2598 1658 
+L 1907 0 
+L 1530 0 
+L 96 3334 
+L 518 3334 
+L 1734 448 
+L 2349 1952 
+L 1786 3328 
+L 2176 3328 
+L 2598 2246 
+L 3027 3328 
+L 3411 3328 
+L 2854 1952 
+L 3469 448 
+L 4678 3334 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Raleway-Regular-1"/>
+     <use xlink:href="#Raleway-Regular-149" transform="translate(67.59375 0)"/>
+     <use xlink:href="#Raleway-Regular-149" transform="translate(94.796875 0)"/>
+     <use xlink:href="#Raleway-Regular-15c" transform="translate(122 0)"/>
+     <use xlink:href="#Raleway-Regular-1b6" transform="translate(179.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(258.203125 0)"/>
+     <use xlink:href="#Raleway-Regular-133" transform="translate(283.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(305.5 0)"/>
+     <use xlink:href="#Raleway-Regular-360" transform="translate(339 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(357.90625 0)"/>
+     <use xlink:href="#Raleway-Regular-1" transform="translate(380.3125 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(447.203125 0)"/>
+     <use xlink:href="#Raleway-Regular-146" transform="translate(495.5 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(548.5 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(574 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(622.296875 0)"/>
+     <use xlink:href="#Raleway-Regular-19e" transform="translate(655.796875 0)"/>
+     <use xlink:href="#Raleway-Regular-108" transform="translate(715.203125 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(777.40625 0)"/>
+     <use xlink:href="#Raleway-Regular-153" transform="translate(836.109375 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(893.90625 0)"/>
+     <use xlink:href="#Raleway-Regular-18a" transform="translate(927.40625 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(975.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-1b6" transform="translate(998.40625 0)"/>
+     <use xlink:href="#Raleway-Regular-12e" transform="translate(1079.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-133" transform="translate(1138 0)"/>
+     <use xlink:href="#Raleway-Regular-101" transform="translate(1159.796875 0)"/>
+     <use xlink:href="#Raleway-Regular-12e" transform="translate(1214.703125 0)"/>
+    </g>
+    <!-- AI feedback they accepted, -->
+    <g style="fill: #333f48" transform="translate(634.132562 365.386209) scale(0.13 -0.13)">
+     <defs>
+      <path id="Raleway-Regular-100" d="M 2112 -64 
+Q 1722 -64 1389 137 
+Q 1056 339 870 646 
+L 870 0 
+L 480 0 
+L 480 4672 
+L 915 4672 
+L 915 2637 
+Q 1139 2976 1452 3184 
+Q 1766 3392 2182 3392 
+Q 2534 3392 2812 3245 
+Q 3091 3098 3289 2851 
+Q 3488 2605 3590 2294 
+Q 3693 1984 3693 1658 
+Q 3693 1306 3574 998 
+Q 3456 691 3238 451 
+Q 3021 211 2736 73 
+Q 2451 -64 2112 -64 
+z
+M 2010 320 
+Q 2278 320 2508 429 
+Q 2739 538 2905 730 
+Q 3072 922 3161 1162 
+Q 3251 1402 3251 1658 
+Q 3251 2010 3100 2320 
+Q 2950 2630 2684 2819 
+Q 2419 3008 2061 3008 
+Q 1805 3008 1584 2893 
+Q 1363 2778 1193 2589 
+Q 1024 2400 915 2176 
+L 915 1139 
+Q 941 966 1049 816 
+Q 1158 666 1321 557 
+Q 1485 448 1664 384 
+Q 1843 320 2010 320 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Raleway-Regular-1"/>
+     <use xlink:href="#Raleway-Regular-4e" transform="translate(67.59375 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(92.390625 0)"/>
+     <use xlink:href="#Raleway-Regular-126" transform="translate(117.890625 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(149.296875 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(208 0)"/>
+     <use xlink:href="#Raleway-Regular-108" transform="translate(266.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-100" transform="translate(328.90625 0)"/>
+     <use xlink:href="#Raleway-Regular-e5" transform="translate(390.609375 0)"/>
+     <use xlink:href="#Raleway-Regular-101" transform="translate(445.109375 0)"/>
+     <use xlink:href="#Raleway-Regular-146" transform="translate(500.015625 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(553.015625 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(578.515625 0)"/>
+     <use xlink:href="#Raleway-Regular-12e" transform="translate(612.015625 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(670.3125 0)"/>
+     <use xlink:href="#Raleway-Regular-1bc" transform="translate(727.515625 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(779.015625 0)"/>
+     <use xlink:href="#Raleway-Regular-e5" transform="translate(804.515625 0)"/>
+     <use xlink:href="#Raleway-Regular-101" transform="translate(859.015625 0)"/>
+     <use xlink:href="#Raleway-Regular-101" transform="translate(913.421875 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(967.828125 0)"/>
+     <use xlink:href="#Raleway-Regular-17f" transform="translate(1026.53125 0)"/>
+     <use xlink:href="#Raleway-Regular-196" transform="translate(1087.4375 0)"/>
+     <use xlink:href="#Raleway-Regular-10e" transform="translate(1120.03125 0)"/>
+     <use xlink:href="#Raleway-Regular-108" transform="translate(1178.734375 0)"/>
+     <use xlink:href="#Raleway-Regular-35b" transform="translate(1240.9375 0)"/>
+    </g>
+    <!-- and why. -->
+    <g style="fill: #333f48" transform="translate(690.157484 385.161809) scale(0.13 -0.13)">
+     <use xlink:href="#Raleway-Regular-e5"/>
+     <use xlink:href="#Raleway-Regular-153" transform="translate(54.5 0)"/>
+     <use xlink:href="#Raleway-Regular-108" transform="translate(112.796875 0)"/>
+     <use xlink:href="#Raleway-Regular-385" transform="translate(175 0)"/>
+     <use xlink:href="#Raleway-Regular-1b6" transform="translate(197.703125 0)"/>
+     <use xlink:href="#Raleway-Regular-12e" transform="translate(279 0)"/>
+     <use xlink:href="#Raleway-Regular-1bc" transform="translate(336 0)"/>
+     <use xlink:href="#Raleway-Regular-360" transform="translate(382.609375 0)"/>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 528.395256 261.29631 
+Q 567.362054 234.175801 604.860605 208.077178 
+" style="fill: none; stroke: #00664f; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 600.435001 208.720634 
+L 604.860605 208.077178 
+L 602.720007 212.003734 
+z
+" style="fill: #00664f; stroke: #00664f; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 528.291158 296.015592 
+Q 567.359995 328.386458 605.051368 359.616012 
+" style="fill: none; stroke: #00664f; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 603.247289 355.52391 
+L 605.051368 359.616012 
+L 600.695239 358.604014 
+z
+" style="fill: #00664f; stroke: #00664f; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <!-- Yes -->
+    <g style="fill: #00664f" transform="translate(522.077781 235.523077) scale(0.13 -0.13)">
+     <defs>
+      <path id="Raleway-Bold-d4" d="M 986 4544 
+L 2106 2406 
+L 3245 4544 
+L 4198 4544 
+L 2547 1587 
+L 2547 0 
+L 1670 0 
+L 1670 1600 
+L 26 4544 
+L 986 4544 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Bold-10e" d="M 1946 -64 
+Q 1542 -64 1216 73 
+Q 890 211 659 451 
+Q 429 691 304 1001 
+Q 179 1312 179 1658 
+Q 179 2138 393 2534 
+Q 608 2931 1008 3171 
+Q 1408 3411 1952 3411 
+Q 2502 3411 2892 3171 
+Q 3283 2931 3491 2537 
+Q 3699 2144 3699 1690 
+Q 3699 1613 3692 1533 
+Q 3686 1453 3680 1402 
+L 1088 1402 
+Q 1114 1146 1238 954 
+Q 1363 762 1558 662 
+Q 1754 563 1978 563 
+Q 2234 563 2461 688 
+Q 2688 813 2771 1018 
+L 3507 813 
+Q 3386 557 3158 358 
+Q 2931 160 2624 48 
+Q 2317 -64 1946 -64 
+z
+M 1069 1946 
+L 2822 1946 
+Q 2797 2202 2678 2390 
+Q 2560 2579 2368 2684 
+Q 2176 2790 1939 2790 
+Q 1709 2790 1520 2684 
+Q 1331 2579 1212 2390 
+Q 1094 2202 1069 1946 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Bold-18a" d="M 1626 -64 
+Q 1197 -64 806 77 
+Q 416 218 134 493 
+L 442 1050 
+Q 742 806 1033 691 
+Q 1325 576 1594 576 
+Q 1843 576 1993 665 
+Q 2144 755 2144 934 
+Q 2144 1056 2061 1123 
+Q 1978 1190 1821 1241 
+Q 1664 1293 1440 1357 
+Q 1069 1478 819 1593 
+Q 570 1709 445 1885 
+Q 320 2061 320 2336 
+Q 320 2669 489 2909 
+Q 659 3149 963 3283 
+Q 1267 3418 1677 3418 
+Q 2035 3418 2355 3306 
+Q 2675 3194 2938 2944 
+L 2592 2400 
+Q 2336 2598 2105 2691 
+Q 1875 2784 1638 2784 
+Q 1504 2784 1385 2752 
+Q 1267 2720 1193 2646 
+Q 1120 2573 1120 2438 
+Q 1120 2317 1187 2249 
+Q 1254 2182 1392 2131 
+Q 1530 2080 1728 2016 
+Q 2131 1901 2409 1779 
+Q 2688 1658 2829 1482 
+Q 2970 1306 2970 998 
+Q 2970 499 2605 217 
+Q 2240 -64 1626 -64 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Raleway-Bold-d4"/>
+     <use xlink:href="#Raleway-Bold-10e" transform="translate(56.796875 0)"/>
+     <use xlink:href="#Raleway-Bold-18a" transform="translate(116.703125 0)"/>
+    </g>
+   </g>
+   <g id="text_7">
+    <!-- No -->
+    <g style="fill: #00664f" transform="translate(525.994031 329.732308) scale(0.13 -0.13)">
+     <defs>
+      <path id="Raleway-Bold-6b" d="M 1357 2918 
+L 1357 0 
+L 474 0 
+L 474 4544 
+L 1178 4544 
+L 3526 1549 
+L 3526 4538 
+L 4410 4538 
+L 4410 0 
+L 3674 0 
+L 1357 2918 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Bold-15c" d="M 1939 -64 
+Q 1530 -64 1203 73 
+Q 877 211 649 454 
+Q 422 698 300 1011 
+Q 179 1325 179 1670 
+Q 179 2022 300 2336 
+Q 422 2650 649 2893 
+Q 877 3136 1203 3273 
+Q 1530 3411 1939 3411 
+Q 2349 3411 2672 3273 
+Q 2995 3136 3225 2893 
+Q 3456 2650 3574 2336 
+Q 3693 2022 3693 1670 
+Q 3693 1325 3574 1011 
+Q 3456 698 3229 454 
+Q 3002 211 2675 73 
+Q 2349 -64 1939 -64 
+z
+M 1062 1670 
+Q 1062 1376 1177 1149 
+Q 1293 922 1491 794 
+Q 1690 666 1939 666 
+Q 2182 666 2380 797 
+Q 2579 928 2697 1155 
+Q 2816 1382 2816 1677 
+Q 2816 1965 2697 2195 
+Q 2579 2426 2380 2554 
+Q 2182 2682 1939 2682 
+Q 1690 2682 1491 2550 
+Q 1293 2419 1177 2192 
+Q 1062 1965 1062 1670 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Raleway-Bold-6b"/>
+     <use xlink:href="#Raleway-Bold-15c" transform="translate(75.390625 0)"/>
+    </g>
+   </g>
+  </g>
+  <g id="text_8">
+   <!-- Does this AI use strengthen learning, or replace it? -->
+   <g style="fill: #333f48" transform="translate(43.2 59.56) scale(0.22 -0.22)">
+    <defs>
+     <path id="Raleway-Bold-24" d="M 474 0 
+L 474 4544 
+L 2125 4544 
+Q 2867 4544 3366 4240 
+Q 3866 3936 4115 3421 
+Q 4365 2906 4365 2278 
+Q 4365 1587 4089 1075 
+Q 3814 563 3312 281 
+Q 2810 0 2125 0 
+L 474 0 
+z
+M 3475 2278 
+Q 3475 2720 3315 3056 
+Q 3155 3392 2854 3581 
+Q 2554 3770 2125 3770 
+L 1357 3770 
+L 1357 774 
+L 2125 774 
+Q 2560 774 2861 969 
+Q 3162 1165 3318 1507 
+Q 3475 1850 3475 2278 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Bold-385" transform="scale(0.015625)"/>
+     <path id="Raleway-Bold-196" d="M 2400 173 
+Q 2291 128 2137 70 
+Q 1984 13 1808 -22 
+Q 1632 -58 1453 -58 
+Q 1216 -58 1017 25 
+Q 819 109 700 291 
+Q 582 474 582 768 
+L 582 2694 
+L 141 2694 
+L 141 3354 
+L 582 3354 
+L 582 4442 
+L 1440 4442 
+L 1440 3354 
+L 2144 3354 
+L 2144 2694 
+L 1440 2694 
+L 1440 1056 
+Q 1446 883 1536 806 
+Q 1626 730 1760 730 
+Q 1894 730 2022 774 
+Q 2150 819 2227 851 
+L 2400 173 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Bold-12e" d="M 3507 0 
+L 2650 0 
+L 2650 1882 
+Q 2650 2272 2499 2464 
+Q 2349 2656 2086 2656 
+Q 1933 2656 1760 2566 
+Q 1587 2477 1449 2320 
+Q 1312 2163 1248 1958 
+L 1248 0 
+L 390 0 
+L 390 4672 
+L 1248 4672 
+L 1248 2733 
+Q 1434 3053 1754 3232 
+Q 2074 3411 2451 3411 
+Q 2778 3411 2982 3299 
+Q 3187 3187 3302 2998 
+Q 3418 2810 3462 2576 
+Q 3507 2342 3507 2093 
+L 3507 0 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Bold-133" d="M 390 0 
+L 390 3354 
+L 1248 3354 
+L 1248 0 
+L 390 0 
+z
+M 390 3821 
+L 390 4672 
+L 1248 4672 
+L 1248 3821 
+L 390 3821 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Bold-1" d="M 1709 4544 
+L 2605 4544 
+L 4275 0 
+L 3366 0 
+L 2944 1133 
+L 1357 1133 
+L 941 0 
+L 32 0 
+L 1709 4544 
+z
+M 2784 1754 
+L 2157 3629 
+L 1504 1754 
+L 2784 1754 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Bold-4e" d="M 474 0 
+L 474 4544 
+L 1357 4544 
+L 1357 0 
+L 474 0 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Bold-19e" d="M 358 1254 
+L 358 3354 
+L 1216 3354 
+L 1216 1440 
+Q 1216 1056 1357 861 
+Q 1498 666 1773 666 
+Q 1939 666 2102 733 
+Q 2266 800 2403 934 
+Q 2541 1069 2637 1274 
+L 2637 3354 
+L 3494 3354 
+L 3494 960 
+Q 3494 826 3542 768 
+Q 3590 710 3699 698 
+L 3699 0 
+Q 3571 -19 3484 -28 
+Q 3398 -38 3328 -38 
+Q 3098 -38 2954 67 
+Q 2810 173 2784 358 
+L 2765 627 
+Q 2541 288 2189 112 
+Q 1837 -64 1414 -64 
+Q 896 -64 627 272 
+Q 358 608 358 1254 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Bold-182" d="M 2387 2611 
+Q 1997 2611 1689 2460 
+Q 1382 2310 1248 2029 
+L 1248 0 
+L 390 0 
+L 390 3354 
+L 1178 3354 
+L 1178 2637 
+Q 1357 2982 1632 3180 
+Q 1907 3379 2214 3398 
+Q 2285 3398 2323 3398 
+Q 2362 3398 2387 3392 
+L 2387 2611 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Bold-153" d="M 3507 0 
+L 2650 0 
+L 2650 1882 
+Q 2650 2285 2509 2470 
+Q 2368 2656 2118 2656 
+Q 1946 2656 1770 2566 
+Q 1594 2477 1453 2320 
+Q 1312 2163 1248 1958 
+L 1248 0 
+L 390 0 
+L 390 3354 
+L 1165 3354 
+L 1165 2733 
+Q 1293 2950 1491 3100 
+Q 1690 3251 1949 3331 
+Q 2208 3411 2496 3411 
+Q 2810 3411 3011 3299 
+Q 3213 3187 3318 2998 
+Q 3424 2810 3465 2573 
+Q 3507 2336 3507 2093 
+L 3507 0 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Bold-127" d="M 1702 -19 
+Q 1370 -19 1091 112 
+Q 813 243 611 480 
+Q 410 717 301 1024 
+Q 192 1331 192 1677 
+Q 192 2042 307 2355 
+Q 422 2669 630 2909 
+Q 838 3149 1123 3280 
+Q 1408 3411 1754 3411 
+Q 2144 3411 2438 3235 
+Q 2733 3059 2925 2765 
+L 2925 3354 
+L 3674 3354 
+L 3674 160 
+Q 3674 -339 3434 -694 
+Q 3194 -1050 2771 -1238 
+Q 2349 -1427 1811 -1427 
+Q 1267 -1427 889 -1244 
+Q 512 -1062 243 -730 
+L 710 -275 
+Q 902 -512 1193 -646 
+Q 1485 -781 1811 -781 
+Q 2086 -781 2313 -681 
+Q 2541 -582 2678 -374 
+Q 2816 -166 2816 160 
+L 2816 582 
+Q 2650 294 2346 137 
+Q 2042 -19 1702 -19 
+z
+M 1990 666 
+Q 2131 666 2259 710 
+Q 2387 755 2496 832 
+Q 2605 909 2688 1014 
+Q 2771 1120 2816 1229 
+L 2816 2029 
+Q 2739 2227 2601 2374 
+Q 2464 2522 2294 2602 
+Q 2125 2682 1939 2682 
+Q 1741 2682 1581 2598 
+Q 1421 2515 1305 2364 
+Q 1190 2214 1129 2032 
+Q 1069 1850 1069 1651 
+Q 1069 1446 1139 1267 
+Q 1210 1088 1334 953 
+Q 1459 819 1628 742 
+Q 1798 666 1990 666 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Bold-149" d="M 384 4672 
+L 1242 4672 
+L 1242 1075 
+Q 1242 845 1318 765 
+Q 1395 685 1530 685 
+Q 1632 685 1741 710 
+Q 1850 736 1933 774 
+L 2048 122 
+Q 1875 38 1644 -6 
+Q 1414 -51 1229 -51 
+Q 826 -51 605 163 
+Q 384 378 384 774 
+L 384 4672 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Bold-e5" d="M 160 992 
+Q 160 1318 342 1564 
+Q 525 1811 851 1945 
+Q 1178 2080 1600 2080 
+Q 1811 2080 2028 2048 
+Q 2246 2016 2406 1946 
+L 2406 2125 
+Q 2406 2445 2217 2617 
+Q 2029 2790 1658 2790 
+Q 1382 2790 1132 2694 
+Q 883 2598 608 2413 
+L 333 2976 
+Q 666 3194 1014 3302 
+Q 1363 3411 1747 3411 
+Q 2464 3411 2864 3052 
+Q 3264 2694 3264 2029 
+L 3264 960 
+Q 3264 826 3312 768 
+Q 3360 710 3469 698 
+L 3469 0 
+Q 3354 -19 3261 -32 
+Q 3168 -45 3104 -45 
+Q 2848 -45 2717 70 
+Q 2586 186 2554 352 
+L 2534 525 
+Q 2317 243 1990 89 
+Q 1664 -64 1325 -64 
+Q 992 -64 726 73 
+Q 461 211 310 451 
+Q 160 691 160 992 
+z
+M 2246 819 
+Q 2317 896 2361 973 
+Q 2406 1050 2406 1114 
+L 2406 1453 
+Q 2253 1517 2073 1552 
+Q 1894 1587 1734 1587 
+Q 1402 1587 1187 1443 
+Q 973 1299 973 1062 
+Q 973 934 1043 819 
+Q 1114 704 1248 633 
+Q 1382 563 1568 563 
+Q 1760 563 1945 636 
+Q 2131 710 2246 819 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Bold-35b" d="M 467 -736 
+L 640 26 
+L 371 26 
+L 371 922 
+L 1114 922 
+L 1114 26 
+L 851 -736 
+L 467 -736 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Bold-17f" d="M 2400 -64 
+Q 2010 -64 1712 112 
+Q 1414 288 1248 589 
+L 1248 -1363 
+L 390 -1363 
+L 390 3354 
+L 1139 3354 
+L 1139 2778 
+Q 1331 3072 1625 3241 
+Q 1920 3411 2298 3411 
+Q 2637 3411 2921 3276 
+Q 3206 3142 3417 2902 
+Q 3629 2662 3747 2352 
+Q 3866 2042 3866 1683 
+Q 3866 1197 3677 800 
+Q 3488 403 3158 169 
+Q 2829 -64 2400 -64 
+z
+M 2112 666 
+Q 2310 666 2470 749 
+Q 2630 832 2748 976 
+Q 2867 1120 2928 1302 
+Q 2989 1485 2989 1683 
+Q 2989 1894 2921 2073 
+Q 2854 2253 2726 2390 
+Q 2598 2528 2428 2605 
+Q 2259 2682 2061 2682 
+Q 1939 2682 1814 2640 
+Q 1690 2598 1574 2521 
+Q 1459 2445 1372 2342 
+Q 1286 2240 1248 2118 
+L 1248 1331 
+Q 1325 1146 1456 992 
+Q 1587 838 1760 752 
+Q 1933 666 2112 666 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Bold-101" d="M 1952 -64 
+Q 1542 -64 1216 73 
+Q 890 211 659 457 
+Q 429 704 304 1017 
+Q 179 1331 179 1677 
+Q 179 2150 393 2544 
+Q 608 2938 1005 3174 
+Q 1402 3411 1946 3411 
+Q 2490 3411 2880 3174 
+Q 3270 2938 3462 2554 
+L 2624 2298 
+Q 2515 2483 2336 2582 
+Q 2157 2682 1939 2682 
+Q 1696 2682 1494 2557 
+Q 1293 2432 1177 2205 
+Q 1062 1978 1062 1677 
+Q 1062 1382 1180 1155 
+Q 1299 928 1497 797 
+Q 1696 666 1939 666 
+Q 2093 666 2230 717 
+Q 2368 768 2477 857 
+Q 2586 947 2637 1062 
+L 3475 806 
+Q 3360 557 3139 358 
+Q 2918 160 2620 48 
+Q 2323 -64 1952 -64 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Bold-361" d="M 781 1491 
+Q 781 1696 822 1878 
+Q 864 2061 979 2214 
+Q 1094 2368 1306 2490 
+Q 1395 2547 1539 2624 
+Q 1683 2701 1817 2800 
+Q 1952 2899 2045 3036 
+Q 2138 3174 2138 3354 
+Q 2138 3533 2051 3654 
+Q 1965 3776 1827 3840 
+Q 1690 3904 1530 3904 
+Q 1344 3904 1197 3824 
+Q 1050 3744 947 3629 
+Q 845 3514 774 3392 
+L 218 3776 
+Q 333 4038 534 4224 
+Q 736 4410 1001 4506 
+Q 1267 4602 1555 4602 
+Q 1798 4602 2035 4528 
+Q 2272 4454 2464 4300 
+Q 2656 4147 2771 3910 
+Q 2886 3674 2886 3341 
+Q 2886 3136 2838 2976 
+Q 2790 2816 2704 2691 
+Q 2618 2566 2490 2464 
+Q 2362 2362 2214 2266 
+Q 2048 2163 1878 2067 
+Q 1709 1971 1597 1840 
+Q 1485 1709 1485 1491 
+L 781 1491 
+z
+M 794 0 
+L 794 883 
+L 1504 883 
+L 1504 0 
+L 794 0 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#Raleway-Bold-24"/>
+    <use xlink:href="#Raleway-Bold-15c" transform="translate(71.59375 0)"/>
+    <use xlink:href="#Raleway-Bold-10e" transform="translate(132.1875 0)"/>
+    <use xlink:href="#Raleway-Bold-18a" transform="translate(192.09375 0)"/>
+    <use xlink:href="#Raleway-Bold-385" transform="translate(241.5 0)"/>
+    <use xlink:href="#Raleway-Bold-196" transform="translate(265.5 0)"/>
+    <use xlink:href="#Raleway-Bold-12e" transform="translate(303.90625 0)"/>
+    <use xlink:href="#Raleway-Bold-133" transform="translate(364.3125 0)"/>
+    <use xlink:href="#Raleway-Bold-18a" transform="translate(389.8125 0)"/>
+    <use xlink:href="#Raleway-Bold-385" transform="translate(439.21875 0)"/>
+    <use xlink:href="#Raleway-Bold-1" transform="translate(460.125 0)"/>
+    <use xlink:href="#Raleway-Bold-4e" transform="translate(527.328125 0)"/>
+    <use xlink:href="#Raleway-Bold-385" transform="translate(555.921875 0)"/>
+    <use xlink:href="#Raleway-Bold-19e" transform="translate(579.921875 0)"/>
+    <use xlink:href="#Raleway-Bold-18a" transform="translate(641.71875 0)"/>
+    <use xlink:href="#Raleway-Bold-10e" transform="translate(691.125 0)"/>
+    <use xlink:href="#Raleway-Bold-385" transform="translate(751.03125 0)"/>
+    <use xlink:href="#Raleway-Bold-18a" transform="translate(775.03125 0)"/>
+    <use xlink:href="#Raleway-Bold-196" transform="translate(824.140625 0)"/>
+    <use xlink:href="#Raleway-Bold-182" transform="translate(862.546875 0)"/>
+    <use xlink:href="#Raleway-Bold-10e" transform="translate(900.546875 0)"/>
+    <use xlink:href="#Raleway-Bold-153" transform="translate(960.453125 0)"/>
+    <use xlink:href="#Raleway-Bold-127" transform="translate(1020.859375 0)"/>
+    <use xlink:href="#Raleway-Bold-196" transform="translate(1084.265625 0)"/>
+    <use xlink:href="#Raleway-Bold-12e" transform="translate(1122.671875 0)"/>
+    <use xlink:href="#Raleway-Bold-10e" transform="translate(1183.078125 0)"/>
+    <use xlink:href="#Raleway-Bold-153" transform="translate(1242.984375 0)"/>
+    <use xlink:href="#Raleway-Bold-385" transform="translate(1303.390625 0)"/>
+    <use xlink:href="#Raleway-Bold-149" transform="translate(1327.390625 0)"/>
+    <use xlink:href="#Raleway-Bold-10e" transform="translate(1359.09375 0)"/>
+    <use xlink:href="#Raleway-Bold-e5" transform="translate(1419 0)"/>
+    <use xlink:href="#Raleway-Bold-182" transform="translate(1476.40625 0)"/>
+    <use xlink:href="#Raleway-Bold-153" transform="translate(1515.109375 0)"/>
+    <use xlink:href="#Raleway-Bold-133" transform="translate(1575.515625 0)"/>
+    <use xlink:href="#Raleway-Bold-153" transform="translate(1601.015625 0)"/>
+    <use xlink:href="#Raleway-Bold-127" transform="translate(1661.421875 0)"/>
+    <use xlink:href="#Raleway-Bold-35b" transform="translate(1724.828125 0)"/>
+    <use xlink:href="#Raleway-Bold-385" transform="translate(1748.03125 0)"/>
+    <use xlink:href="#Raleway-Bold-15c" transform="translate(1772.03125 0)"/>
+    <use xlink:href="#Raleway-Bold-182" transform="translate(1832.625 0)"/>
+    <use xlink:href="#Raleway-Bold-385" transform="translate(1869.125 0)"/>
+    <use xlink:href="#Raleway-Bold-182" transform="translate(1893.125 0)"/>
+    <use xlink:href="#Raleway-Bold-10e" transform="translate(1931.125 0)"/>
+    <use xlink:href="#Raleway-Bold-17f" transform="translate(1991.03125 0)"/>
+    <use xlink:href="#Raleway-Bold-149" transform="translate(2054.4375 0)"/>
+    <use xlink:href="#Raleway-Bold-e5" transform="translate(2086.140625 0)"/>
+    <use xlink:href="#Raleway-Bold-101" transform="translate(2143.546875 0)"/>
+    <use xlink:href="#Raleway-Bold-10e" transform="translate(2199.453125 0)"/>
+    <use xlink:href="#Raleway-Bold-385" transform="translate(2259.359375 0)"/>
+    <use xlink:href="#Raleway-Bold-133" transform="translate(2283.359375 0)"/>
+    <use xlink:href="#Raleway-Bold-196" transform="translate(2308.859375 0)"/>
+    <use xlink:href="#Raleway-Bold-361" transform="translate(2347.265625 0)"/>
+   </g>
+  </g>
+  <g id="text_9">
+   <!-- Based on Schwartz and Hakala, Inside Higher Ed, 22 October 2026. -->
+   <g style="fill: #6e767c" transform="translate(43.2 468.99) scale(0.11 -0.11)">
+    <defs>
+     <path id="Raleway-Regular-1c" d="M 3987 1171 
+Q 3987 832 3814 566 
+Q 3642 301 3350 150 
+Q 3059 0 2714 0 
+L 570 0 
+L 570 4544 
+L 2758 4544 
+Q 3078 4544 3312 4374 
+Q 3546 4205 3670 3939 
+Q 3795 3674 3795 3386 
+Q 3795 3046 3622 2758 
+Q 3450 2470 3142 2330 
+Q 3533 2214 3760 1900 
+Q 3987 1587 3987 1171 
+z
+M 3539 1248 
+Q 3539 1478 3436 1673 
+Q 3334 1869 3158 1990 
+Q 2982 2112 2758 2112 
+L 1018 2112 
+L 1018 390 
+L 2714 390 
+Q 2944 390 3129 512 
+Q 3315 634 3427 829 
+Q 3539 1024 3539 1248 
+z
+M 1018 4154 
+L 1018 2477 
+L 2579 2477 
+Q 2803 2477 2976 2595 
+Q 3149 2714 3251 2906 
+Q 3354 3098 3354 3315 
+Q 3354 3546 3258 3734 
+Q 3162 3923 2995 4038 
+Q 2829 4154 2618 4154 
+L 1018 4154 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Regular-49" d="M 4154 4544 
+L 4154 0 
+L 3712 0 
+L 3712 2125 
+L 1018 2125 
+L 1018 0 
+L 570 0 
+L 570 4544 
+L 1018 4544 
+L 1018 2522 
+L 3712 2522 
+L 3712 4544 
+L 4154 4544 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Regular-2a" d="M 3622 397 
+L 3622 0 
+L 570 0 
+L 570 4544 
+L 3565 4544 
+L 3565 4147 
+L 1018 4147 
+L 1018 2509 
+L 3238 2509 
+L 3238 2131 
+L 1018 2131 
+L 1018 397 
+L 3622 397 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Regular-308" d="M 282 0 
+Q 282 218 320 438 
+Q 358 659 467 876 
+Q 576 1094 787 1296 
+Q 998 1498 1344 1677 
+Q 1530 1773 1728 1865 
+Q 1926 1958 2102 2070 
+Q 2278 2182 2384 2326 
+Q 2490 2470 2490 2669 
+Q 2490 2829 2397 2982 
+Q 2304 3136 2115 3232 
+Q 1926 3328 1645 3328 
+Q 1440 3328 1273 3270 
+Q 1107 3213 979 3126 
+Q 851 3040 761 2953 
+Q 672 2867 614 2810 
+L 339 3110 
+Q 371 3149 483 3248 
+Q 595 3347 771 3456 
+Q 947 3565 1187 3641 
+Q 1427 3718 1715 3718 
+Q 2106 3718 2384 3580 
+Q 2662 3443 2809 3212 
+Q 2957 2982 2957 2714 
+Q 2957 2451 2845 2262 
+Q 2733 2074 2557 1936 
+Q 2381 1798 2192 1699 
+Q 2003 1600 1850 1530 
+Q 1549 1389 1344 1248 
+Q 1139 1107 1017 963 
+Q 896 819 829 681 
+Q 762 544 736 397 
+L 3027 397 
+L 3027 0 
+L 282 0 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Regular-74" d="M 2400 -32 
+Q 1920 -32 1529 160 
+Q 1139 352 857 681 
+Q 576 1011 422 1424 
+Q 269 1837 269 2272 
+Q 269 2726 429 3139 
+Q 589 3552 880 3875 
+Q 1171 4198 1561 4387 
+Q 1952 4576 2406 4576 
+Q 2886 4576 3276 4377 
+Q 3667 4179 3945 3846 
+Q 4224 3514 4377 3104 
+Q 4531 2694 4531 2266 
+Q 4531 1811 4371 1398 
+Q 4211 986 3923 662 
+Q 3635 339 3244 153 
+Q 2854 -32 2400 -32 
+z
+M 717 2272 
+Q 717 1901 838 1558 
+Q 960 1216 1184 950 
+Q 1408 685 1718 528 
+Q 2029 371 2400 371 
+Q 2790 371 3100 534 
+Q 3411 698 3632 970 
+Q 3853 1242 3968 1581 
+Q 4083 1920 4083 2272 
+Q 4083 2643 3961 2982 
+Q 3840 3322 3613 3590 
+Q 3386 3859 3078 4012 
+Q 2771 4166 2400 4166 
+Q 2016 4166 1705 4006 
+Q 1395 3846 1174 3574 
+Q 954 3302 835 2963 
+Q 717 2624 717 2272 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Regular-306" d="M 3565 1875 
+Q 3565 1312 3357 873 
+Q 3149 435 2784 185 
+Q 2419 -64 1958 -64 
+Q 1498 -64 1136 185 
+Q 774 435 563 873 
+Q 352 1312 352 1875 
+Q 352 2438 563 2876 
+Q 774 3315 1136 3568 
+Q 1498 3821 1958 3821 
+Q 2419 3821 2784 3568 
+Q 3149 3315 3357 2876 
+Q 3565 2438 3565 1875 
+z
+M 3123 1875 
+Q 3123 2330 2976 2675 
+Q 2829 3021 2566 3216 
+Q 2304 3411 1958 3411 
+Q 1613 3411 1350 3216 
+Q 1088 3021 937 2675 
+Q 787 2330 787 1875 
+Q 787 1421 937 1075 
+Q 1088 730 1350 538 
+Q 1613 346 1958 346 
+Q 2304 346 2566 541 
+Q 2829 736 2976 1078 
+Q 3123 1421 3123 1875 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Regular-30c" d="M 3578 1498 
+Q 3578 1926 3370 2275 
+Q 3162 2624 2806 2829 
+Q 2451 3034 2016 3034 
+Q 1728 3034 1475 2931 
+Q 1222 2829 1036 2643 
+Q 851 2458 755 2208 
+Q 755 2835 912 3276 
+Q 1069 3718 1350 3955 
+Q 1632 4192 2010 4192 
+Q 2368 4192 2659 3997 
+Q 2950 3802 3085 3475 
+L 3366 3731 
+Q 3181 4122 2822 4349 
+Q 2464 4576 2010 4576 
+Q 1510 4576 1132 4275 
+Q 755 3974 544 3369 
+Q 333 2765 333 1837 
+Q 333 1248 544 819 
+Q 755 390 1123 163 
+Q 1491 -64 1965 -64 
+Q 2419 -64 2784 147 
+Q 3149 358 3363 713 
+Q 3578 1069 3578 1498 
+z
+M 1978 320 
+Q 1651 320 1382 480 
+Q 1114 640 950 909 
+Q 787 1178 787 1498 
+Q 787 1824 947 2089 
+Q 1107 2355 1379 2515 
+Q 1651 2675 1978 2675 
+Q 2298 2675 2566 2515 
+Q 2835 2355 2998 2086 
+Q 3162 1818 3162 1498 
+Q 3162 1178 2998 909 
+Q 2835 640 2566 480 
+Q 2298 320 1978 320 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#Raleway-Regular-1c"/>
+    <use xlink:href="#Raleway-Regular-e5" transform="translate(66.59375 0)"/>
+    <use xlink:href="#Raleway-Regular-18a" transform="translate(121.09375 0)"/>
+    <use xlink:href="#Raleway-Regular-10e" transform="translate(169.390625 0)"/>
+    <use xlink:href="#Raleway-Regular-108" transform="translate(228.09375 0)"/>
+    <use xlink:href="#Raleway-Regular-385" transform="translate(290.296875 0)"/>
+    <use xlink:href="#Raleway-Regular-15c" transform="translate(315.796875 0)"/>
+    <use xlink:href="#Raleway-Regular-153" transform="translate(375.296875 0)"/>
+    <use xlink:href="#Raleway-Regular-385" transform="translate(433.59375 0)"/>
+    <use xlink:href="#Raleway-Regular-a2" transform="translate(459.09375 0)"/>
+    <use xlink:href="#Raleway-Regular-101" transform="translate(519.796875 0)"/>
+    <use xlink:href="#Raleway-Regular-12e" transform="translate(574.703125 0)"/>
+    <use xlink:href="#Raleway-Regular-1b6" transform="translate(631.796875 0)"/>
+    <use xlink:href="#Raleway-Regular-e5" transform="translate(711.796875 0)"/>
+    <use xlink:href="#Raleway-Regular-182" transform="translate(766.296875 0)"/>
+    <use xlink:href="#Raleway-Regular-196" transform="translate(801.390625 0)"/>
+    <use xlink:href="#Raleway-Regular-1c6" transform="translate(834.890625 0)"/>
+    <use xlink:href="#Raleway-Regular-385" transform="translate(884.09375 0)"/>
+    <use xlink:href="#Raleway-Regular-e5" transform="translate(909.59375 0)"/>
+    <use xlink:href="#Raleway-Regular-153" transform="translate(964.09375 0)"/>
+    <use xlink:href="#Raleway-Regular-108" transform="translate(1022.390625 0)"/>
+    <use xlink:href="#Raleway-Regular-385" transform="translate(1084.59375 0)"/>
+    <use xlink:href="#Raleway-Regular-49" transform="translate(1110.09375 0)"/>
+    <use xlink:href="#Raleway-Regular-e5" transform="translate(1183.390625 0)"/>
+    <use xlink:href="#Raleway-Regular-146" transform="translate(1237.890625 0)"/>
+    <use xlink:href="#Raleway-Regular-e5" transform="translate(1290.6875 0)"/>
+    <use xlink:href="#Raleway-Regular-149" transform="translate(1345.1875 0)"/>
+    <use xlink:href="#Raleway-Regular-e5" transform="translate(1372.390625 0)"/>
+    <use xlink:href="#Raleway-Regular-35b" transform="translate(1426.890625 0)"/>
+    <use xlink:href="#Raleway-Regular-385" transform="translate(1449.390625 0)"/>
+    <use xlink:href="#Raleway-Regular-4e" transform="translate(1474.890625 0)"/>
+    <use xlink:href="#Raleway-Regular-153" transform="translate(1499.6875 0)"/>
+    <use xlink:href="#Raleway-Regular-18a" transform="translate(1557.984375 0)"/>
+    <use xlink:href="#Raleway-Regular-133" transform="translate(1606.28125 0)"/>
+    <use xlink:href="#Raleway-Regular-108" transform="translate(1628.078125 0)"/>
+    <use xlink:href="#Raleway-Regular-10e" transform="translate(1690.28125 0)"/>
+    <use xlink:href="#Raleway-Regular-385" transform="translate(1748.984375 0)"/>
+    <use xlink:href="#Raleway-Regular-49" transform="translate(1774.484375 0)"/>
+    <use xlink:href="#Raleway-Regular-133" transform="translate(1848.28125 0)"/>
+    <use xlink:href="#Raleway-Regular-127" transform="translate(1870.078125 0)"/>
+    <use xlink:href="#Raleway-Regular-12e" transform="translate(1931.875 0)"/>
+    <use xlink:href="#Raleway-Regular-10e" transform="translate(1990.171875 0)"/>
+    <use xlink:href="#Raleway-Regular-182" transform="translate(2048.875 0)"/>
+    <use xlink:href="#Raleway-Regular-385" transform="translate(2081.671875 0)"/>
+    <use xlink:href="#Raleway-Regular-2a" transform="translate(2107.171875 0)"/>
+    <use xlink:href="#Raleway-Regular-108" transform="translate(2166.578125 0)"/>
+    <use xlink:href="#Raleway-Regular-35b" transform="translate(2228.78125 0)"/>
+    <use xlink:href="#Raleway-Regular-385" transform="translate(2251.28125 0)"/>
+    <use xlink:href="#Raleway-Regular-308" transform="translate(2276.78125 0)"/>
+    <use xlink:href="#Raleway-Regular-308" transform="translate(2328.875 0)"/>
+    <use xlink:href="#Raleway-Regular-385" transform="translate(2380.96875 0)"/>
+    <use xlink:href="#Raleway-Regular-74" transform="translate(2406.46875 0)"/>
+    <use xlink:href="#Raleway-Regular-101" transform="translate(2481.5625 0)"/>
+    <use xlink:href="#Raleway-Regular-196" transform="translate(2536.46875 0)"/>
+    <use xlink:href="#Raleway-Regular-15c" transform="translate(2569.0625 0)"/>
+    <use xlink:href="#Raleway-Regular-100" transform="translate(2628.5625 0)"/>
+    <use xlink:href="#Raleway-Regular-10e" transform="translate(2690.265625 0)"/>
+    <use xlink:href="#Raleway-Regular-182" transform="translate(2748.96875 0)"/>
+    <use xlink:href="#Raleway-Regular-385" transform="translate(2781.765625 0)"/>
+    <use xlink:href="#Raleway-Regular-308" transform="translate(2807.265625 0)"/>
+    <use xlink:href="#Raleway-Regular-306" transform="translate(2859.359375 0)"/>
+    <use xlink:href="#Raleway-Regular-308" transform="translate(2920.5625 0)"/>
+    <use xlink:href="#Raleway-Regular-30c" transform="translate(2972.65625 0)"/>
+    <use xlink:href="#Raleway-Regular-360" transform="translate(3032.953125 0)"/>
+   </g>
+  </g>
+  <g id="text_10">
+   <!-- The AI Brief - Beirut Edition -->
+   <g style="fill: #6e767c" transform="translate(684.291719 468.99) scale(0.11 -0.11)">
+    <defs>
+     <path id="Raleway-Regular-af" d="M 3795 4147 
+L 2176 4147 
+L 2176 0 
+L 1728 0 
+L 1728 4147 
+L 109 4147 
+L 109 4544 
+L 3795 4544 
+L 3795 4147 
+z
+" transform="scale(0.015625)"/>
+     <path id="Raleway-Regular-373" d="M 416 1542 
+L 416 1946 
+L 2285 1946 
+L 2285 1542 
+L 416 1542 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#Raleway-Regular-af"/>
+    <use xlink:href="#Raleway-Regular-12e" transform="translate(61 0)"/>
+    <use xlink:href="#Raleway-Regular-10e" transform="translate(119.296875 0)"/>
+    <use xlink:href="#Raleway-Regular-385" transform="translate(178 0)"/>
+    <use xlink:href="#Raleway-Regular-1" transform="translate(200.40625 0)"/>
+    <use xlink:href="#Raleway-Regular-4e" transform="translate(268 0)"/>
+    <use xlink:href="#Raleway-Regular-385" transform="translate(292.796875 0)"/>
+    <use xlink:href="#Raleway-Regular-1c" transform="translate(318.296875 0)"/>
+    <use xlink:href="#Raleway-Regular-182" transform="translate(384.890625 0)"/>
+    <use xlink:href="#Raleway-Regular-133" transform="translate(419.984375 0)"/>
+    <use xlink:href="#Raleway-Regular-10e" transform="translate(441.78125 0)"/>
+    <use xlink:href="#Raleway-Regular-126" transform="translate(499.890625 0)"/>
+    <use xlink:href="#Raleway-Regular-385" transform="translate(530.6875 0)"/>
+    <use xlink:href="#Raleway-Regular-373" transform="translate(556.1875 0)"/>
+    <use xlink:href="#Raleway-Regular-385" transform="translate(598.390625 0)"/>
+    <use xlink:href="#Raleway-Regular-1c" transform="translate(623.890625 0)"/>
+    <use xlink:href="#Raleway-Regular-10e" transform="translate(690.484375 0)"/>
+    <use xlink:href="#Raleway-Regular-133" transform="translate(749.1875 0)"/>
+    <use xlink:href="#Raleway-Regular-182" transform="translate(770.984375 0)"/>
+    <use xlink:href="#Raleway-Regular-19e" transform="translate(806.078125 0)"/>
+    <use xlink:href="#Raleway-Regular-196" transform="translate(865.484375 0)"/>
+    <use xlink:href="#Raleway-Regular-385" transform="translate(898.984375 0)"/>
+    <use xlink:href="#Raleway-Regular-2a" transform="translate(924.484375 0)"/>
+    <use xlink:href="#Raleway-Regular-108" transform="translate(983.890625 0)"/>
+    <use xlink:href="#Raleway-Regular-133" transform="translate(1046.09375 0)"/>
+    <use xlink:href="#Raleway-Regular-196" transform="translate(1067.890625 0)"/>
+    <use xlink:href="#Raleway-Regular-133" transform="translate(1101.390625 0)"/>
+    <use xlink:href="#Raleway-Regular-15c" transform="translate(1123.1875 0)"/>
+    <use xlink:href="#Raleway-Regular-153" transform="translate(1182.6875 0)"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p78d5bff375">
+   <rect x="25.92" y="87.48" width="812.16" height="349.92"/>
+  </clipPath>
+ </defs>
+</svg>

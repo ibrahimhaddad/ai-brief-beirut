@@ -1,0 +1,14 @@
+# AI funding tracker, Middle East and North Africa.
+# Updated each issue: add the week's qualifying AI deals (disclosed, US$1 million or more) to the running row.
+note: "The running total starts with Issue 0 and counts disclosed AI deals of US$1 million or more."
+rows:
+  - period: "First half of 2026 (baseline)"
+    deals: 53
+    funding: "$678M, 50% of all regional startup funding; the UAE took 93%"
+    source: "MAGNiTT"
+    source_url: "https://www.magnitt.com/research/mena-ai-venture-capital-the-h1-2026-review-51056"
+  - period: "Since 19 October 2026 (this tracker)"
+    deals: 2
+    funding: "$2.5M"
+    source: "Issue 0"
+    source_url: ""

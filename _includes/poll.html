@@ -1,0 +1,13 @@
+<section class="poll" aria-labelledby="poll-title">
+  <h2 id="poll-title">One question for you</h2>
+  <p>Was this issue useful to you?</p>
+  {% if site.poll_url != "" %}
+  <p class="poll-buttons">
+    <a class="button" href="{{ site.poll_url }}">Yes</a>
+    <a class="button" href="{{ site.poll_url }}">No</a>
+    <a class="button button-quiet" href="{{ site.poll_url }}">Something is missing</a>
+  </p>
+  {% else %}
+  <p class="muted">The reader poll opens at launch.</p>
+  {% endif %}
+</section>

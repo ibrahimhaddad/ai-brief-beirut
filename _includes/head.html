@@ -1,0 +1,18 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% if site.pilot %}<meta name="robots" content="noindex, nofollow">{% endif %}
+{% if page.url == "/" %}{% assign page_title = site.title %}{% else %}{% assign page_title = page.title | append: " | " | append: site.title %}{% endif %}
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ page.description | default: site.description | strip_html | strip_newlines }}">
+<meta name="author" content="{{ site.author }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta property="og:type" content="{% if page.type %}article{% else %}website{% endif %}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:description" content="{{ page.description | default: site.description | strip_html | strip_newlines }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+{% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}">{% endif %}
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="{{ '/assets/fonts/raleway-variable.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">

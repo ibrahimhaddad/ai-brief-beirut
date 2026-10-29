@@ -1,0 +1,5 @@
+# Pilot: keep search engines out. At launch, replace with:
+# User-agent: *
+# Allow: /
+User-agent: *
+Disallow: /

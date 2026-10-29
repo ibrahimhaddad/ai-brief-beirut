@@ -1,0 +1,41 @@
+# The AI Brief - Beirut Edition
+# Site settings. GitHub Pages rebuilds the site whenever a file changes.
+
+title: "The AI Brief - Beirut Edition"
+short_title: "The AI Brief"
+edition: "Beirut Edition"
+tagline: "What this week's AI developments mean for university staff, faculty, students and regional founders."
+description: "A weekly briefing by Ibrahim Haddad on what AI developments mean for university staff, faculty, students and regional founders."
+author: "Ibrahim Haddad"
+
+# Pilot address. At launch with a custom domain: set url to the domain, set baseurl to "", add a CNAME file.
+url: "https://ibrahimhaddad.github.io"
+baseurl: "/ai-brief-beirut"
+
+# While pilot is true, every page carries a noindex tag and a pilot banner. Set to false at launch.
+pilot: true
+
+# Reader poll link (for example a Google Form or Tally form). Leave empty until launch.
+poll_url: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+collections:
+  issues:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: issues
+    values:
+      layout: issue
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

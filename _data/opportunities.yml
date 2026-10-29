@@ -1,0 +1,16 @@
+# Open opportunities. Deadlines are quoted strings (YYYY-MM-DD); past deadlines drop off the home page automatically at the next build.
+- name: "Changemakers for Youth 2027 (ChangemakerXchange)"
+  deadline: "2026-11-09"
+  who: "Ages 18 to 35, leading a social or environmental venture that works with young people; Lebanon is eligible."
+  audiences: [students, entrepreneurs]
+  source_url: "https://www.opportunitiesforafricans.com/the-changemakers-for-youth-programme-2027-for-young-changemakers-and-social-entrepreneurs/"
+- name: "Techstars Spring 2027 programmes, including New York City, London and Anywhere"
+  deadline: "2026-11-18"
+  who: "Early-stage founders; check each programme's eligibility."
+  audiences: [entrepreneurs]
+  source_url: "https://www.foundevo.com/startup-accelerators-accepting-applications-2027/"
+- name: "Global Sustainability Challenge (Stanford Doerr School of Sustainability and partners)"
+  deadline: "2026-11-22"
+  who: "Bachelor, master and PhD students, including in the Middle East."
+  audiences: [students]
+  source_url: "https://studentcompetitions.com/competitions/region/middle-east"
