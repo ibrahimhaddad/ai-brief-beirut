@@ -11,7 +11,7 @@ Each issue adds files to `_issues/` and `assets/figures/`, and updates two data 
 | File | What it is |
 | --- | --- |
 | `_issues/YYYY-MM-DD-issue-NN.md` | The full issue |
-| `_issues/YYYY-MM-DD-issue-NN-staff.md` (and `-faculty`, `-students`, `-entrepreneurs`) | The four two-minute audience pages |
+| `_issues/YYYY-MM-DD-issue-NN-staff.md` (and `-faculty`, `-students`, `-entrepreneurs`, `-enterprises`) | The five two-minute audience pages |
 | `assets/figures/YYYY-MM-DD-fig-N-slug.png` and `.svg` | Up to five figures |
 | `_data/tracker.yml` | AI funding tracker rows (the home page shows the last row's `funding`, `deals` and `since`) |
 | `_data/opportunities.yml` | Open deadlines (past ones drop off the home page automatically) |
@@ -25,9 +25,9 @@ type: issue
 issue: 1
 pilot: true
 title: "Headline for the issue"
-week_number: 44            # ISO 8601 week (Monday to Sunday) of the period covered
-week: "Oct 26 to Nov 1, 2026"
-date: 2026-11-02
+week_number: 45            # ISO 8601 week of the publishing Friday
+week: "Oct 30 to Nov 5, 2026"   # Friday to Thursday window
+date: 2026-11-06
 permalink: /issues/issue-01/
 description: "140 to 160 characters"
 image: /assets/figures/2026-11-02-fig-1-slug.png
@@ -68,7 +68,7 @@ Start the body with `## Editor's note`. The layout adds the 60-second box, conte
 - The four subheads (What happened, Why it matters, How it could affect you, What you could do) are `####`.
 - Tables are GitHub-flavored Markdown with a blank line before and after.
 
-Audience pages use `type: audience`, `layout: audience`, `issue`, `audience` (staff, faculty, students or entrepreneurs), `audience_label`, `teaser`, `title`, `week_number`, `week`, `date`, `permalink` and `description`.
+Audience pages use `type: audience`, `layout: audience`, `issue`, `audience` (staff, faculty, students, entrepreneurs or enterprises), `audience_label`, `teaser`, `title`, `week_number`, `week`, `date`, `permalink` and `description`.
 
 ## Going live
 
@@ -87,11 +87,13 @@ The author page lives at `/author/` and reads everything from `_data/author.yml`
 
 ## Week labels
 
-Every issue is labelled by the ISO 8601 week it covers (Monday to Sunday), not the week it is published. The site shows `Week {week_number}, {week}`. Write `week` as:
+Issues are published on Fridays. Each covers the seven days before the run, Friday 00:00 to Thursday 23:59, Beirut time, and carries the ISO 8601 week number of the publishing Friday. The site shows `Week {week_number}, {week}`, where `week` is the window's first and last day:
 
-- Same month: `Oct 19 to 25, 2026`
-- Two months: `Oct 26 to Nov 1, 2026`
-- Two years: `Dec 28, 2026 to Jan 3, 2027` (ISO week 53 of 2026)
+- Same month: `Nov 6 to 12, 2026` (Week 46)
+- Two months: `Oct 30 to Nov 5, 2026` (Week 45)
+- Two years: `Dec 31, 2027 to Jan 6, 2028` (Week 1)
+
+One exception: the issue published on 6 November 2026 covers Oct 26 to Nov 5 (Week 45), bridging from the pilot's Monday-to-Sunday window. Issue 00 covered Oct 19 to 25 (Week 43).
 
 ## Feedback form
 

@@ -110,6 +110,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* Audience doors: whitespace and a hairline, whole door is one target */
 .doors { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 2rem; }
+.door:last-child:nth-child(odd) { grid-column: 1 / -1; }
 .door { display: block; padding: 0.9rem 0 1rem; border-top: 1px solid var(--rule); text-decoration: none; color: var(--text); }
 .door-title { display: flex; justify-content: space-between; font-weight: 700; color: var(--accent); margin-bottom: 0.2rem; }
 .door-title::after { content: "\2192"; transition: transform 0.15s; }

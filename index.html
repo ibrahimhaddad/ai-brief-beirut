@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Latest
-description: "A weekly briefing by Ibrahim Haddad on what AI developments mean for university staff, faculty, students and founders in Lebanon and the region."
+description: "A weekly briefing by Ibrahim Haddad on what AI developments mean for university staff, faculty and students, founders and businesses in Lebanon and the region."
 ---
 {% assign issues = site.issues | where: "type", "issue" | sort: "date" | reverse %}
 {% assign latest = issues | first %}
@@ -28,7 +28,7 @@ description: "A weekly briefing by Ibrahim Haddad on what AI developments mean f
   <section aria-labelledby="home-doors">
     <h2 id="home-doors">Your two-minute version</h2>
     <div class="doors">
-      {% assign order = "staff,faculty,students,entrepreneurs" | split: "," %}
+      {% assign order = "staff,faculty,students,entrepreneurs,enterprises" | split: "," %}
       {% for key in order %}
         {% assign ap = family | where: "audience", key | first %}
         {% if ap %}

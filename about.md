@@ -17,6 +17,7 @@ Each week it explains what the most important AI developments mean for readers i
 - **Faculty** who teach, assess, research and publish.
 - **Students** building skills and careers.
 - **Entrepreneurs** building companies in Lebanon and the region.
+- **Enterprises**: established businesses in Lebanon and the region working out how to use AI in their operations.
 
 Every issue has a full version and a two-minute page for each audience.
 
