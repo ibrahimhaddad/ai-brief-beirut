@@ -1,8 +1,11 @@
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}, home">
-      <span class="wordmark-title">{{ site.short_title }}</span>
-      <span class="wordmark-edition">{{ site.edition }}</span>
+      <svg class="wordmark-mark" viewBox="0 0 100 100" width="40" height="40" aria-hidden="true" focusable="false"><path d="M8 8 H70 L92 30 V92 H8 Z" fill="#00664F"/><path d="M70 8 V30 H92 Z" fill="#7FB2A7"/><path d="M27.880000000000003 51.599999999999994H34.96L44.72 80.0H38.0L35.8 73.64H26.96L24.8 80.0H18.08ZM34.72 69.12 31.4 58.2 28.0 69.12ZM46.519999999999996 80.0V51.599999999999994H53.08V80.0Z" fill="#FFFFFF"/></svg>
+      <span class="wordmark-text">
+        <span class="wordmark-title">{{ site.short_title }}</span>
+        <span class="wordmark-edition">{{ site.edition }}</span>
+      </span>
     </a>
     <nav class="site-nav" aria-label="Main">
       <a href="{{ '/archive/' | relative_url }}"{% if page.url == "/archive/" %} aria-current="page"{% endif %}>Archive</a>

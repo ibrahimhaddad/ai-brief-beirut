@@ -96,3 +96,14 @@ Every issue is labelled by the ISO 8601 week it covers (Monday to Sunday), not t
 ## Feedback form
 
 `/feedback/` posts to Web3Forms, which emails each submission to the address the access key in `_config.yml` (`web3forms_key`) was created for. The key is public by design. The free plan allows 250 submissions a month. To change the receiving address, create a new key at web3forms.com and replace the value.
+
+## Logo and icon
+
+Brand files live in `assets/brand/`, all with text converted to outlines so they render the same everywhere:
+
+- `…-the-ai-brief-logo.svg` and `-logo-reversed.svg`: the full lockup (mark, name, edition), plus 1216 px PNGs.
+- `…-the-ai-brief-mark.svg` and `-mark-reversed.svg`: the folded-page mark alone, plus a 512 px PNG.
+- `…-the-ai-brief-favicon.svg`, `-favicon-32.png`, `-favicon-16.svg/.png`: browser icons, with geometry tuned for small sizes.
+- `…-the-ai-brief-apple-touch-icon-180.png` and `-app-icon-512.png`: phone home screen and social avatar, on white.
+
+The header draws the mark inline; the edition line under the name comes from `edition` in `_config.yml`. Figures carry the mark at 20 px to the left of "The AI Brief - LB Edition" in the bottom right corner.

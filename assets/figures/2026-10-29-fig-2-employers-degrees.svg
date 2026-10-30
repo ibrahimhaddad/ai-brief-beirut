@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-29T21:53:45.759064</dc:date>
+    <dc:date>2026-10-30T08:18:51.257172</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -30,6 +30,56 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
+    <path d="M 682.096043 457.897536 
+L 691.313886 457.897536 
+L 694.770577 461.35008 
+L 694.770577 470.556864 
+L 682.096043 470.556864 
+z
+" clip-path="url(#pa5a161520a)" style="fill: #00664f"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 691.313886 457.897536 
+L 691.313886 461.35008 
+L 694.770577 461.35008 
+z
+" clip-path="url(#pa5a161520a)" style="fill: #7fb2a7"/>
+   </g>
+   <g id="text_1">
+    <!-- AI -->
+    <g style="fill: #ffffff" transform="translate(683.104244 469.118304) scale(0.071928 -0.071928)">
+     <defs>
+      <path id="Raleway-Bold-1" d="M 1709 4544 
+L 2605 4544 
+L 4275 0 
+L 3366 0 
+L 2944 1133 
+L 1357 1133 
+L 941 0 
+L 32 0 
+L 1709 4544 
+z
+M 2784 1754 
+L 2157 3629 
+L 1504 1754 
+L 2784 1754 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Bold-4e" d="M 474 0 
+L 474 4544 
+L 1357 4544 
+L 1357 0 
+L 474 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Raleway-Bold-1"/>
+     <use xlink:href="#Raleway-Bold-4e" transform="translate(67.203125 0)"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_4">
     <path d="M 259.2 340.2 
 L 587.52 340.2 
 L 587.52 136.08 
@@ -42,19 +92,19 @@ z
      <g id="line2d_1">
       <path d="M 259.2 340.2 
 L 259.2 136.08 
-" clip-path="url(#p748bb47bec)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p88cddd4aa7)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_2">
       <defs>
-       <path id="mfdf25fa21f" d="M 0 0 
+       <path id="m3217952e56" d="M 0 0 
 L 0 3.5 
 " style="stroke: #6e767c; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#mfdf25fa21f" x="259.2" y="340.2" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
+       <use xlink:href="#m3217952e56" x="259.2" y="340.2" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_1">
+     <g id="text_2">
       <!-- 0% -->
       <g style="fill: #6e767c" transform="translate(251.906484 357.54) scale(0.11 -0.11)">
        <defs>
@@ -162,14 +212,14 @@ z
      <g id="line2d_3">
       <path d="M 341.28 340.2 
 L 341.28 136.08 
-" clip-path="url(#p748bb47bec)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p88cddd4aa7)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_4">
       <g>
-       <use xlink:href="#mfdf25fa21f" x="341.28" y="340.2" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
+       <use xlink:href="#m3217952e56" x="341.28" y="340.2" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_2">
+     <g id="text_3">
       <!-- 25% -->
       <g style="fill: #6e767c" transform="translate(331.49 357.54) scale(0.11 -0.11)">
        <defs>
@@ -251,14 +301,14 @@ z
      <g id="line2d_5">
       <path d="M 423.36 340.2 
 L 423.36 136.08 
-" clip-path="url(#p748bb47bec)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p88cddd4aa7)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_6">
       <g>
-       <use xlink:href="#mfdf25fa21f" x="423.36" y="340.2" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
+       <use xlink:href="#m3217952e56" x="423.36" y="340.2" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_3">
+     <g id="text_4">
       <!-- 50% -->
       <g style="fill: #6e767c" transform="translate(413.068984 357.54) scale(0.11 -0.11)">
        <use xlink:href="#Raleway-Regular-30b"/>
@@ -271,14 +321,14 @@ L 423.36 136.08
      <g id="line2d_7">
       <path d="M 505.44 340.2 
 L 505.44 136.08 
-" clip-path="url(#p748bb47bec)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p88cddd4aa7)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_8">
       <g>
-       <use xlink:href="#mfdf25fa21f" x="505.44" y="340.2" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
+       <use xlink:href="#m3217952e56" x="505.44" y="340.2" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_4">
+     <g id="text_5">
       <!-- 75% -->
       <g style="fill: #6e767c" transform="translate(495.655156 357.54) scale(0.11 -0.11)">
        <defs>
@@ -302,14 +352,14 @@ z
      <g id="line2d_9">
       <path d="M 587.52 340.2 
 L 587.52 136.08 
-" clip-path="url(#p748bb47bec)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p88cddd4aa7)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_10">
       <g>
-       <use xlink:href="#mfdf25fa21f" x="587.52" y="340.2" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
+       <use xlink:href="#m3217952e56" x="587.52" y="340.2" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_5">
+     <g id="text_6">
       <!-- 100% -->
       <g style="fill: #6e767c" transform="translate(574.506484 357.54) scale(0.11 -0.11)">
        <defs>
@@ -345,7 +395,7 @@ z
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_11"/>
-     <g id="text_6">
+     <g id="text_7">
       <!-- Less important -->
       <g style="fill: #6e767c" transform="translate(166.351406 304.109238) scale(0.13 -0.13)">
        <defs>
@@ -672,7 +722,7 @@ z
     </g>
     <g id="ytick_2">
      <g id="line2d_12"/>
-     <g id="text_7">
+     <g id="text_8">
       <!-- More important over -->
       <g style="fill: #6e767c" transform="translate(133.252187 176.759762) scale(0.13 -0.13)">
        <defs>
@@ -839,28 +889,28 @@ z
      </g>
     </g>
    </g>
-   <g id="patch_3">
+   <g id="patch_5">
     <path d="M 259.2 330.921818 
 L 344.5632 330.921818 
 L 344.5632 265.076657 
 L 259.2 265.076657 
 z
-" clip-path="url(#p748bb47bec)" style="fill: #a7adb1"/>
+" clip-path="url(#p88cddd4aa7)" style="fill: #a7adb1"/>
    </g>
-   <g id="patch_4">
+   <g id="patch_6">
     <path d="M 259.2 211.203343 
 L 416.7936 211.203343 
 L 416.7936 145.358182 
 L 259.2 145.358182 
 z
-" clip-path="url(#p748bb47bec)" style="fill: #00664f"/>
+" clip-path="url(#p88cddd4aa7)" style="fill: #00664f"/>
    </g>
-   <g id="patch_5">
+   <g id="patch_7">
     <path d="M 259.2 340.2 
 L 587.52 340.2 
 " style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
-   <g id="text_8">
+   <g id="text_9">
     <!-- 26% -->
     <g style="fill: #333f48" transform="translate(349.488 304.353238) scale(0.18 -0.18)">
      <defs>
@@ -1012,7 +1062,7 @@ z
      <use xlink:href="#Raleway-Bold-3be" transform="translate(117.109375 0)"/>
     </g>
    </g>
-   <g id="text_9">
+   <g id="text_10">
     <!-- 48% -->
     <g style="fill: #333f48" transform="translate(421.7184 184.634762) scale(0.18 -0.18)">
      <defs>
@@ -1101,7 +1151,7 @@ z
     </g>
    </g>
   </g>
-  <g id="patch_6">
+  <g id="patch_8">
    <path d="M 639.36 315.9 
 L 820.8 315.9 
 Q 829.44 315.9 829.44 311.04 
@@ -1114,7 +1164,7 @@ Q 630.72 315.9 639.36 315.9
 z
 " style="fill: #ffffff; stroke: #00664f; stroke-width: 1.5; stroke-linejoin: miter"/>
   </g>
-  <g id="text_10">
+  <g id="text_11">
    <!-- Will AI make college degrees more or less important? -->
    <g style="fill: #333f48" transform="translate(43.2 59.56) scale(0.22 -0.22)">
     <defs>
@@ -1168,29 +1218,6 @@ L 384 4672
 z
 " transform="scale(0.015625)"/>
      <path id="Raleway-Bold-385" transform="scale(0.015625)"/>
-     <path id="Raleway-Bold-1" d="M 1709 4544 
-L 2605 4544 
-L 4275 0 
-L 3366 0 
-L 2944 1133 
-L 1357 1133 
-L 941 0 
-L 32 0 
-L 1709 4544 
-z
-M 2784 1754 
-L 2157 3629 
-L 1504 1754 
-L 2784 1754 
-z
-" transform="scale(0.015625)"/>
-     <path id="Raleway-Bold-4e" d="M 474 0 
-L 474 4544 
-L 1357 4544 
-L 1357 0 
-L 474 0 
-z
-" transform="scale(0.015625)"/>
      <path id="Raleway-Bold-151" d="M 5600 0 
 L 4742 0 
 L 4742 1882 
@@ -1697,7 +1724,7 @@ z
     <use xlink:href="#Raleway-Bold-361" transform="translate(2512.59375 0)"/>
    </g>
   </g>
-  <g id="text_11">
+  <g id="text_12">
    <!-- US employers, 2,500 surveyed, August 2026 -->
    <g style="fill: #6e767c" transform="translate(43.2 94.29) scale(0.15 -0.15)">
     <defs>
@@ -2009,7 +2036,7 @@ z
     <use xlink:href="#Raleway-Regular-30c" transform="translate(1967.609375 0)"/>
    </g>
   </g>
-  <g id="text_12">
+  <g id="text_13">
    <!-- Source: Gallup and Lumina Foundation, reported by Inside Higher Ed, 20 October 2026. -->
    <g style="fill: #6e767c" transform="translate(43.2 468.99) scale(0.11 -0.11)">
     <defs>
@@ -2308,7 +2335,7 @@ z
     <use xlink:href="#Raleway-Regular-360" transform="translate(3969.40625 0)"/>
    </g>
   </g>
-  <g id="text_13">
+  <g id="text_14">
    <!-- The AI Brief - LB Edition -->
    <g style="fill: #6e767c" transform="translate(700.814062 468.99) scale(0.11 -0.11)">
     <defs>
@@ -2420,7 +2447,7 @@ z
     <use xlink:href="#Raleway-Regular-153" transform="translate(1032.484375 0)"/>
    </g>
   </g>
-  <g id="text_14">
+  <g id="text_15">
    <!-- Other responses not reported in the source. -->
    <g style="fill: #6e767c" transform="translate(259.2 388.8) scale(0.11 -0.11)">
     <use xlink:href="#Raleway-Regular-74"/>
@@ -2468,7 +2495,7 @@ z
     <use xlink:href="#Raleway-Regular-360" transform="translate(1983.59375 0)"/>
    </g>
   </g>
-  <g id="text_15">
+  <g id="text_16">
    <!-- 80% -->
    <g style="fill: #00664f" transform="translate(696.010937 204.12) scale(0.34 -0.34)">
     <defs>
@@ -2507,7 +2534,7 @@ z
     <use xlink:href="#Raleway-Bold-3be" transform="translate(121.8125 0)"/>
    </g>
   </g>
-  <g id="text_16">
+  <g id="text_17">
    <!-- prefer a candidate with -->
    <g style="fill: #333f48" transform="translate(666.563437 255.319388) scale(0.12 -0.12)">
     <defs>
@@ -2673,7 +2700,10 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p748bb47bec">
+  <clipPath id="pa5a161520a">
+   <rect x="681.23187" y="457.0344" width="14.40288" height="14.3856"/>
+  </clipPath>
+  <clipPath id="p88cddd4aa7">
    <rect x="259.2" y="136.08" width="328.32" height="204.12"/>
   </clipPath>
  </defs>

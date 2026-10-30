@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-29T21:53:45.991391</dc:date>
+    <dc:date>2026-10-30T08:18:51.466065</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -30,6 +30,56 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
+    <path d="M 682.096043 457.897536 
+L 691.313886 457.897536 
+L 694.770577 461.35008 
+L 694.770577 470.556864 
+L 682.096043 470.556864 
+z
+" clip-path="url(#peed206bd63)" style="fill: #00664f"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 691.313886 457.897536 
+L 691.313886 461.35008 
+L 694.770577 461.35008 
+z
+" clip-path="url(#peed206bd63)" style="fill: #7fb2a7"/>
+   </g>
+   <g id="text_1">
+    <!-- AI -->
+    <g style="fill: #ffffff" transform="translate(683.104244 469.118304) scale(0.071928 -0.071928)">
+     <defs>
+      <path id="Raleway-Bold-1" d="M 1709 4544 
+L 2605 4544 
+L 4275 0 
+L 3366 0 
+L 2944 1133 
+L 1357 1133 
+L 941 0 
+L 32 0 
+L 1709 4544 
+z
+M 2784 1754 
+L 2157 3629 
+L 1504 1754 
+L 2784 1754 
+z
+" transform="scale(0.015625)"/>
+      <path id="Raleway-Bold-4e" d="M 474 0 
+L 474 4544 
+L 1357 4544 
+L 1357 0 
+L 474 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Raleway-Bold-1"/>
+     <use xlink:href="#Raleway-Bold-4e" transform="translate(67.203125 0)"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_4">
     <path d="M 103.68 403.38 
 L 535.68 403.38 
 L 535.68 121.5 
@@ -40,7 +90,7 @@ z
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1"/>
-     <g id="text_1">
+     <g id="text_2">
       <!-- Rounds of $100M -->
       <g style="fill: #6e767c" transform="translate(140.564174 419.1) scale(0.13 -0.13)">
        <defs>
@@ -496,7 +546,7 @@ z
     </g>
     <g id="xtick_2">
      <g id="line2d_2"/>
-     <g id="text_2">
+     <g id="text_3">
       <!-- All other rounds -->
       <g style="fill: #6e767c" transform="translate(398.708014 419.1) scale(0.13 -0.13)">
        <defs>
@@ -604,19 +654,19 @@ z
      <g id="line2d_3">
       <path d="M 103.68 403.38 
 L 535.68 403.38 
-" clip-path="url(#p27e7769b0d)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p67b1fb1a92)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_4">
       <defs>
-       <path id="mab779747e8" d="M 0 0 
+       <path id="m7501a21aa6" d="M 0 0 
 L -3.5 0 
 " style="stroke: #6e767c; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#mab779747e8" x="103.68" y="403.38" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
+       <use xlink:href="#m7501a21aa6" x="103.68" y="403.38" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_3">
+     <g id="text_4">
       <!-- 0.00 -->
       <g style="fill: #6e767c" transform="translate(74.403281 408.55) scale(0.11 -0.11)">
        <defs>
@@ -639,14 +689,14 @@ z
      <g id="line2d_5">
       <path d="M 103.68 368.145 
 L 535.68 368.145 
-" clip-path="url(#p27e7769b0d)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p67b1fb1a92)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_6">
       <g>
-       <use xlink:href="#mab779747e8" x="103.68" y="368.145" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
+       <use xlink:href="#m7501a21aa6" x="103.68" y="368.145" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_4">
+     <g id="text_5">
       <!-- 0.25 -->
       <g style="fill: #6e767c" transform="translate(76.142656 373.315) scale(0.11 -0.11)">
        <defs>
@@ -729,14 +779,14 @@ z
      <g id="line2d_7">
       <path d="M 103.68 332.91 
 L 535.68 332.91 
-" clip-path="url(#p27e7769b0d)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p67b1fb1a92)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_8">
       <g>
-       <use xlink:href="#mab779747e8" x="103.68" y="332.91" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
+       <use xlink:href="#m7501a21aa6" x="103.68" y="332.91" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_5">
+     <g id="text_6">
       <!-- 0.50 -->
       <g style="fill: #6e767c" transform="translate(75.140625 338.08) scale(0.11 -0.11)">
        <use xlink:href="#Raleway-Regular-306"/>
@@ -750,14 +800,14 @@ L 535.68 332.91
      <g id="line2d_9">
       <path d="M 103.68 297.675 
 L 535.68 297.675 
-" clip-path="url(#p27e7769b0d)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p67b1fb1a92)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_10">
       <g>
-       <use xlink:href="#mab779747e8" x="103.68" y="297.675" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
+       <use xlink:href="#m7501a21aa6" x="103.68" y="297.675" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_6">
+     <g id="text_7">
       <!-- 0.75 -->
       <g style="fill: #6e767c" transform="translate(76.427969 302.845) scale(0.11 -0.11)">
        <defs>
@@ -782,14 +832,14 @@ z
      <g id="line2d_11">
       <path d="M 103.68 262.44 
 L 535.68 262.44 
-" clip-path="url(#p27e7769b0d)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p67b1fb1a92)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_12">
       <g>
-       <use xlink:href="#mab779747e8" x="103.68" y="262.44" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
+       <use xlink:href="#m7501a21aa6" x="103.68" y="262.44" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_7">
+     <g id="text_8">
       <!-- 1.00 -->
       <g style="fill: #6e767c" transform="translate(76.427969 267.61) scale(0.11 -0.11)">
        <use xlink:href="#Raleway-Regular-307"/>
@@ -803,14 +853,14 @@ L 535.68 262.44
      <g id="line2d_13">
       <path d="M 103.68 227.205 
 L 535.68 227.205 
-" clip-path="url(#p27e7769b0d)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p67b1fb1a92)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_14">
       <g>
-       <use xlink:href="#mab779747e8" x="103.68" y="227.205" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
+       <use xlink:href="#m7501a21aa6" x="103.68" y="227.205" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_8">
+     <g id="text_9">
       <!-- 1.25 -->
       <g style="fill: #6e767c" transform="translate(78.167344 232.375) scale(0.11 -0.11)">
        <use xlink:href="#Raleway-Regular-307"/>
@@ -824,14 +874,14 @@ L 535.68 227.205
      <g id="line2d_15">
       <path d="M 103.68 191.97 
 L 535.68 191.97 
-" clip-path="url(#p27e7769b0d)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p67b1fb1a92)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_16">
       <g>
-       <use xlink:href="#mab779747e8" x="103.68" y="191.97" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
+       <use xlink:href="#m7501a21aa6" x="103.68" y="191.97" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_9">
+     <g id="text_10">
       <!-- 1.50 -->
       <g style="fill: #6e767c" transform="translate(77.165312 197.14) scale(0.11 -0.11)">
        <use xlink:href="#Raleway-Regular-307"/>
@@ -845,14 +895,14 @@ L 535.68 191.97
      <g id="line2d_17">
       <path d="M 103.68 156.735 
 L 535.68 156.735 
-" clip-path="url(#p27e7769b0d)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p67b1fb1a92)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_18">
       <g>
-       <use xlink:href="#mab779747e8" x="103.68" y="156.735" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
+       <use xlink:href="#m7501a21aa6" x="103.68" y="156.735" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_10">
+     <g id="text_11">
       <!-- 1.75 -->
       <g style="fill: #6e767c" transform="translate(78.452656 161.905) scale(0.11 -0.11)">
        <use xlink:href="#Raleway-Regular-307"/>
@@ -866,14 +916,14 @@ L 535.68 156.735
      <g id="line2d_19">
       <path d="M 103.68 121.5 
 L 535.68 121.5 
-" clip-path="url(#p27e7769b0d)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p67b1fb1a92)" style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_20">
       <g>
-       <use xlink:href="#mab779747e8" x="103.68" y="121.5" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
+       <use xlink:href="#m7501a21aa6" x="103.68" y="121.5" style="fill: #6e767c; stroke: #6e767c; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_11">
+     <g id="text_12">
       <!-- 2.00 -->
       <g style="fill: #6e767c" transform="translate(75.405312 126.67) scale(0.11 -0.11)">
        <use xlink:href="#Raleway-Regular-308"/>
@@ -883,7 +933,7 @@ L 535.68 121.5
       </g>
      </g>
     </g>
-    <g id="text_12">
+    <g id="text_13">
      <!-- US$ billions -->
      <g style="fill: #6e767c" transform="translate(67.595281 295.404375) rotate(-90) scale(0.12 -0.12)">
       <defs>
@@ -1020,28 +1070,28 @@ z
      </g>
     </g>
    </g>
-   <g id="patch_3">
+   <g id="patch_5">
     <path d="M 123.316364 403.38 
 L 262.671202 403.38 
 L 262.671202 191.97 
 L 123.316364 191.97 
 z
-" clip-path="url(#p27e7769b0d)" style="fill: #00664f"/>
+" clip-path="url(#p67b1fb1a92)" style="fill: #00664f"/>
    </g>
-   <g id="patch_4">
+   <g id="patch_6">
     <path d="M 376.688798 403.38 
 L 516.043636 403.38 
 L 516.043636 194.7888 
 L 376.688798 194.7888 
 z
-" clip-path="url(#p27e7769b0d)" style="fill: #a7adb1"/>
+" clip-path="url(#p67b1fb1a92)" style="fill: #a7adb1"/>
    </g>
-   <g id="patch_5">
+   <g id="patch_7">
     <path d="M 103.68 403.38 
 L 535.68 403.38 
 " style="fill: none; stroke: #e6e8ea; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
-   <g id="text_13">
+   <g id="text_14">
     <!-- $1.50B -->
     <g style="fill: #333f48" transform="translate(164.182533 184.923) scale(0.18 -0.18)">
      <defs>
@@ -1238,7 +1288,7 @@ z
      <use xlink:href="#Raleway-Bold-1c" transform="translate(252.125 0)"/>
     </g>
    </g>
-   <g id="text_14">
+   <g id="text_15">
     <!-- $1.48B -->
     <g style="fill: #333f48" transform="translate(417.493092 187.7418) scale(0.18 -0.18)">
      <defs>
@@ -1330,7 +1380,7 @@ z
     </g>
    </g>
   </g>
-  <g id="text_15">
+  <g id="text_16">
    <!-- Rounds of $100 million or more took half of regional startup funding -->
    <g style="fill: #333f48" transform="translate(43.2 59.56) scale(0.22 -0.22)">
     <defs>
@@ -1920,7 +1970,7 @@ z
     <use xlink:href="#Raleway-Bold-127" transform="translate(3177.984375 0)"/>
    </g>
   </g>
-  <g id="text_16">
+  <g id="text_17">
    <!-- Middle East and North Africa, January to September 2026, total $2.98 billion -->
    <g style="fill: #6e767c" transform="translate(43.2 94.29) scale(0.15 -0.15)">
     <defs>
@@ -2330,7 +2380,7 @@ z
     <use xlink:href="#Raleway-Regular-153" transform="translate(3408.109375 0)"/>
    </g>
   </g>
-  <g id="text_17">
+  <g id="text_18">
    <!-- Source: MAGNiTT 9M 2026 data, via Arab News, 17 October 2026. Second bar calculated by The AI Brief. -->
    <g style="fill: #6e767c" transform="translate(43.2 468.99) scale(0.11 -0.11)">
     <defs>
@@ -2610,7 +2660,7 @@ z
     <use xlink:href="#Raleway-Regular-360" transform="translate(4737.78125 0)"/>
    </g>
   </g>
-  <g id="text_18">
+  <g id="text_19">
    <!-- The AI Brief - LB Edition -->
    <g style="fill: #6e767c" transform="translate(700.814062 468.99) scale(0.11 -0.11)">
     <defs>
@@ -2658,7 +2708,7 @@ z
     <use xlink:href="#Raleway-Regular-153" transform="translate(1032.484375 0)"/>
    </g>
   </g>
-  <g id="text_19">
+  <g id="text_20">
    <!-- Funding outside -->
    <g style="fill: #6e767c" transform="translate(587.52 161.787) scale(0.15 -0.15)">
     <defs>
@@ -2755,7 +2805,7 @@ z
     <use xlink:href="#Raleway-Regular-18a" transform="translate(582.015625 0)"/>
    </g>
   </g>
-  <g id="text_20">
+  <g id="text_21">
    <!-- Down 32% -->
    <g style="fill: #00664f" transform="translate(587.52 257.58) scale(0.34 -0.34)">
     <defs>
@@ -2954,7 +3004,7 @@ z
     <use xlink:href="#Raleway-Bold-3be" transform="translate(410.90625 0)"/>
    </g>
   </g>
-  <g id="text_21">
+  <g id="text_22">
    <!-- year on year -->
    <g style="fill: #6e767c" transform="translate(587.52 286.74) scale(0.15 -0.15)">
     <use xlink:href="#Raleway-Regular-1bc"/>
@@ -2973,7 +3023,10 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p27e7769b0d">
+  <clipPath id="peed206bd63">
+   <rect x="681.23187" y="457.0344" width="14.40288" height="14.3856"/>
+  </clipPath>
+  <clipPath id="p67b1fb1a92">
    <rect x="103.68" y="121.5" width="432" height="281.88"/>
   </clipPath>
  </defs>
