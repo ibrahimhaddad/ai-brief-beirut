@@ -3,8 +3,8 @@ type: audience
 layout: audience
 issue: 0
 audience: enterprises
-audience_label: "For enterprises"
-title: "For enterprises: The AI Brief - LB Edition, Week 43"
+audience_label: "For businesses"
+title: "For businesses: The AI Brief - LB Edition, Week 43"
 teaser: "What AI agents, customer trust in AI and critical PHP flaws mean for businesses adopting AI."
 week_number: 43
 week: "Oct 19 to 25, 2026"

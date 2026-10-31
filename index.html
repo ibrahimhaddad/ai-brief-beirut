@@ -27,9 +27,13 @@ description: "A weekly briefing by Ibrahim Haddad on what AI developments mean f
 
   <section aria-labelledby="home-doors">
     <h2 id="home-doors">Your two-minute version</h2>
+    {% assign groups = "In universities:staff,faculty,students|In business:entrepreneurs,enterprises" | split: "|" %}
+    {% for g in groups %}
+    {% assign parts = g | split: ":" %}
+    {% assign keys = parts[1] | split: "," %}
+    <h3 class="doors-group">{{ parts[0] }}</h3>
     <div class="doors">
-      {% assign order = "staff,faculty,students,entrepreneurs,enterprises" | split: "," %}
-      {% for key in order %}
+      {% for key in keys %}
         {% assign ap = family | where: "audience", key | first %}
         {% if ap %}
         <a class="door" href="{{ ap.url | relative_url }}">
@@ -39,6 +43,7 @@ description: "A weekly briefing by Ibrahim Haddad on what AI developments mean f
         {% endif %}
       {% endfor %}
     </div>
+    {% endfor %}
   </section>
 
   {% assign run = site.data.tracker.rows | last %}

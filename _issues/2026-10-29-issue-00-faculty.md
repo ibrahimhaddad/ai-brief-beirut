@@ -3,8 +3,8 @@ type: audience
 layout: audience
 issue: 0
 audience: faculty
-audience_label: "For faculty"
-title: "For faculty: The AI Brief - LB Edition, Week 43"
+audience_label: "For university faculty"
+title: "For university faculty: The AI Brief - LB Edition, Week 43"
 teaser: "A one-question test for AI in your course, and what journal AI rules now require."
 week_number: 43
 week: "Oct 19 to 25, 2026"

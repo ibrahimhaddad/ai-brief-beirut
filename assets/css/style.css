@@ -86,7 +86,7 @@ img { max-width: 100%; height: auto; display: block; }
 .hero h1 { font-size: 2.4rem; }
 
 /* Audience switcher: one row, swipe sideways on small screens */
-.audience-nav { display: flex; flex-wrap: nowrap; gap: 0.4rem; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding: 0.1rem 0; }
+.audience-nav { display: flex; flex-wrap: wrap; gap: 0.4rem; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding: 0.1rem 0; }
 .audience-nav::-webkit-scrollbar { display: none; }
 .audience-nav-label { flex: none; align-self: center; font-size: 0.85rem; color: var(--muted); margin-right: 0.2rem; }
 .audience-nav a { flex: none; font-size: 0.85rem; font-weight: 600; text-decoration: none; padding: 0.35rem 0.7rem; border: 1px solid var(--rule); color: var(--text); white-space: nowrap; }
@@ -111,6 +111,8 @@ img { max-width: 100%; height: auto; display: block; }
 /* Audience doors: whitespace and a hairline, whole door is one target */
 .doors { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 2rem; }
 .door:last-child:nth-child(odd) { grid-column: 1 / -1; }
+.doors-group { font-size: 0.95rem; font-weight: 700; color: var(--muted); margin: 1.4rem 0 0.3rem; }
+.doors-group + .doors { margin-bottom: 0.6rem; }
 .door { display: block; padding: 0.9rem 0 1rem; border-top: 1px solid var(--rule); text-decoration: none; color: var(--text); }
 .door-title { display: flex; justify-content: space-between; font-weight: 700; color: var(--accent); margin-bottom: 0.2rem; }
 .door-title::after { content: "\2192"; transition: transform 0.15s; }
@@ -192,6 +194,7 @@ fieldset.form-row { border: 0; padding: 0; margin: 0 0 1.1rem; }
 .footer-title { font-weight: 700; color: var(--text); margin-bottom: 0.3rem; }
 
 @media (max-width: 640px) {
+  .audience-nav { flex-wrap: nowrap; }
   html { font-size: 106%; }
   h1, .hero h1 { font-size: 1.7rem; }
   .hero { padding-top: 1.6rem; }

@@ -4,7 +4,7 @@ layout: audience
 issue: 0
 audience: entrepreneurs
 audience_label: "For entrepreneurs"
-title: "For founders: The AI Brief - LB Edition, Week 43"
+title: "For entrepreneurs: The AI Brief - LB Edition, Week 43"
 teaser: "Where regional startup money went, a hosting check, and two open deadlines."
 week_number: 43
 week: "Oct 19 to 25, 2026"

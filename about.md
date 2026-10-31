@@ -13,11 +13,16 @@ Each week it explains what the most important AI developments mean for readers i
 
 ## Who it is for
 
-- **Staff** who run university services and operations.
-- **Faculty** who teach, assess, research and publish.
-- **Students** building skills and careers.
-- **Entrepreneurs** building companies in Lebanon and the region.
-- **Enterprises**: established businesses in Lebanon and the region working out how to use AI in their operations.
+In universities:
+
+- **University staff** who run services and operations.
+- **University faculty** who teach, assess, research and publish.
+- **University students** building skills and careers.
+
+In business:
+
+- **Entrepreneurs** building new companies in Lebanon and the region.
+- **Businesses** of any size in Lebanon and the region working out how to use AI in their operations.
 
 Every issue has a full version and a two-minute page for each audience.
 

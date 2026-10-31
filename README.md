@@ -68,7 +68,7 @@ Start the body with `## Editor's note`. The layout adds the 60-second box, conte
 - The four subheads (What happened, Why it matters, How it could affect you, What you could do) are `####`.
 - Tables are GitHub-flavored Markdown with a blank line before and after.
 
-Audience pages use `type: audience`, `layout: audience`, `issue`, `audience` (staff, faculty, students, entrepreneurs or enterprises), `audience_label`, `teaser`, `title`, `week_number`, `week`, `date`, `permalink` and `description`.
+Audience pages use `type: audience`, `layout: audience`, `issue`, `audience` (staff, faculty, students, entrepreneurs or enterprises; labels "For university staff", "For university faculty", "For university students", "For entrepreneurs" and "For businesses"), `audience_label`, `teaser`, `title`, `week_number`, `week`, `date`, `permalink` and `description`.
 
 ## Going live
 
