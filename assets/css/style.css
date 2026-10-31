@@ -177,10 +177,13 @@ td.num, th.num { text-align: right; }
 /* Feedback prompt and form */
 .feedback-cta { margin-top: 2rem; padding: 1rem 1.25rem; background: var(--tint); }
 .feedback-cta p { margin: 0; }
+.feedback-cta p + p { margin-top: 0.35rem; }
+.form-row label.checkbox-row { display: flex; align-items: center; gap: 0.5rem; font-weight: 460; }
+[hidden] { display: none !important; }
 .form-row { margin-bottom: 1.1rem; }
 .form-row label, .form-row legend { display: block; font-weight: 650; margin-bottom: 0.3rem; }
 .form-row .hint { font-weight: 460; color: var(--muted); font-size: 0.85rem; }
-.form-row input[type=text], .form-row input[type=email], .form-row select, .form-row textarea {
+.form-row input[type=text], .form-row input[type=email], .form-row input[type=url], .form-row select, .form-row textarea {
   width: 100%; font: inherit; color: var(--text); padding: 0.55rem 0.65rem; border: 1px solid #C9CDD0; border-radius: 2px; background: #FFFFFF; }
 .form-row textarea { min-height: 9rem; resize: vertical; }
 .form-row input:focus, .form-row select:focus, .form-row textarea:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }

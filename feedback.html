@@ -2,41 +2,83 @@
 layout: page
 title: Feedback
 permalink: /feedback/
-description: "Tell the author what works, what is missing and what to cover next."
+description: "Send feedback, suggest a story for a future issue, or report a correction."
 ---
-<p>Tell me what works, what is missing and what you would like covered. Every message comes straight to me. Name and email are optional; leave them if you would like a reply.</p>
+<p>Send feedback, suggest a story for a future issue, or report something we got wrong. Every message comes straight to me. Name and email are optional; leave them if you would like a reply.</p>
 
-<form class="feedback-form" action="https://api.web3forms.com/submit" method="POST">
+<form class="feedback-form" id="feedback-form" action="https://api.web3forms.com/submit" method="POST">
   <input type="hidden" name="access_key" value="{{ site.web3forms_key }}">
-  <input type="hidden" name="subject" value="Feedback: {{ site.title }}">
+  <input type="hidden" name="subject" id="fb-subject" value="Feedback: {{ site.title }}">
   <input type="hidden" name="from_name" value="{{ site.title }}">
   <input type="hidden" name="redirect" value="{{ '/feedback/thanks/' | absolute_url }}">
   <input type="checkbox" name="botcheck" class="visually-hidden" style="display: none;" tabindex="-1" autocomplete="off" aria-hidden="true">
 
-  <fieldset class="form-row">
-    <legend>Was the latest issue useful to you?</legend>
-    <div class="choices">
-      <label><input type="radio" name="useful" value="Yes"> Yes</label>
-      <label><input type="radio" name="useful" value="No"> No</label>
-      <label><input type="radio" name="useful" value="Something is missing"> Something is missing</label>
-    </div>
-  </fieldset>
-
   <div class="form-row">
-    <label for="fb-role">You are</label>
-    <select id="fb-role" name="role">
-      <option value="">Choose one (optional)</option>
-      <option>Staff</option>
-      <option>Faculty</option>
-      <option>Student</option>
-      <option>Entrepreneur</option>
-      <option>Other</option>
+    <label for="fb-topic">What is this about?</label>
+    <select id="fb-topic" name="topic" required>
+      <option value="Feedback">Feedback on an issue</option>
+      <option value="Story tip">Suggest a story</option>
+      <option value="Correction">Report a correction</option>
     </select>
   </div>
 
+  <div data-topic="Feedback">
+    <fieldset class="form-row">
+      <legend>Was the latest issue useful to you?</legend>
+      <div class="choices">
+        <label><input type="radio" name="useful" value="Yes"> Yes</label>
+        <label><input type="radio" name="useful" value="No"> No</label>
+        <label><input type="radio" name="useful" value="Something is missing"> Something is missing</label>
+      </div>
+    </fieldset>
+  </div>
+
+  <div data-topic="Story tip">
+    <div class="form-row">
+      <label for="fb-link">Link to the story</label>
+      <input id="fb-link" type="url" name="story_link" placeholder="https://" data-required>
+    </div>
+    <div class="form-row">
+      <label for="fb-for">Who should read it? <span class="hint">(optional)</span></label>
+      <select id="fb-for" name="story_for">
+        <option value="">Choose one</option>
+        <option>University staff</option>
+        <option>University faculty</option>
+        <option>University students</option>
+        <option>Entrepreneurs</option>
+        <option>Businesses</option>
+        <option>Everyone</option>
+      </select>
+    </div>
+  </div>
+
+  <div data-topic="Correction">
+    <div class="form-row">
+      <label for="fb-where">Which issue and section?</label>
+      <input id="fb-where" type="text" name="correction_where" placeholder="For example: Week 43, story 2" data-required>
+    </div>
+    <div class="form-row">
+      <label for="fb-source">Source that shows the correct information <span class="hint">(optional)</span></label>
+      <input id="fb-source" type="url" name="correction_source" placeholder="https://">
+    </div>
+  </div>
+
   <div class="form-row">
-    <label for="fb-message">Your feedback</label>
+    <label for="fb-message" id="fb-message-label">Your feedback</label>
     <textarea id="fb-message" name="message" required></textarea>
+  </div>
+
+  <div class="form-row">
+    <label for="fb-role">You are <span class="hint">(optional)</span></label>
+    <select id="fb-role" name="role">
+      <option value="">Choose one</option>
+      <option>University staff</option>
+      <option>University faculty</option>
+      <option>University student</option>
+      <option>Entrepreneur</option>
+      <option>In business</option>
+      <option>Other</option>
+    </select>
   </div>
 
   <div class="form-row">
@@ -49,6 +91,42 @@ description: "Tell the author what works, what is missing and what to cover next
     <input id="fb-email" type="email" name="email" autocomplete="email">
   </div>
 
-  <p><button class="button" type="submit">Send feedback</button></p>
-  <p class="muted">The form is delivered by Web3Forms, a third-party service that forwards your message by email. Your details are used only to read and reply to your feedback.</p>
+  <div class="form-row" data-topic="Story tip Correction">
+    <label class="checkbox-row"><input type="checkbox" name="credit" value="Yes, thank me by name"> You may thank me by name if you use this.</label>
+  </div>
+
+  <p><button class="button" type="submit">Send</button></p>
+  <p class="muted">The form is delivered by Web3Forms, a third-party service that forwards your message by email. Your details are used only to read and reply to your message, and to credit you if you ask.</p>
 </form>
+
+<script>
+(function () {
+  var form = document.getElementById('feedback-form');
+  var topic = document.getElementById('fb-topic');
+  var subject = document.getElementById('fb-subject');
+  var label = document.getElementById('fb-message-label');
+  var site = {{ site.title | jsonify }};
+  var labels = { 'Feedback': 'Your feedback', 'Story tip': 'Why does it matter, and to whom?', 'Correction': 'What is wrong, and what is correct?' };
+  var prefixes = { 'Feedback': 'Feedback', 'Story tip': 'Story tip', 'Correction': 'Correction' };
+
+  var params = new URLSearchParams(window.location.search);
+  var wanted = { story: 'Story tip', correction: 'Correction', feedback: 'Feedback' }[params.get('type')];
+  if (wanted) { topic.value = wanted; }
+
+  function update() {
+    var t = topic.value;
+    form.querySelectorAll('[data-topic]').forEach(function (group) {
+      var on = group.getAttribute('data-topic').indexOf(t) !== -1;
+      group.hidden = !on;
+      group.querySelectorAll('input, select, textarea').forEach(function (el) {
+        el.disabled = !on;
+        if (el.hasAttribute('data-required')) { el.required = on; }
+      });
+    });
+    label.textContent = labels[t];
+    subject.value = prefixes[t] + ': ' + site;
+  }
+  topic.addEventListener('change', update);
+  update();
+})();
+</script>

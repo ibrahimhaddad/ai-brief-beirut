@@ -38,4 +38,8 @@ This is an independent, personal publication. Views are the author's own.
 
 ## Corrections
 
-Errors are fixed in the issue and noted at its end with the date.
+Errors are fixed in the issue and noted at its end with the date. [Report one here]({{ '/feedback/' | relative_url }}?type=correction).
+
+## Suggest a story
+
+Seen something readers here should know about? [Send it in]({{ '/feedback/' | relative_url }}?type=story). Every tip is checked against its own sources before it runs, and you are thanked by name only if you ask.
