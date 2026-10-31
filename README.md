@@ -13,10 +13,10 @@ Each issue adds files to `_issues/` and `assets/figures/`, and updates two data 
 | `_issues/YYYY-MM-DD-issue-NN.md` | The full issue |
 | `_issues/YYYY-MM-DD-issue-NN-staff.md` (and `-faculty`, `-students`, `-entrepreneurs`, `-enterprises`) | The five two-minute audience pages |
 | `assets/figures/YYYY-MM-DD-fig-N-slug.png` and `.svg` | Up to five figures |
-| `_data/tracker.yml` | AI funding tracker rows (the home page shows the last row's `funding`, `deals` and `since`) |
+| `_data/tracker.yml` | AI funding tracker rows (the home page shows the last row's `funding`, `deals` and `since` once four issues are published) |
 | `_data/opportunities.yml` | Open deadlines (past ones drop off the home page automatically) |
 
-The home page, archive and menus update themselves.
+The home page, archive, RSS feed (`/feed.xml`) and menus update themselves.
 
 ## Front matter for a full issue
 
@@ -61,12 +61,15 @@ contents_more:             # the other sections, in page order
 Start the body with `## Editor's note`. The layout adds the 60-second box, contents list, audience switcher, author byline and feedback prompt, so leave those out.
 
 - Before each section, an anchor line: `<a id="story-1"></a>` and so on, plus `for-researchers`, `also-in-lebanon`, `investment`, `opportunities`, `term` and `watch-list`.
-- Story heading `## N. Headline`, then the audience tags:
-  `{% include story-meta.html for="Staff | Faculty" evidence="official and research" type="New" %}`
-- Figures, served as SVG with a caption:
-  `{% include figure.html file="YYYY-MM-DD-fig-N-slug" alt="Under 125 characters" caption="What it shows. Source: ..." %}`
+- Story heading `## N. Headline`, then who it is for, evidence and type:
+  `{% include story-meta.html for="University staff | University faculty" evidence="official and research" type="New" %}`
+- Figures, served as SVG; tapping one opens the PNG at full size. The caption is the takeaway in one sentence, not a repeat of the title or source, which are in the image:
+  `{% include figure.html file="YYYY-MM-DD-fig-N-slug" alt="Under 125 characters" caption="The takeaway in one sentence." %}`
+- Under How it could affect you and What you could do, one paragraph per audience, starting with its label in bold: `**University faculty:** ...`, `**Suggestion for businesses:** ...`. The Read-as switcher on the full issue uses these labels to highlight a reader's paragraphs.
 - The four subheads (What happened, Why it matters, How it could affect you, What you could do) are `####`.
-- Tables are GitHub-flavored Markdown with a blank line before and after.
+- Tables are GitHub-flavored Markdown with a blank line before and after. Columns headed Date, Deadline, Amount or Target stay on one line; tables with more than three columns turn into one card per row on phones.
+- Dates follow the house style: `Oct 21`, or `Oct 21, 2026` when the year is needed. A month without a day is spelled out (`in August`).
+- On audience pages, link text names the destination (`Story 1: PHP flaws`, `Regional AI investment`), never "Read more".
 
 Audience pages use `type: audience`, `layout: audience`, `issue`, `audience` (staff, faculty, students, entrepreneurs or enterprises; labels "For university staff", "For university faculty", "For university students", "For entrepreneurs" and "For businesses"), `audience_label`, `teaser`, `title`, `week_number`, `week`, `date`, `permalink` and `description`.
 
@@ -94,6 +97,10 @@ Issues are published on Fridays. Each covers the seven days before the run, Frid
 - Two years: `Dec 31, 2027 to Jan 6, 2028` (Week 1)
 
 One exception: the issue published on 6 November 2026 covers Oct 26 to Nov 5 (Week 45), bridging from the pilot's Monday-to-Sunday window. Issue 00 covered Oct 19 to 25 (Week 43).
+
+## Figures
+
+1200 x 675 px, PNG and SVG with text as outlines. Readers mostly see them on a phone at about 350 px wide, so no text is smaller than 28 px in the 1200 px canvas; titles are about 44 px. Raleway's default digits are old-style; figures use its lining digits (the `.lf` glyphs), matching the site. The house colours and mark are in the agent prompt.
 
 ## Feedback form
 

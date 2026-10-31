@@ -17,8 +17,8 @@ description: "Why employers still value degrees, how to use AI to learn more, an
 
 ## This week's two items for you
 
-- **48% of 2,500 US employers say AI will make degrees more important,** and they name judgment, communication and adaptability as what they reward. [Story 2]({{ full }}#story-2)
-- **Use AI to push your thinking further:** try the work yourself first, then ask AI for harder questions or counterarguments. [Story 3]({{ full }}#story-3)
+- **48% of 2,500 US employers say AI will make degrees more important,** and they name judgment, communication and adaptability as what they reward. [Story 2: employers and degrees]({{ full }}#story-2)
+- **Use AI to push your thinking further:** try the work yourself first, then ask AI for harder questions or counterarguments. [Story 3: strengthen or replace]({{ full }}#story-3)
 
 ## Try this week (10 minutes)
 
@@ -26,8 +26,8 @@ Write a five-line decision note for a project you are working on. What did you c
 
 ## Opportunities
 
-The Global Sustainability Challenge accepts bachelor, master and PhD students until 22 November. If you lead a youth-focused venture and are 18 to 35, Changemakers for Youth closes 9 November. [All opportunities]({{ full }}#opportunities)
+The Global Sustainability Challenge accepts bachelor, master and PhD students until Nov 22. If you lead a youth-focused venture and are 18 to 35, Changemakers for Youth closes Nov 9. [All opportunities]({{ full }}#opportunities)
 
 ## Also in Lebanon
 
-ouda.ai, a Lebanese AI app for room redesign, passed 2,000 users in three weeks. [Read more]({{ full }}#also-in-lebanon)
+ouda.ai, a Lebanese AI app for room redesign, passed 2,000 users in three weeks. [Also in Lebanon and the region]({{ full }}#also-in-lebanon)

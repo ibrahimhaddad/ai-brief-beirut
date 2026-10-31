@@ -12,7 +12,7 @@ description: "A weekly briefing by Ibrahim Haddad on what AI developments mean f
   <div class="wrap">
     {% include kicker.html doc=latest %}
     <h1>{{ latest.title }}</h1>
-    <div class="read-as">{% include audience-nav.html issue_number=latest.issue label="Read as" %}</div>
+    <p class="hero-jump"><a href="#home-doors">Short on time? Pick your two-minute version</a></p>
   </div>
 </section>
 
@@ -22,7 +22,7 @@ description: "A weekly briefing by Ibrahim Haddad on what AI developments mean f
     <ul>
       {% for item in latest.summary %}<li>{{ item }}</li>{% endfor %}
     </ul>
-    <p><a class="button" href="{{ latest.url | relative_url }}">Read the full issue</a> <span class="muted">About {{ latest.reading_time }} minutes</span></p>
+    <p><a class="button" href="{{ latest.url | relative_url }}">Read the full issue</a> <span class="muted nowrap">About {{ latest.reading_time }} minutes</span></p>
   </section>
 
   <section aria-labelledby="home-doors">
@@ -46,11 +46,19 @@ description: "A weekly briefing by Ibrahim Haddad on what AI developments mean f
     {% endfor %}
   </section>
 
+  {% comment %} The tracker appears once four issues have fed it, so a single quiet week doesn't stand for the trend. {% endcomment %}
+  {% if issues.size >= 4 %}
   {% assign run = site.data.tracker.rows | last %}
   <section aria-labelledby="home-tracker">
     <h2 id="home-tracker">AI funding tracker</h2>
-    <p class="tracker-line"><strong>{{ run.funding }}</strong> in {{ run.deals }} disclosed AI deals of $1 million or more in the Middle East and North Africa since {{ run.since }}. <a href="{{ latest.url | relative_url }}#investment">Regional AI investment</a></p>
+    <div class="stats">
+      <p class="stat"><span class="stat-num">{{ run.funding }}</span><span class="stat-label">disclosed AI funding</span></p>
+      <p class="stat"><span class="stat-num">{{ run.deals }}</span><span class="stat-label">AI deals of $1 million or more</span></p>
+      <p class="stat"><span class="stat-num">{{ issues.size }} weeks</span><span class="stat-label">since {{ run.since }}</span></p>
+    </div>
+    <p class="muted">Middle East and North Africa. <a href="{{ latest.url | relative_url }}#investment">This week's regional AI investment</a></p>
   </section>
+  {% endif %}
 
   <section aria-labelledby="home-deadlines">
     <h2 id="home-deadlines">Open deadlines</h2>
@@ -58,7 +66,7 @@ description: "A weekly briefing by Ibrahim Haddad on what AI developments mean f
     {% if open.size > 0 %}
     <ul class="deadlines">
       {% for o in open %}
-      <li><span class="deadline-date">{{ o.deadline | date: "%b %-d, %Y" }}</span> <a href="{{ o.source_url }}">{{ o.name }}</a>. {{ o.who }}</li>
+      <li><span class="deadline-date">{{ o.deadline | date: "%b %-d, %Y" }}</span><span class="deadline-body"><a href="{{ o.source_url }}">{{ o.name }}</a>. {{ o.who }}</span></li>
       {% endfor %}
     </ul>
     <p class="muted">Listing is not endorsement. Confirm terms on each programme's official page.</p>

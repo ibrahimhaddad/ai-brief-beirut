@@ -17,11 +17,11 @@ description: "Where regional startup money went, a hosting check, and two open d
 
 ## This week's three items for you
 
-- **Funding outside $100 million rounds fell 32% this year,** and the UAE and Saudi Arabia took 89% of the money. Small Gulf buyers choose AI tools on trust and fit. [Story 5]({{ full }}#story-5)
-- **Check your hosting:** the PHP flaws hit small sites on shared hosting hardest. [Story 1]({{ full }}#story-1)
-- **AI agents can take admin work off a small team.** Decide first what they may never do without you. [Story 4]({{ full }}#story-4)
+- **Funding outside $100 million rounds fell 32% this year,** and the UAE and Saudi Arabia took 89% of the money. Small Gulf buyers choose AI tools on trust and fit. [Story 5: regional funding]({{ full }}#story-5)
+- **Check your hosting:** the PHP flaws hit small sites on shared hosting hardest. [Story 1: PHP flaws]({{ full }}#story-1)
+- **AI agents can take admin work off a small team.** Decide first what they may never do without you. [Story 4: AI agents]({{ full }}#story-4)
 
-Deals and compute: two AI rounds over $1 million this week, both in the UAE. [Regional AI investment]({{ full }}#investment)
+**Deals and compute:** two AI rounds over $1 million this week, both in the UAE. [Regional AI investment]({{ full }}#investment)
 
 ## Try this week (5 minutes)
 
@@ -29,8 +29,8 @@ Email your hosting provider and ask, in writing, which PHP version your site run
 
 ## Opportunities
 
-Changemakers for Youth closes 9 November, and the Techstars Spring 2027 accelerators, including London, on 18 November. [All opportunities]({{ full }}#opportunities)
+Changemakers for Youth closes Nov 9, and the Techstars Spring 2027 accelerators, including London, on Nov 18. [All opportunities]({{ full }}#opportunities)
 
 ## Also in Lebanon
 
-A $150 million World Bank-backed digital programme could lead to government tenders. Full story next week. [Read more]({{ full }}#also-in-lebanon)
+A $150 million World Bank-backed digital programme could lead to government tenders. Full story next week. [Also in Lebanon and the region]({{ full }}#also-in-lebanon)

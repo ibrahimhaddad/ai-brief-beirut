@@ -1,13 +1,15 @@
-{% comment %} Links to the full issue and its four audience pages. Pass issue_number; label is optional. {% endcomment %}
+{% comment %} One-row switcher: the full issue's five audience pages in two groups, then Contents on the full issue or a link back to it. Pass issue_number. {% endcomment %}
 {% assign family = site.issues | where: "issue", include.issue_number %}
 {% assign full = family | where: "type", "issue" | first %}
-{% assign order = "staff,faculty,students,entrepreneurs,enterprises" | split: "," %}
-<nav class="audience-nav" aria-label="Audience pages">
-  {% if include.label %}<span class="audience-nav-label">{{ include.label }}</span>{% endif %}
-  {% for key in order %}
-    {% assign ap = family | where: "audience", key | first %}
-    {% if ap %}<a href="{{ ap.url | relative_url }}"{% if page.audience == key %} class="active" aria-current="page"{% endif %}>{{ ap.audience_label | remove: "For " | capitalize }}</a>{% endif %}
+{% assign groups = "Universities:staff,faculty,students|Business:entrepreneurs,enterprises" | split: "|" %}
+<nav class="audience-nav" aria-label="Read as">
+  {% for g in groups %}{% assign parts = g | split: ":" %}{% assign keys = parts[1] | split: "," %}
+  <span class="an-group" role="group" aria-label="{{ parts[0] }}">
+    <span class="an-group-label" aria-hidden="true">{{ parts[0] }}</span>
+    {% for key in keys %}{% assign ap = family | where: "audience", key | first %}{% if ap %}{% assign long = ap.audience_label | remove: "For " | capitalize %}{% assign short = ap.audience_label | remove: "For university " | remove: "For " | capitalize %}<a href="{{ ap.url | relative_url }}" data-aud="{{ key }}" aria-label="{{ long }}"{% if page.audience == key %} class="active" aria-current="page"{% endif %}>{{ short }}</a>{% endif %}{% endfor %}
+  </span>
   {% endfor %}
-  <a href="{{ full.url | relative_url }}"{% if page.type == "issue" %} class="active" aria-current="page"{% endif %}>Full issue</a>
-  {% if page.type == "issue" %}<a href="#contents">Contents</a>{% endif %}
+  <span class="an-group an-tail">
+    {% if page.type == "issue" %}<a href="#contents">Contents</a>{% else %}<a href="{{ full.url | relative_url }}" class="an-full">Full issue</a>{% endif %}
+  </span>
 </nav>

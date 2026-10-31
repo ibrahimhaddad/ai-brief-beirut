@@ -1,0 +1,28 @@
+---
+layout: null
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+{% assign issues = site.issues | where: "type", "issue" | sort: "date" | reverse %}
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ '/' | absolute_url }}">
+  <title>{{ site.title | xml_escape }}</title>
+  <subtitle>{{ site.description | xml_escape }}</subtitle>
+  <link href="{{ '/feed.xml' | absolute_url }}" rel="self" type="application/atom+xml"/>
+  <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html"/>
+  <id>{{ '/' | absolute_url }}</id>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <author><name>{{ site.author | xml_escape }}</name></author>
+  <icon>{{ '/assets/brand/2026-10-30-the-ai-brief-favicon-32.png' | absolute_url }}</icon>
+  {% for i in issues limit: 20 %}
+  <entry>
+    <title>Week {{ i.week_number }}: {{ i.title | xml_escape }}</title>
+    <link href="{{ i.url | absolute_url }}" rel="alternate" type="text/html"/>
+    <id>{{ i.url | absolute_url }}</id>
+    <published>{{ i.date | date_to_xmlschema }}</published>
+    <updated>{{ i.last_modified_at | default: i.date | date_to_xmlschema }}</updated>
+    {% capture sixty %}<p>Week {{ i.week_number }} in 60 seconds:</p><ul>{% for s in i.summary %}<li>{{ s }}</li>{% endfor %}</ul>{% endcapture %}
+    <summary type="html">{{ sixty | xml_escape }}</summary>
+    <content type="html" xml:base="{{ i.url | absolute_url }}">{{ sixty | append: i.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+</feed>

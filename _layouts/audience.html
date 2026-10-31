@@ -3,13 +3,13 @@ layout: default
 ---
 {% assign family = site.issues | where: "issue", page.issue %}
 {% assign full = family | where: "type", "issue" | first %}
-<article class="wrap issue audience">
+<article class="wrap issue audience" data-audience="{{ page.audience }}">
   {% include kicker.html doc=page extra="About 2 minutes" %}
   <h1>{{ page.audience_label }}</h1>
   <p class="lead">{{ page.teaser }}</p>
   <p class="meta">Your two-minute version of <a href="{{ full.url | relative_url }}">{{ full.title }}</a>.</p>
 
-  <div class="issue-bar">{% include audience-nav.html issue_number=page.issue label="Read as" %}</div>
+  <div class="issue-bar">{% include audience-nav.html issue_number=page.issue %}</div>
 
   <div class="prose">
     {{ content }}

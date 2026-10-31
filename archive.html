@@ -5,12 +5,15 @@ permalink: /archive/
 description: "Every issue of The AI Brief - LB Edition, newest first."
 ---
 {% assign issues = site.issues | where: "type", "issue" | sort: "date" | reverse %}
-<ul class="archive-list archive-full">
-  {% for i in issues %}
-  <li>
-    <a href="{{ i.url | relative_url }}">{{ i.title }}</a>
-    <span class="muted">Week {{ i.week_number }}, {{ i.week }}{% if i.pilot %} · Pilot{% endif %} · Issue {{ i.issue }}</span>
-    {% if i.summary %}<ul>{% for s in i.summary %}<li>{{ s }}</li>{% endfor %}</ul>{% endif %}
-  </li>
-  {% endfor %}
-</ul>
+{% assign current = "" %}
+{% for i in issues %}
+  {% assign month = i.date | date: "%B %Y" %}
+  {% if month != current %}
+    {% unless forloop.first %}</ol>{% endunless %}
+    <h2 class="archive-month">{{ month }}</h2>
+    <ol class="archive-rows">
+    {% assign current = month %}
+  {% endif %}
+  <li><a href="{{ i.url | relative_url }}"><span class="ar-week">Week {{ i.week_number }}</span><span class="ar-title">{{ i.title }}</span><span class="ar-dates">{{ i.week }}{% if i.pilot %} · Pilot{% endif %}</span></a></li>
+  {% if forloop.last %}</ol>{% endif %}
+{% endfor %}
