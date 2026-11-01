@@ -3,87 +3,101 @@ layout: default
 title: Latest
 description: "A weekly briefing by Ibrahim Haddad on what AI developments mean for university staff, faculty and students, founders and businesses in Lebanon and the region."
 ---
+{% comment %}
+Landing page, direction A (Masthead): what the publication is, then this week, then the two-minute versions,
+following by RSS, and deadlines and past issues. Everything below the statement comes from the latest issue's
+front matter and _data files, so it updates itself each Friday.
+{% endcomment %}
 {% assign issues = site.issues | where: "type", "issue" | sort: "date" | reverse %}
 {% assign latest = issues | first %}
 {% assign family = site.issues | where: "issue", latest.issue %}
 {% assign today = site.time | date: "%Y-%m-%d" %}
+{% assign author = site.data.author %}
 
-<section class="hero">
-  <div class="wrap">
-    {% include kicker.html doc=latest %}
-    <h1>{{ latest.title }}</h1>
-    <p class="hero-jump"><a href="#home-doors">Short on time? Pick your two-minute version</a></p>
-  </div>
-</section>
+<div class="wrap wrap-wide home">
 
-<div class="wrap home">
-  <section class="sixty" aria-labelledby="home-sixty">
-    <h2 id="home-sixty">Week {{ latest.week_number }} in 60 seconds</h2>
-    <ul>
-      {% for item in latest.summary %}<li>{{ item }}</li>{% endfor %}
-    </ul>
-    <p><a class="button" href="{{ latest.url | relative_url }}">Read the full issue</a> <span class="muted nowrap">About {{ latest.reading_time }} minutes</span></p>
+  <section class="home-hero" aria-labelledby="home-title">
+    <p class="kicker">Published every Friday{% if site.pilot %} <span class="tag-pilot">Pilot</span>{% endif %}</p>
+    <h1 id="home-title">What this week's AI news means for Lebanon and the region.</h1>
+    <p class="home-lead">A weekly briefing for university staff, faculty and students, founders and businesses. Read it in full in about {{ latest.reading_time }} minutes, or take the two-minute version for your role.</p>
+    <p class="home-by">By <a href="{{ '/author/' | relative_url }}">{{ author.name }}</a>, with {{ author.credibility }}.</p>
   </section>
 
-  <section aria-labelledby="home-doors">
-    <h2 id="home-doors">Your two-minute version</h2>
+  <section class="home-week" aria-labelledby="home-week-title">
+    <p class="home-week-label"><span class="home-week-this">This week</span> <span class="kicker">Week {{ latest.week_number }} · {{ latest.week }}</span></p>
+    <h2 id="home-week-title"><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h2>
+    <ol class="takeaways">
+      {% for item in latest.summary %}<li><span class="takeaway-num" aria-hidden="true">0{{ forloop.index }}</span><p>{{ item }}</p></li>
+      {% endfor %}
+    </ol>
+    <p class="home-cta"><a class="button" href="{{ latest.url | relative_url }}">Read the full issue</a> <span class="muted nowrap">About {{ latest.reading_time }} minutes</span></p>
+  </section>
+
+  <section class="home-doors" aria-labelledby="home-doors-title">
+    <h2 id="home-doors-title">Or read your two-minute version</h2>
     {% assign groups = "In universities:staff,faculty,students|In business:entrepreneurs,enterprises" | split: "|" %}
     {% for g in groups %}
     {% assign parts = g | split: ":" %}
     {% assign keys = parts[1] | split: "," %}
-    <h3 class="doors-group">{{ parts[0] }}</h3>
-    <div class="doors">
-      {% for key in keys %}
-        {% assign ap = family | where: "audience", key | first %}
-        {% if ap %}
-        <a class="door" href="{{ ap.url | relative_url }}">
-          <span class="door-title">{{ ap.audience_label }}</span>
-          <span class="door-text">{{ ap.teaser }}</span>
-        </a>
-        {% endif %}
-      {% endfor %}
+    <div class="door-group">
+      <h3>{{ parts[0] }}</h3>
+      <div class="door-list">
+        {% for key in keys %}
+          {% assign ap = family | where: "audience", key | first %}
+          {% if ap %}<a class="door" href="{{ ap.url | relative_url }}"><span class="door-title">{{ ap.audience_label }}</span><span class="door-text">{{ ap.teaser }}</span><span class="door-arrow" aria-hidden="true">&#8594;</span></a>{% endif %}
+        {% endfor %}
+      </div>
     </div>
     {% endfor %}
   </section>
 
-  {% comment %} The tracker appears once four issues have fed it, so a single quiet week doesn't stand for the trend. {% endcomment %}
-  {% if issues.size >= 4 %}
-  {% assign run = site.data.tracker.rows | last %}
-  <section aria-labelledby="home-tracker">
-    <h2 id="home-tracker">AI funding tracker</h2>
-    <div class="stats">
-      <p class="stat"><span class="stat-num">{{ run.funding }}</span><span class="stat-label">disclosed AI funding</span></p>
-      <p class="stat"><span class="stat-num">{{ run.deals }}</span><span class="stat-label">AI deals of $1 million or more</span></p>
-      <p class="stat"><span class="stat-num">{{ issues.size }} weeks</span><span class="stat-label">since {{ run.since }}</span></p>
+  <section class="home-follow" aria-labelledby="home-follow-title">
+    <div>
+      <h2 id="home-follow-title">Get it every Friday</h2>
+      <p>Follow by RSS now. An email edition is planned.</p>
     </div>
-    <p class="muted">Middle East and North Africa. <a href="{{ latest.url | relative_url }}#investment">This week's regional AI investment</a></p>
+    <a class="button button-outline" href="{{ '/feed.xml' | relative_url }}">Follow by RSS</a>
   </section>
-  {% endif %}
 
-  <section aria-labelledby="home-deadlines">
-    <h2 id="home-deadlines">Open deadlines</h2>
-    {% assign open = site.data.opportunities | where_exp: "o", "o.deadline >= today" | sort: "deadline" %}
-    {% if open.size > 0 %}
-    <ul class="deadlines">
-      {% for o in open %}
-      <li><span class="deadline-date">{{ o.deadline | date: "%b %-d, %Y" }}</span><span class="deadline-body"><a href="{{ o.source_url }}">{{ o.name }}</a>. {{ o.who }}</span></li>
-      {% endfor %}
-    </ul>
-    <p class="muted">Listing is not endorsement. Confirm terms on each programme's official page.</p>
-    {% else %}
-    <p class="muted">No open deadlines listed this week.</p>
+  <div class="home-bottom">
+    <section aria-labelledby="home-deadlines">
+      <h2 id="home-deadlines">Open deadlines</h2>
+      {% assign open = site.data.opportunities | where_exp: "o", "o.deadline >= today" | sort: "deadline" %}
+      {% if open.size > 0 %}
+      <ul class="deadlines">
+        {% for o in open %}
+        <li><span class="deadline-date">{{ o.deadline | date: "%b %-d, %Y" }}</span><span class="deadline-body"><a href="{{ o.source_url }}">{{ o.name }}</a>. {{ o.who }}</span></li>
+        {% endfor %}
+      </ul>
+      <p class="muted">Listing is not endorsement. Confirm terms on each programme's official page.</p>
+      {% else %}
+      <p class="muted">No open deadlines listed this week.</p>
+      {% endif %}
+    </section>
+
+    <section aria-labelledby="home-past">
+      <h2 id="home-past">Past issues</h2>
+      <ul class="past-issues">
+        {% for i in issues limit: 6 %}
+        <li><a href="{{ i.url | relative_url }}"><span class="past-week">Week {{ i.week_number }}</span><span class="past-title">{{ i.title }}</span><span class="past-dates">{{ i.week }}</span></a></li>
+        {% endfor %}
+      </ul>
+      <p class="home-more"><a href="{{ '/archive/' | relative_url }}">All issues</a></p>
+    </section>
+
+    {% comment %} The tracker appears once four issues have fed it, so a single quiet week doesn't stand for the trend. {% endcomment %}
+    {% if issues.size >= 4 %}
+    {% assign run = site.data.tracker.rows | last %}
+    <section aria-labelledby="home-tracker">
+      <h2 id="home-tracker">AI funding tracker</h2>
+      <div class="stats">
+        <p class="stat"><span class="stat-num">{{ run.funding }}</span><span class="stat-label">disclosed AI funding</span></p>
+        <p class="stat"><span class="stat-num">{{ run.deals }}</span><span class="stat-label">AI deals of $1 million or more</span></p>
+        <p class="stat"><span class="stat-num">{{ issues.size }} weeks</span><span class="stat-label">since {{ run.since }}</span></p>
+      </div>
+      <p class="muted">Middle East and North Africa. <a href="{{ latest.url | relative_url }}#investment">This week's regional AI investment</a></p>
+    </section>
     {% endif %}
-  </section>
+  </div>
 
-  {% if issues.size > 1 %}
-  <section aria-labelledby="home-archive">
-    <h2 id="home-archive">Recent issues</h2>
-    <ul class="archive-list">
-      {% for i in issues limit: 6 %}
-      <li><a href="{{ i.url | relative_url }}">{{ i.title }}</a> <span class="muted">Week {{ i.week_number }}, {{ i.week }}</span></li>
-      {% endfor %}
-    </ul>
-    <p><a href="{{ '/archive/' | relative_url }}">All issues</a></p>
-  </section>
-  {% endif %}
 </div>

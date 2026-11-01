@@ -18,6 +18,8 @@ Each issue adds files to `_issues/` and `assets/figures/`, and updates two data 
 
 The home page, archive, RSS feed (`/feed.xml`) and menus update themselves.
 
+The home page (`index.html`) is a landing page, not a copy of the issue: a fixed statement and the author's credibility line (`credibility` in `_data/author.yml`), then This week (the latest issue's title, week label, `summary` and `reading_time`), the five two-minute versions, a Follow by RSS block (swap in the email sign-up when the list launches), open deadlines and past issues. The funding tracker joins the bottom row once four issues are published. Edit the statement and lead line in `index.html`.
+
 ## Front matter for a full issue
 
 ```yaml

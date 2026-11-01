@@ -4,6 +4,8 @@ name: "Ibrahim Haddad"
 credentials: "Ph.D."
 headshot: "/assets/img/2026-10-29-ibrahim-haddad.jpg"
 headshot_alt: "Ibrahim Haddad"
+# Short credibility line: the home page shows "By Ibrahim Haddad, with ..." and the author page shows it under the name.
+credibility: "more than 25 years leading engineering organizations and open source ecosystems"
 # One sentence shown at the end of every issue.
 byline: "Written by Ibrahim Haddad, who previously served as founding executive director of the PyTorch Foundation and executive director of LF AI & Data Foundation."
 bio:
