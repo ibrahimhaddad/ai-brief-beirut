@@ -4,11 +4,16 @@
   who: "Ages 18 to 35, leading a social or environmental venture that works with young people; Lebanon is eligible."
   audiences: [students, entrepreneurs]
   source_url: "https://changemakerxchange.org/changemakers-for-youth/"
-- name: "Techstars Spring 2027 accelerators, including London"
+- name: "Techstars London Accelerator, spring 2027"
   deadline: "2026-11-18"
-  who: "Early-stage founders; Techstars London takes startups from anywhere. Check each programme's eligibility."
+  who: "Early-stage founders from anywhere, in any sector."
   audiences: [entrepreneurs]
-  source_url: "https://www.techstars.com/accelerators/london"
+  source_url: "https://www.techstars.com/london"
+- name: "Techstars New York City Accelerator, spring 2027"
+  deadline: "2026-11-18"
+  who: "Founders based anywhere; the programme runs in New York and its focus areas include AI."
+  audiences: [entrepreneurs]
+  source_url: "https://www.techstars.com/accelerators/nyc"
 - name: "Global Sustainability Challenge (Stanford Doerr School of Sustainability and partners)"
   deadline: "2026-11-22"
   who: "Bachelor, master and PhD students, including in the Middle East."

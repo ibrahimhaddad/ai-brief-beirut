@@ -6,13 +6,13 @@ Pilot address: https://ibrahimhaddad.github.io/ai-brief-beirut/ (not indexed whi
 
 ## What changes each week
 
-Each issue adds files to `_issues/` and `assets/figures/`, and updates two data files:
+Each issue adds files to `_issues/` and its own figure folder under `assets/figures/`, and updates two data files:
 
 | File | What it is |
 | --- | --- |
 | `_issues/YYYY-MM-DD-issue-NN.md` | The full issue |
 | `_issues/YYYY-MM-DD-issue-NN-staff.md` (and `-faculty`, `-students`, `-entrepreneurs`, `-enterprises`) | The five two-minute audience pages |
-| `assets/figures/YYYY-MM-DD-fig-N-slug.png` and `.svg` | Up to five figures |
+| `assets/figures/YYYYwWW/YYYY-MM-DD-fig-N-slug.png` and `.svg` | Up to five figures, in the issue's folder (for example `2026w45` for Week 45 of 2026) |
 | `_data/tracker.yml` | AI funding tracker rows (the home page shows the last row's `funding`, `deals` and `since` once four issues are published) |
 | `_data/opportunities.yml` | Open deadlines (past ones drop off the home page automatically) |
 
@@ -32,7 +32,7 @@ week: "Oct 30 to Nov 5, 2026"   # Friday to Thursday window
 date: 2026-11-06
 permalink: /issues/issue-01/
 description: "140 to 160 characters"
-image: /assets/figures/2026-11-02-fig-1-slug.png
+image: /assets/figures/2026w45/2026-11-06-fig-1-slug.png
 reading_time: 12
 audience_minutes: 2
 summary:                   # fact with a number, then the implication in a so-what span
@@ -65,8 +65,8 @@ Start the body with `## Editor's note`. The layout adds the 60-second box, conte
 - Before each section, an anchor line: `<a id="story-1"></a>` and so on, plus `for-researchers`, `also-in-lebanon`, `investment`, `opportunities`, `term` and `watch-list`.
 - Story heading `## N. Headline`, then who it is for, evidence and type:
   `{% include story-meta.html for="University staff | University faculty" evidence="official and research" type="New" %}`
-- Figures, served as SVG; tapping one opens the PNG at full size. The caption is the takeaway in one sentence, not a repeat of the title or source, which are in the image:
-  `{% include figure.html file="YYYY-MM-DD-fig-N-slug" alt="Under 125 characters" caption="The takeaway in one sentence." %}`
+- Figures, served as SVG; tapping one opens the PNG at full size. The caption is the takeaway in one sentence, not a repeat of the title or source, which are in the image. `file` starts with the issue's figure folder, because the include adds `/assets/figures/` in front:
+  `{% include figure.html file="YYYYwWW/YYYY-MM-DD-fig-N-slug" alt="Under 125 characters" caption="The takeaway in one sentence." %}`
 - Under How it could affect you and What you could do, one paragraph per audience, starting with its label in bold: `**University faculty:** ...`, `**Suggestion for businesses:** ...`. The Read-as switcher on the full issue uses these labels to highlight a reader's paragraphs.
 - The four subheads (What happened, Why it matters, How it could affect you, What you could do) are `####`.
 - Tables are GitHub-flavored Markdown with a blank line before and after. Columns headed Date, Deadline, Amount or Target stay on one line; tables with more than three columns turn into one card per row on phones.
@@ -101,6 +101,8 @@ Issues are published on Fridays. Each covers the seven days before the run, Frid
 One exception: the issue published on 6 November 2026 covers Oct 26 to Nov 5 (Week 45), bridging from the pilot's Monday-to-Sunday window. Issue 00 covered Oct 19 to 25 (Week 43).
 
 ## Figures
+
+Each issue's PNG and SVG files live in their own folder, `assets/figures/YYYYwWW/`: the ISO week-numbering year of the publishing Friday, `w`, and the week as two digits (`2026w43`, `2026w45`, `2027w01`).
 
 1200 x 675 px, PNG and SVG with text as outlines. Readers mostly see them on a phone at about 350 px wide, so no text is smaller than 28 px in the 1200 px canvas; titles are about 44 px. Raleway's default digits are old-style; figures use its lining digits (the `.lf` glyphs), matching the site. The house colours and mark are in the agent prompt.
 
