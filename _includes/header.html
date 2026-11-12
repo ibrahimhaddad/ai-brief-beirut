@@ -9,10 +9,10 @@
     </a>
     {% assign latest_issue = site.issues | where: "type", "issue" | sort: "date" | last %}
     <nav class="site-nav" aria-label="Main">
-      {% if latest_issue %}<a href="{{ latest_issue.url | relative_url }}"{% if page.url == latest_issue.url %} aria-current="page"{% endif %}>Latest issue</a>{% endif %}
-      <a href="{{ '/archive/' | relative_url }}"{% if page.url == "/archive/" %} aria-current="page"{% endif %}>Archive</a>
-      <a href="{{ '/about/' | relative_url }}"{% if page.url == "/about/" %} aria-current="page"{% endif %}>About</a>
-      <a href="{{ '/feedback/' | relative_url }}"{% if page.url == "/feedback/" %} aria-current="page"{% endif %}>Feedback</a>
+      {% if latest_issue %}<a href="{{ latest_issue.url | relative_url }}"{% if page.url == latest_issue.url %} aria-current="page"{% endif %}><svg class="nav-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M5 2.5h10l5 5v14H5z" fill="currentColor"/><path d="M15 2.5v5h5" fill="none" stroke="#FFFFFF" stroke-width="1.4" stroke-linejoin="round"/><path d="M8.3 12h8.4M8.3 15.5h8.4M8.3 19h5" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round"/></svg><span>Latest issue</span></a>{% endif %}
+      <a href="{{ '/archive/' | relative_url }}"{% if page.url == "/archive/" %} aria-current="page"{% endif %}><svg class="nav-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><rect x="2.5" y="3.5" width="19" height="5" rx="1" fill="currentColor"/><path d="M4 10h16v10.5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z" fill="currentColor"/><path d="M9.5 13.5h5" stroke="#FFFFFF" stroke-width="1.9" stroke-linecap="round"/></svg><span>Archive</span></a>
+      <a href="{{ '/about/' | relative_url }}"{% if page.url == "/about/" %} aria-current="page"{% endif %}><svg class="nav-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9.5" fill="currentColor"/><circle cx="12" cy="7.7" r="1.35" fill="#FFFFFF"/><path d="M12 11v6" stroke="#FFFFFF" stroke-width="2.1" stroke-linecap="round"/></svg><span>About</span></a>
+      <a href="{{ '/feedback/' | relative_url }}"{% if page.url == "/feedback/" %} aria-current="page"{% endif %}><svg class="nav-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M3.5 4.5h17a1 1 0 0 1 1 1V16a1 1 0 0 1-1 1H11l-5 4v-4H3.5a1 1 0 0 1-1-1V5.5a1 1 0 0 1 1-1z" fill="currentColor"/><circle cx="8" cy="10.8" r="1.35" fill="#FFFFFF"/><circle cx="12" cy="10.8" r="1.35" fill="#FFFFFF"/><circle cx="16" cy="10.8" r="1.35" fill="#FFFFFF"/></svg><span>Feedback</span></a>
     </nav>
   </div>
 </header>
