@@ -20,6 +20,10 @@ kramdown:
   input: GFM
   auto_ids: true
 
+# Build every issue as soon as it is pushed, even when its date is later than the build time
+# (an issue dated Friday and pushed on Thursday would otherwise be listed but not built).
+future: true
+
 collections:
   issues:
     output: true
