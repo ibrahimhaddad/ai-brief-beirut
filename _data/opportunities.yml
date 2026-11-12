@@ -1,9 +1,4 @@
 # Open opportunities. Deadlines are quoted strings (YYYY-MM-DD); past deadlines drop off the home page automatically at the next build.
-- name: "Changemakers for Youth 2027 (ChangemakerXchange)"
-  deadline: "2026-11-09"
-  who: "Ages 18 to 35, leading a social or environmental venture that works with young people; Lebanon is eligible."
-  audiences: [students, entrepreneurs]
-  source_url: "https://changemakerxchange.org/changemakers-for-youth/"
 - name: "Techstars London Accelerator, spring 2027"
   deadline: "2026-11-18"
   who: "Early-stage founders from anywhere, in any sector."
@@ -19,3 +14,28 @@
   who: "Bachelor, master and PhD students, including in the Middle East."
   audiences: [students]
   source_url: "https://globalsustainabilitychallenge.org"
+- name: "UNDP Lebanon tender: AI-Powered Parliamentary Language Intelligence (LBN-CO-RFP-223-26)"
+  deadline: "2026-11-18"
+  who: "Companies registered on UNGM; closes at 16:00 Beirut time; scope not shown on the notice."
+  audiences: [enterprises, entrepreneurs]
+  source_url: "https://www.ungm.org/Public/Notice/319286"
+- name: "Fulbright Visiting Scholar Program 2027 to 2028 (US Embassy Beirut)"
+  deadline: "2026-12-01"
+  who: "PhD holders teaching at an accredited Lebanese institution, with a Lebanese passport or Palestinian refugee document."
+  audiences: [faculty]
+  source_url: "https://lb.usembassy.gov/the-fulbright-visiting-scholar-program-2027-2028/"
+- name: "MBZUAI master's and PhD admissions"
+  deadline: "2026-12-15"
+  who: "STEM graduates of any nationality who meet the grade and English rules; funded places pay a monthly stipend."
+  audiences: [students]
+  source_url: "https://mbzuai.ac.ae/study/admission-process"
+- name: "MOPGA 2027 postdoctoral grant (Campus France)"
+  deadline: "2026-12-15"
+  who: "PhD defended Dec 2021 to Dec 2026, any nationality except French, living outside France; climate and energy themes."
+  audiences: [faculty]
+  source_url: "https://www.campusfrance.org/fr/mopga-2027"
+- name: "World Economic Forum Technology Pioneers 2027"
+  deadline: "2027-01-31"
+  who: "Series A frontier-tech companies under 10 years old, from any region."
+  audiences: [entrepreneurs, enterprises]
+  source_url: "https://initiatives.weforum.org/technology-pioneers/criteria"
