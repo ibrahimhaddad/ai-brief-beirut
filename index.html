@@ -4,7 +4,8 @@ title: Latest
 description: "A weekly briefing by Ibrahim Haddad on what AI developments mean for university staff, faculty and students, founders and businesses in Lebanon and the region."
 ---
 {% comment %}
-Landing page, direction A (Masthead): what the publication is, then this week, then the two-minute versions,
+Landing page, direction B (This week first): a one-line statement strip, then this week's issue as the page heading,
+then the two-minute versions,
 following by RSS, and deadlines and past issues. Everything below the statement comes from the latest issue's
 front matter and _data files, so it updates itself each Friday.
 {% endcomment %}
@@ -16,16 +17,11 @@ front matter and _data files, so it updates itself each Friday.
 
 <div class="wrap wrap-wide home">
 
-  <section class="home-hero" aria-labelledby="home-title">
-    <p class="kicker">Published every Friday{% if site.pilot %} <span class="tag-pilot">Pilot</span>{% endif %}</p>
-    <h1 id="home-title">What this week's AI news means for Lebanon and the region.</h1>
-    <p class="home-lead">A weekly briefing for university staff, faculty and students, founders and businesses. Read it in full in about {{ latest.reading_time }} minutes, or take the two-minute version for your role.</p>
-    <p class="home-by">By <a href="{{ '/author/' | relative_url }}">{{ author.name }}</a>, with {{ author.credibility }}.</p>
-  </section>
+  <p class="home-tagline"><strong>What this week's AI news means for Lebanon and the region.</strong> <span>Every Friday, by <a href="{{ '/author/' | relative_url }}">{{ author.name }}</a>.{% if site.pilot %} <span class="tag-pilot">Pilot</span>{% endif %}</span></p>
 
   <section class="home-week" aria-labelledby="home-week-title">
     <p class="home-week-label"><span class="home-week-this">This week</span> <span class="kicker">Week {{ latest.week_number }} · {{ latest.week }}</span></p>
-    <h2 id="home-week-title"><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h2>
+    <h1 id="home-week-title"><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h1>
     <ol class="takeaways">
       {% for item in latest.summary %}<li><span class="takeaway-num" aria-hidden="true">0{{ forloop.index }}</span><p>{{ item }}</p></li>
       {% endfor %}

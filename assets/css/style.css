@@ -140,18 +140,16 @@ body[data-reading] .contents li:not(.match) { opacity: 0.45; }
 /* Home page (direction A, Masthead): statement, this week, two-minute versions, follow, deadlines and past issues */
 .home { padding-top: 0.5rem; }
 .home h2 { border-top: 0; padding-top: 0; }
-.home-hero { padding: 4.8rem 0 4.2rem; }
-.home-hero h1 { font-size: 3.45rem; line-height: 1.07; font-weight: 800; letter-spacing: -0.025em; margin: 1.1rem 0 1.4rem; max-width: 58rem; text-wrap: balance; }
-.home-lead { font-size: 1.22rem; line-height: 1.5; color: var(--muted); max-width: 43rem; margin: 0 0 1.5rem; }
-.home-by { font-size: 0.9rem; margin: 0; max-width: 43rem; }
-.home-by a { font-weight: 650; }
-.home-week { border-top: 1px solid var(--rule); padding-top: 3.1rem; }
+.home-tagline { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.3rem 0.9rem; margin: 0; padding: 0.85rem 0; border-bottom: 1px solid var(--rule); font-size: 0.88rem; color: var(--muted); }
+.home-tagline strong { color: var(--text); font-weight: 700; }
+.home-tagline a { font-weight: 650; }
+.home-week { padding-top: 1.9rem; }
 .home-week-label { display: flex; align-items: center; flex-wrap: wrap; gap: 0.7rem; margin: 0; }
 .home-week-this { font-size: 0.8rem; font-weight: 700; display: inline-flex; align-items: center; gap: 0.7rem; }
 .home-week-this::after { content: ""; width: 1.4rem; height: 1px; background: #A7ADB1; }
-.home-week h2 { font-size: 2.35rem; line-height: 1.14; font-weight: 800; letter-spacing: -0.015em; margin: 0.8rem 0 2.2rem; max-width: 50rem; text-wrap: balance; }
-.home-week h2 a { color: var(--text); text-decoration: none; }
-.home-week h2 a:hover { color: var(--accent); }
+.home-week h1 { font-size: 2.35rem; line-height: 1.14; font-weight: 800; letter-spacing: -0.015em; margin: 0.7rem 0 1.8rem; max-width: 50rem; text-wrap: balance; }
+.home-week h1 a { color: var(--text); text-decoration: none; }
+.home-week h1 a:hover { color: var(--accent); }
 .takeaways { list-style: none; padding: 0; margin: 0 0 2.2rem; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.2rem; }
 .takeaways li { margin: 0; border-top: 2px solid var(--text); padding-top: 0.8rem; }
 .takeaway-num { display: block; font-size: 0.72rem; font-weight: 700; color: var(--accent); letter-spacing: 0.04em; margin-bottom: 0.6rem; }
@@ -289,11 +287,9 @@ fieldset.form-row { border: 0; padding: 0; margin: 0 0 1.1rem; }
   .fig-hint { display: inline; }
   .form-actions .button { width: 100%; min-height: 3rem; font-size: 1rem; }
   .wrap-wide { padding: 0 1.25rem; }
-  .home-hero { padding: 2.4rem 0 2.4rem; }
-  .home-hero h1 { font-size: 2.05rem; margin: 0.8rem 0 1rem; }
-  .home-lead { font-size: 1.05rem; margin-bottom: 1.1rem; }
-  .home-week { padding-top: 2.2rem; }
-  .home-week h2 { font-size: 1.6rem; margin-bottom: 1.6rem; }
+  .home-tagline { font-size: 0.8rem; padding: 0.65rem 0; }
+  .home-week { padding-top: 1.2rem; }
+  .home-week h1 { font-size: 1.6rem; margin-bottom: 1.3rem; }
   .takeaways { grid-template-columns: minmax(0, 1fr); gap: 1.6rem; margin-bottom: 1.6rem; }
   .home-cta .button, .home-follow .button { width: 100%; justify-content: center; min-height: 3rem; }
   .home-doors { margin-top: 3rem; }

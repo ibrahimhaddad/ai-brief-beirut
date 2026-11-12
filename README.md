@@ -18,7 +18,7 @@ Each issue adds files to `_issues/` and its own figure folder under `assets/figu
 
 The home page, archive, RSS feed (`/feed.xml`) and menus update themselves.
 
-The home page (`index.html`) is a landing page, not a copy of the issue: a fixed statement and the author's credibility line (`credibility` in `_data/author.yml`), then This week (the latest issue's title, week label, `summary` and `reading_time`), the five two-minute versions, a Follow by RSS block (swap in the email sign-up when the list launches), open deadlines and past issues. The funding tracker joins the bottom row once four issues are published. Edit the statement and lead line in `index.html`.
+The home page (`index.html`) is a landing page, not a copy of the issue: a one-line statement strip with the byline, then This week, with the latest issue's title as the page heading (plus its week label, `summary` and `reading_time`), the five two-minute versions, a Follow by RSS block (swap in the email sign-up when the list launches), open deadlines and past issues. The funding tracker joins the bottom row once four issues are published. Edit the statement strip in `index.html`. The credibility line (`credibility` in `_data/author.yml`) shows on the author page.
 
 ## Front matter for a full issue
 
