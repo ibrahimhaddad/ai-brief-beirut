@@ -23,9 +23,10 @@ front matter and _data files, so it updates itself each Friday.
     <p class="home-week-label"><span class="home-week-this">This week</span> <span class="kicker">Week {{ latest.week_number }} · {{ latest.week }}</span></p>
     <h1 id="home-week-title"><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h1>
     <ol class="takeaways">
-      {% for item in latest.summary %}<li><span class="takeaway-num" aria-hidden="true">0{{ forloop.index }}</span><p>{{ item }}</p></li>
+      {% for item in latest.summary %}<li><span class="takeaway-num">{% if latest.summary_lebanon contains forloop.index %}{% include lebanon.html %}{% endif %}<span aria-hidden="true">0{{ forloop.index }}</span></span><p>{{ item }}</p></li>
       {% endfor %}
     </ol>
+    {% if latest.summary_lebanon %}<p class="lb-key">{% include lebanon.html label=false %} marks items about Lebanon.</p>{% endif %}
     <p class="home-cta"><a class="button" href="{{ latest.url | relative_url }}">Read the full issue</a> <span class="muted nowrap">About {{ latest.reading_time }} minutes</span></p>
   </section>
 

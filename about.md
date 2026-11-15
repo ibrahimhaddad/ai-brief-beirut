@@ -28,7 +28,7 @@ Every issue has a full version and a two-minute page for each audience.
 
 ## How it is made
 
-Research and first drafts are prepared with AI tools. Every story, figure and recommendation is checked and approved by the author before publication. Each story names its evidence: research, official sources, reporting or opinion. Links point to the sources used.
+Research and first drafts are prepared with AI tools. Every story, figure and recommendation is checked and approved by the author before publication. Each story names its evidence: research, official sources, reporting or opinion. Links point to the sources used. A red cedar marks stories and items whose main subject is Lebanon.
 
 Suggestions in the newsletter are for readers to consider.
 

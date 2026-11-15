@@ -28,4 +28,4 @@ For your next assignment where AI is allowed, keep every prompt you use in one f
 
 ## Also in Lebanon
 
-UNDP Lebanon is tendering for an AI system for Parliament's language work, closing Nov 18. [Also in Lebanon and the region]({{ full }}#also-in-lebanon)
+{% include lebanon.html %}UNDP Lebanon is tendering for an AI system for Parliament's language work, closing Nov 18. [Also in Lebanon and the region]({{ full }}#also-in-lebanon)

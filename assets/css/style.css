@@ -21,6 +21,8 @@
   --text: #333F48;        /* Anthracite */
   --accent: #00664F;      /* Dark Green */
   --accent-dark: #004D3B;
+  --flag: #ED1C24;        /* Lebanese flag red: lines and shapes only */
+  --flag-text: #C8102E;   /* deeper flag red for small text, 5.9:1 on white */
   --muted: #5F676D;       /* secondary text, 5.9:1 on white */
   --rule: #E6E8EA;
   --tint: #F4F6F5;
@@ -81,7 +83,7 @@ img { max-width: 100%; height: auto; display: block; }
 .tag-pilot { font-size: 0.7rem; font-weight: 700; color: var(--muted); border: 1px solid var(--rule); border-radius: 2px; padding: 0.05rem 0.4rem; letter-spacing: 0.04em; }
 
 /* Header */
-.site-header { border-bottom: 1px solid var(--rule); }
+.site-header { border-top: 3px solid var(--flag); border-bottom: 1px solid var(--rule); }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-top: 1rem; padding-bottom: 1rem; }
 .wordmark { text-decoration: none; color: var(--text); display: flex; align-items: center; gap: 0.65rem; }
 .wordmark-mark { flex: none; width: 40px; height: 40px; }
@@ -291,6 +293,18 @@ fieldset.form-row { border: 0; padding: 0; margin: 0 0 1.1rem; }
 .footer-text a { white-space: nowrap; }
 .footer-title { display: inline-flex; align-items: center; gap: 0.55rem; margin: 0; font-weight: 700; color: var(--text); white-space: nowrap; }
 .footer-mark { flex: none; width: 32px; height: 32px; }
+
+/* Lebanon marker: a red cedar on items whose main subject is Lebanon; the only use of red besides the top line. */
+.lb-mark { display: inline-flex; align-items: center; color: var(--flag); margin-right: 0.35rem; vertical-align: -0.1em; cursor: help; }
+.lb-cedar { width: 0.95em; height: 0.95em; fill: currentColor; flex: none; }
+.lb-key { display: flex; align-items: center; gap: 0.1rem; font-size: 0.82rem; color: var(--muted); margin: 0.7rem 0 0; }
+.lb-key .lb-mark { cursor: default; }
+.home-week .lb-key { margin: -1.2rem 0 1.5rem; }
+.story-lebanon { display: inline-flex; align-items: center; color: var(--flag-text); font-weight: 700; margin-bottom: 0.15rem; }
+.prose ul li:has(> .lb-mark:first-child) { list-style: none; }
+.prose ul li > .lb-mark:first-child { margin-left: -1.3em; width: 1.3em; margin-right: 0; justify-content: flex-start; }
+.takeaway-num { display: flex; align-items: center; }
+.contents .lb-mark { margin-right: 0.3rem; }
 
 @media (max-width: 640px) {
   .fig-hint { display: inline; }

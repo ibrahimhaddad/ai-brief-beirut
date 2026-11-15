@@ -14,6 +14,7 @@ layout: default
   <div class="prose">
     {{ content }}
   </div>
+  {% if content contains 'class="lb-mark"' %}<p class="lb-key">{% include lebanon.html label=false %} marks items about Lebanon.</p>{% endif %}
 
   {% include feedback-cta.html %}
 </article>

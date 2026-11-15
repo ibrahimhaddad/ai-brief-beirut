@@ -17,7 +17,7 @@ description: "Lebanon's AI ministry bill stalls, DIFC drafts a risk score for AI
 
 ## This week's three items for you
 
-- **Lebanon's AI ministry bill stalls.** The joint committees lost quorum on Nov 9 before voting. Parliament's IT committee reviews the World Bank digital loan, which funds digital public services, on Nov 18. [Story 1: AI ministry bill]({{ full }}#story-1)
+- {% include lebanon.html %}**Lebanon's AI ministry bill stalls.** The joint committees lost quorum on Nov 9 before voting. Parliament's IT committee reviews the World Bank digital loan, which funds digital public services, on Nov 18. [Story 1: AI ministry bill]({{ full }}#story-1)
 - **Dubai drafts a risk score for AI.** DIFC would score AI that uses personal data on four factors, 1 to 3 each; 10 or more is Critical. Buyers there may ask vendors for those inputs. [Story 3: DIFC risk tiers]({{ full }}#story-3)
 - **Top-model prices fall.** Claude Fable 5.2 costs $40 per million output tokens, down from $50, and Gemini 4 Carbon costs $10 until Nov 30, then $20. Both are offered in Lebanon. [Story 5: model prices]({{ full }}#story-5)
 
