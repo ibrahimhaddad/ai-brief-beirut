@@ -128,7 +128,24 @@
     if (a && a.getAttribute("data-audience")) save(a.getAttribute("data-audience"));
   }
 
-  function init() { remember(); tables(); readAs(); bar(); }
+  /* Copy buttons: shown only when the clipboard can be used. */
+  function copyButtons() {
+    var btns = document.querySelectorAll("[data-copy]");
+    if (!btns.length || !navigator.clipboard) return;
+    Array.prototype.forEach.call(btns, function (btn) {
+      var src = document.getElementById(btn.getAttribute("data-copy"));
+      if (!src) return;
+      btn.hidden = false;
+      btn.addEventListener("click", function () {
+        navigator.clipboard.writeText(src.textContent).then(function () {
+          btn.textContent = "Copied";
+          setTimeout(function () { btn.textContent = "Copy code"; }, 2000);
+        }, function () { btn.textContent = "Select the code above to copy it"; });
+      });
+    });
+  }
+
+  function init() { remember(); tables(); readAs(); bar(); copyButtons(); }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
   else init();
 })();

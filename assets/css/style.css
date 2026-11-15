@@ -294,6 +294,18 @@ fieldset.form-row { border: 0; padding: 0; margin: 0 0 1.1rem; }
 .footer-title { display: inline-flex; align-items: center; gap: 0.55rem; margin: 0; font-weight: 700; color: var(--text); white-space: nowrap; }
 .footer-mark { flex: none; width: 32px; height: 32px; }
 
+/* About page: link-to-us section */
+.logo-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1.2rem; margin: 0.6rem 0 1.4rem; }
+.logo-dl { margin: 0; border: 1px solid var(--rule); }
+.logo-dl-img { display: grid; place-items: center; min-height: 8rem; padding: 1.2rem; background: var(--bg); border-bottom: 1px solid var(--rule); }
+.logo-dl-img img { display: block; width: auto; max-width: 100%; height: 4.5rem; }
+.logo-dl figcaption { font-size: 0.85rem; padding: 0.7rem 0.9rem; color: var(--muted); }
+.logo-dl figcaption strong { color: var(--text); }
+.copy-block { margin: 0.6rem 0 1.4rem; }
+.copy-block pre { margin: 0 0 0.6rem; padding: 0.9rem 1rem; background: var(--tint); border: 1px solid var(--rule); overflow-x: auto; font-size: 0.8rem; line-height: 1.5; white-space: pre-wrap; word-break: break-all; }
+.copy-block code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.copy-btn { font-size: 0.85rem; }
+
 /* Lebanon marker: a red cedar on items whose main subject is Lebanon; the only use of red besides the top line. */
 .lb-mark { display: inline-flex; align-items: center; color: var(--flag); margin-right: 0.35rem; vertical-align: -0.1em; cursor: help; }
 .lb-cedar { width: 0.95em; height: 0.95em; fill: currentColor; flex: none; }
