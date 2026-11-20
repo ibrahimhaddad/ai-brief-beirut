@@ -2,18 +2,163 @@
 layout: page
 title: Archive
 permalink: /archive/
-description: "Every issue of The AI Brief - LB Edition, newest first."
+description: "Every issue of The AI Brief - LB Edition on a month-by-month calendar."
 ---
-{% assign issues = site.issues | where: "type", "issue" | sort: "date" | reverse %}
-{% assign current = "" %}
+{% comment %}
+  Archive as a wall calendar, one month at a time. Issues sit on the day they were published.
+  Years follow the ISO 8601 week-year of each issue (its label), so the issue published on Fri Jan 1, 2027
+  is Week 53 of 2026: it is listed under 2026 and shows in the last row of December 2026 (and on Jan 1 in January 2027).
+  Fridays between the first and latest issue whose week has no issue get an outlined "No issue" marker.
+  Without JavaScript, every month shows, newest first.
+{% endcomment %}
+{% assign issues = site.issues | where: "type", "issue" | sort: "date" %}
+{% assign first_s = issues.first.date | date: "%s" | plus: 0 %}
+{% assign last_issue = issues.last %}
+{% assign last_s = last_issue.date | date: "%s" | plus: 0 %}
+{% assign year_csv = "" %}
 {% for i in issues %}
-  {% assign month = i.date | date: "%B %Y" %}
-  {% if month != current %}
-    {% unless forloop.first %}</ol>{% endunless %}
-    <h2 class="archive-month">{{ month }}</h2>
-    <ol class="archive-rows">
-    {% assign current = month %}
-  {% endif %}
-  <li><a href="{{ i.url | relative_url }}"><span class="ar-week">Week {{ i.week_number }}</span><span class="ar-title">{{ i.title }}</span><span class="ar-dates">{{ i.week }}{% if i.pilot %} · Pilot{% endif %}</span></a></li>
-  {% if forloop.last %}</ol>{% endif %}
+  {% assign iy = i.date | date: "%G" %}
+  {% unless year_csv contains iy %}{% assign year_csv = year_csv | append: iy | append: "," %}{% endunless %}
 {% endfor %}
+{% assign years = year_csv | split: "," | reverse %}
+<p class="arch-intro">A calendar of every issue, one month at a time. Each issue sits on the day it was published.</p>
+
+<div class="ca-controls" hidden>
+  {% if years.size > 1 %}
+  <div class="year-tabs" role="group" aria-label="Year">
+    {% for y in years %}<button type="button" data-year="{{ y }}" aria-pressed="false">{{ y }}</button>{% endfor %}
+  </div>
+  {% endif %}
+  {% for y in years %}
+  <div class="ca-chips" data-year="{{ y }}" role="group" aria-label="Months of {{ y }}">
+    {% for mi in (1..12) %}
+      {% capture mm %}{% if mi < 10 %}0{% endif %}{{ mi }}{% endcapture %}
+      {% assign mkey = y | append: "-" | append: mm %}
+      {% assign mlabel = mkey | append: "-01" | date: "%b" %}
+      {% assign has = false %}
+      {% for i in issues %}{% assign iy = i.date | date: "%G" %}{% assign im = i.date | date: "%Y-%m" %}{% assign iyy = i.date | date: "%Y" %}{% if iy == y and iyy != y %}{% assign im = y | append: "-12" %}{% endif %}{% if iy == y and im == mkey %}{% assign has = true %}{% endif %}{% endfor %}
+      {% if has %}<button type="button" data-month="{{ mkey }}" aria-pressed="false">{{ mlabel }}</button>{% else %}<span>{{ mlabel }}</span>{% endif %}
+    {% endfor %}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="wg-legend" aria-hidden="true">
+  <span><i class="wg-sw wg-sw-pub"></i>Issue published</span>
+  <span><i class="wg-sw wg-sw-none"></i>Friday with no issue</span>
+  <span>{% include lebanon.html label=false %}Lead story about Lebanon</span>
+</div>
+
+{% for y in years %}
+<section class="ca-year" data-year="{{ y }}">
+  {% assign month_csv = "" %}
+  {% for i in issues %}
+    {% assign iy = i.date | date: "%G" %}
+    {% if iy == y %}
+      {% assign im = i.date | date: "%Y-%m" %}
+      {% assign iyy = i.date | date: "%Y" %}
+      {% if iyy != y %}{% assign im = y | append: "-12" %}{% endif %}
+      {% unless month_csv contains im %}{% assign month_csv = month_csv | append: im | append: "," %}{% endunless %}
+    {% endif %}
+  {% endfor %}
+  {% assign months = month_csv | split: "," | sort | reverse %}
+  {% for m in months %}
+    {% assign m_first = m | append: "-01 12:00:00" %}
+    {% assign m_first_s = m_first | date: "%s" | plus: 0 %}
+    {% assign m_num = m_first | date: "%m" | plus: 0 %}
+    {% assign m_year = m_first | date: "%Y" | plus: 0 %}
+    {% if m_num == 12 %}{% assign n_year = m_year | plus: 1 %}{% assign n_num = 1 %}{% else %}{% assign n_year = m_year %}{% assign n_num = m_num | plus: 1 %}{% endif %}
+    {% capture n_first %}{{ n_year }}-{% if n_num < 10 %}0{% endif %}{{ n_num }}-01 12:00:00{% endcapture %}
+    {% assign n_first_s = n_first | date: "%s" | plus: 0 %}
+    {% assign days = n_first_s | minus: m_first_s | divided_by: 86400 %}
+    {% assign offset = m_first | date: "%u" | plus: 0 | minus: 1 %}
+    {% assign grid_s = offset | times: 86400 | minus: m_first_s | times: -1 %}
+    {% assign cells = offset | plus: days %}
+    {% assign rows = cells | plus: 6 | divided_by: 7 %}
+    {% assign last_cell = rows | times: 7 | minus: 1 %}
+  <section class="ca-month" id="m-{{ m }}" data-month="{{ m }}" data-year="{{ y }}" aria-labelledby="m-{{ m }}-h">
+    <div class="ca-bar">
+      <h2 id="m-{{ m }}-h">{{ m_first | date: "%B %Y" }}</h2>
+      <div class="ca-nav" hidden><button type="button" data-go="-1" aria-label="Previous month">&larr; <span></span></button><button type="button" data-go="1" aria-label="Next month"><span></span> &rarr;</button></div>
+    </div>
+    <div class="ca-cal">
+      <div class="ca-dow">Mon</div><div class="ca-dow">Tue</div><div class="ca-dow">Wed</div><div class="ca-dow">Thu</div><div class="ca-dow ca-fri">Fri</div><div class="ca-dow">Sat</div><div class="ca-dow">Sun</div>
+      {% for k in (0..last_cell) %}
+        {% assign ds = k | times: 86400 | plus: grid_s %}
+        {% assign d = ds | date: "%Y-%m-%d" %}
+        {% assign dm = ds | date: "%Y-%m" %}
+        {% assign dow = ds | date: "%u" | plus: 0 %}
+        {% assign hit = nil %}
+        {% for i in issues %}{% assign idd = i.date | date: "%Y-%m-%d" %}{% if idd == d %}{% assign hit = i %}{% endif %}{% endfor %}
+        <div class="ca-day{% if dm != m %} ca-out{% elsif dow == 5 %} ca-fricol{% endif %}"><span class="ca-num">{{ ds | date: "%-d" }}</span>
+        {% if hit %}
+          {% assign lead = hit.contents | first %}
+          <a class="ca-iss{% if hit.url == last_issue.url %} ca-latest{% endif %}" href="{{ hit.url | relative_url }}" aria-label="Issue {{ hit.issue }}, Week {{ hit.week_number }}, {{ hit.week }}: {{ hit.title | escape }}{% if lead.lebanon %} (lead story about Lebanon){% endif %}"><b>#{{ hit.issue }}<span class="ca-wk"> · W{{ hit.week_number }}</span></b><span class="ca-tt">{{ hit.title }}</span>{% if lead.lebanon %}<span class="ca-cedar">{% include lebanon.html label=false %}</span>{% endif %}</a>
+        {% elsif dow == 5 and ds > first_s and ds < last_s %}
+          {% assign fy = ds | date: "%G" %}
+          {% assign fw = ds | date: "%V" | plus: 0 %}
+          {% assign covered = false %}
+          {% for i in issues %}{% assign iy = i.date | date: "%G" %}{% if iy == fy and i.week_number == fw %}{% assign covered = true %}{% endif %}{% endfor %}
+          {% unless covered %}<span class="ca-none" title="Week {{ fw }}: no issue"><span class="ca-tt">No issue</span></span>{% endunless %}
+        {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+
+  <h3 class="wg-list-h">All issues in {{ y }}</h3>
+  <ol class="archive-rows">
+  {% for i in issues reversed %}
+    {% assign iy = i.date | date: "%G" %}
+    {% if iy == y %}
+    {% assign lead = i.contents | first %}
+    <li><a href="{{ i.url | relative_url }}"><span class="ar-week">Week {{ i.week_number }}</span><span class="ar-title">{% if lead.lebanon %}{% include lebanon.html %}{% endif %}{{ i.title }}</span><span class="ar-dates">{{ i.week }}{% if i.pilot %} · Pilot{% endif %}</span></a></li>
+    {% endif %}
+  {% endfor %}
+  </ol>
+</section>
+{% endfor %}
+
+<p class="wg-note">Issues are filed by the ISO 8601 week in their label, so a year has 52 or 53 weeks. An issue published in the first days of January can belong to the last week of the year before: the issue of Fri Jan 1, 2027 covers Dec 25 to 31, 2026, so it is Week 53 and is listed under 2026.</p>
+
+<script>
+(function () {
+  var months = Array.prototype.slice.call(document.querySelectorAll('.ca-month'));
+  if (!months.length) return;
+  months.sort(function (a, b) { return a.getAttribute('data-month') < b.getAttribute('data-month') ? -1 : 1; });
+  var years = document.querySelectorAll('.ca-year');
+  var chips = document.querySelectorAll('.ca-chips');
+  var yearButtons = document.querySelectorAll('.year-tabs button');
+  var label = function (el) { return el.querySelector('h2').textContent.replace(/ \d{4}$/, '').slice(0, 3); };
+  function show(key) {
+    var idx = 0;
+    months.forEach(function (m, i) { var on = m.getAttribute('data-month') === key; m.hidden = !on; if (on) idx = i; });
+    var cur = months[idx], y = cur.getAttribute('data-year');
+    Array.prototype.forEach.call(years, function (s) { s.hidden = s.getAttribute('data-year') !== y; });
+    Array.prototype.forEach.call(chips, function (c) {
+      c.hidden = c.getAttribute('data-year') !== y;
+      Array.prototype.forEach.call(c.querySelectorAll('button'), function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-month') === key ? 'true' : 'false'); });
+    });
+    Array.prototype.forEach.call(yearButtons, function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-year') === y ? 'true' : 'false'); });
+    var nav = cur.querySelector('.ca-nav'); nav.hidden = false;
+    var prev = nav.querySelector('[data-go="-1"]'), next = nav.querySelector('[data-go="1"]');
+    prev.disabled = idx === 0; next.disabled = idx === months.length - 1;
+    prev.querySelector('span').textContent = idx > 0 ? label(months[idx - 1]) : '';
+    next.querySelector('span').textContent = idx < months.length - 1 ? label(months[idx + 1]) : '';
+    prev.onclick = function () { if (idx > 0) go(months[idx - 1].getAttribute('data-month')); };
+    next.onclick = function () { if (idx < months.length - 1) go(months[idx + 1].getAttribute('data-month')); };
+  }
+  function go(key) { show(key); history.replaceState(null, '', '#m-' + key); }
+  document.querySelector('.ca-controls').hidden = false;
+  document.querySelector('.ca-controls').addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    if (b.hasAttribute('data-month')) return go(b.getAttribute('data-month'));
+    var y = b.getAttribute('data-year');
+    var inYear = months.filter(function (m) { return m.getAttribute('data-year') === y; });
+    if (inYear.length) go(inYear[inYear.length - 1].getAttribute('data-month'));
+  });
+  var wanted = (location.hash.match(/^#m-(\d{4}-\d{2})$/) || [])[1];
+  show(wanted && document.getElementById('m-' + wanted) ? wanted : months[months.length - 1].getAttribute('data-month'));
+})();
+</script>

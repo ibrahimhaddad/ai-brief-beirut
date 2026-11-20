@@ -101,6 +101,12 @@ Issues are published on Fridays. Each covers the seven days before the run, Frid
 
 One exception: the issue published on 6 November 2026 covers Oct 26 to Nov 5 (Week 45), bridging from the pilot's Monday-to-Sunday window. Issue 00 covered Oct 19 to 25 (Week 43).
 
+Some ISO years have 53 weeks. The issue published on Fri Jan 1, 2027 covers Dec 25 to 31, 2026, so its label is `Week 53, Dec 25 to 31, 2026`, its figures go in `2026w53`, and the archive files it under 2026. Week 1 of 2027 is the issue of Fri Jan 8, 2027 (`Jan 1 to 7, 2027`).
+
+## Archive
+
+`archive.html` is a wall calendar, one month at a time, with month buttons, previous and next, and a year button for each year that has issues (the latest month of the latest year opens first; without JavaScript every month shows, newest first). Each issue sits on the day it was published. Years follow the ISO week-year of each issue's label, so Week 53 of 2026 (published Jan 1, 2027) is listed under 2026 and shows in the last row of December 2026. Fridays between the first and latest issue whose week had no issue get an outlined "No issue" marker, and the red cedar marks issues whose lead story is about Lebanon (`lebanon: true` on the first `contents` entry). Under the calendar, a plain list of the year's issues serves screen readers and search. It needs no changes each week.
+
 ## Figures
 
 Each issue's PNG and SVG files live in their own folder, `assets/figures/YYYYwWW/`: the ISO week-numbering year of the publishing Friday, `w`, and the week as two digits (`2026w43`, `2026w45`, `2027w01`).
